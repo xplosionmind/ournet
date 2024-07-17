@@ -1,50 +1,45 @@
-# 🪡 Knitting Our Internet 🧶
+<h1 align='center'>🪡 Knitting Our Internet 🧶</h1>
 
-## 🔜 General to-do list
+This repository hosts the resources, the material, and the website’s source code for *🪡 [Knitting Our Internet](https://ournet.org 'Knitting Our Internet – website') 🧶*, an interactive workshop travelling through the history of the Internet, and a collective re-imagination of participatory, decentralized alternatives.
 
-- Naming
-	- What [domain name](https://tommi.space/domains/#la-nostra-rete)?
-- i18n?
-- Soundtrack
+This workshop aims at questioning the very essence of today’s social networks, exposing the critical limits given by centralization, monopoly, and surveillance capitalism.
 
-## 💡 Resources
+## 👾 Source code
 
-- [*The Internet is Ours*](https://github.com/whitep4nth3r/the-claw-webring/pull/40#issuecomment-2081446368)
-- [The Internet as our Nervous System: from Cloud to Local-first](https://blog.anytype.io/from-cloud-to-local-first/)
+The main repository is [hosted on Codeberg](https://codeberg.org/tommi/ournet 'ournet on Codeberg') and mirrored on [GitHub](https://github.com/xplosionmind/ournet 'ournet on GitHub'), where [issues](https://github.com/xplosiomind/tommi.space/issues 'ournet issues on GitHub') are being tracked.
 
-## Visual identity
+## 📟 Software
 
-- Colors
-- Fonts
-- Overall look and branding
+This website is proudly built with [Eleventy](https://11ty.dev 'Eleventy official website').
 
-## Website
+## 🏠 Hosting
 
-[Collaborative board for wireframing](https://excalidraw.com/#room=8438069719abc6f89788,Q_6PVOwrDRA1bwHSb9NEug 'Collaborative board on Excalidraw')
+[ourinternet.in](https://ourinternet.in '🪡 Knitting Our Internet 🧶') is proud to be hosted independently on [*Nebuchadnezzar*](https://tommi.space/neb/ 'Nebuchadnezzar’s page on tommi.space'), [Tommi](https://tommi.space 'The virtual representation of Tommi’s mind')’s server.
 
-- Home
-- Press/Promo kit
-- Weaver kit
-- About
-	- Chronistory of the creation of the Lab
-	- Method and Philosophy (in-person-first, collaborative and mutual)
-	- People involved
-	- Past editions and versions (linking to)
-- Resources
-	 - inspiration
-	 - Further reading
-	 - Fediverse intro
+## 💥 Wanna help? 😍
 
-## Materials
+If you are interested in helping us knit *our* internet, you are most welcome to!
 
-### Weaver’s materials
+Here are some possibilities:
 
-- Flyers, stickers, and posters
-- Printable PDF with photos and quotes
+### 🪢 Host the workshop 💕
 
-## Slogans
+The whole project is centered on the workshop, and the best possible thing you can do is [to host it](https://ourinternet.in/knit/)!
 
-- *We* own the Internet 💪🏼
-- The Internet is *Ours* 💪🏼
-- I ❤️ The Fediverse
-- Knitting our Web 😍
+### 🚀 Contribute ✨
+
+The people who coded this website are not web development masters… we could definitely use your suggestions and your help!
+
+### 🌐 Translate
+
+In order to make this workshop as accessible as possible, we welcome translations in all languages!
+
+### 🪙 Donate
+
+This project is fully independent, and has **no funding** whatsoever. All the expenses we face come our of our pockets.
+
+Donations are welcome! 💝
+
+### 📣 Spread the word!
+
+Make our voices heard and reclaim Our Internet! Share [ourinternet.in](https://ourinternet.in) and join our fight!

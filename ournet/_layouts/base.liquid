@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html
+	lang='{{ lang | default: 'en' }}'
+	dir='ltr'
+	prefix='og: http://ogp.me/ns#'
+>
+
+	{% if ref %}
+		{% assign alternates = '' | split: '/' %}
+		{% for entry in collections.all %}
+			{% if entry.data.ref == ref and entry.data.lang != lang %}
+				{% assign alternates = alternates | concat: entry %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+
+	{% render 'head.liquid', date: date, updated: updated, title: title, description: description, lang: lang, alternates: alternates, site: site, url: page.url %}
+
+	<body{% if class %} class='{{ class }}'{% endif %}>
+		{{ content }}
+	</body>
+</html>

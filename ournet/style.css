@@ -11,16 +11,24 @@
 }
 
 body {
+	--primary: orangered;
+	--color: black;
+	--bg: white;
+	--shadow: .2em .2em .8em #0004;
 	font: var(--size-0) system-ui, sans-serif;
 	margin: 0;
-	--primary: orangered;
+	color: var(--color)
 }
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background: black;
-		color: white;
 		--primary: gold;
+		--color: white;
+		--bg: black;
+		--shadow: 0 0 3em #FFF8;
+
+		background: var(--bg);
+		color: var(--color);
 	}
 }
 

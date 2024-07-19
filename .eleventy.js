@@ -1,4 +1,5 @@
 export default function (eleventyConfig) {
+	eleventyConfig.addPassthroughCopy({'./assets/':'/'});
 	eleventyConfig.addPassthroughCopy('./ournet/style.css');
 	eleventyConfig.addWatchTarget('./ournet/style.css');
 	return {

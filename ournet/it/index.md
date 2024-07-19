@@ -1,5 +1,6 @@
 ---
 title: 🪡 La Nostra Rete 🧶
+reference_page: index
 ---
 <figure>
 	<img src='{{ site.image }}' alt='Un gruppo di persone sedute in cerchio, connesse da un filo rosso'>

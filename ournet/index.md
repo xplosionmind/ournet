@@ -1,5 +1,6 @@
 ---
 title: 🪡 Knitting Our Internet 🧶
+reference_page: index
 ---
 
 <figure>

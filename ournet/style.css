@@ -15,6 +15,7 @@ body {
 	--color: black;
 	--bg: white;
 	--shadow: .2em .2em .8em #0004;
+
 	font: var(--size-0) system-ui, sans-serif;
 	margin: 0;
 	color: var(--color)
@@ -32,7 +33,8 @@ body {
 	}
 }
 
-main {
+main,
+footer {
 	margin: 2em auto;
 	width: clamp(15rem, 94vw, 50rem);
 	& > * + * {
@@ -81,6 +83,10 @@ details {
 
 summary {
 	cursor: pointer;
+}
+
+footer {
+	font-size: var(--size--1);
 }
 
 .flex {

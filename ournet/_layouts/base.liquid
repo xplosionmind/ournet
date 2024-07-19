@@ -18,5 +18,6 @@
 
 	<body{% if class %} class='{{ class }}'{% endif %}>
 		{{ content }}
+		{% render 'footer.liquid', lang: lang, source: site.source, path: page.inputPath, url: page.url, eleventyVersion: eleventy.version %}
 	</body>
 </html>

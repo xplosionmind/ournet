@@ -1,25 +1,51 @@
 {
-  "name": "🪡 Knitting Our Internet 🧶",
-  "description": "An interactive workshop travelling through the history of the Internet, and a collective re-imagination of participatory, decentralized alternatives. It aims at questioning the very essence of today’s social networks, exposing the critical limits given by centralization, monopoly, and surveillance capitalism.",
-  "keywords": ["11ty", "anticapitalism", "community", "decentralization", "design", "design-thinking", "eleventy", "eleventy-website", "fediverse", "history", "interactive", "internet", "internet-history", "lab", "laboratorio", "philosophy", "project", "social", "social-media", "social-network", "social-networks", "socialnetwork", "sociology", "surveillance-capitalism", "workshop"],
-  "repository": {
-    "type": "git",
-    "url": "git@codeberg.org:tommi/ournet.git"
-  },
-  "license": "CC-BY-SA-4.0",
-  "bugs": {
-    "url": "https://github.com/xplosionmind/ournet/issues"
-  },
-  "scripts": {
-    "start": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
-    "build": "ELEVENTY_ENV=production eleventy",
-    "debug": "DEBUG=Eleventy* bun run start",
-    "clean": "del-cli dist"
-  },
-  "type": "module",
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0-alpha.20",
-    "js-yaml": "^4.1.0"
-  }
+	"name": "🪡 Knitting Our Internet 🧶",
+	"description": "An interactive workshop travelling through the history of the Internet, and a collective re-imagination of participatory, decentralized alternatives. It aims at questioning the very essence of today’s social networks, exposing the critical limits given by centralization, monopoly, and surveillance capitalism.",
 	"homepage": "https://ournet.rocks",
+	"keywords": [
+		"11ty",
+		"anticapitalism",
+		"community",
+		"decentralization",
+		"design",
+		"design-thinking",
+		"eleventy",
+		"eleventy-website",
+		"fediverse",
+		"history",
+		"interactive",
+		"internet",
+		"internet-history",
+		"lab",
+		"laboratorio",
+		"philosophy",
+		"project",
+		"social",
+		"social-media",
+		"social-network",
+		"social-networks",
+		"socialnetwork",
+		"sociology",
+		"surveillance-capitalism",
+		"workshop"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git@codeberg.org:tommi/ournet.git"
+	},
+	"license": "CC-BY-SA-4.0",
+	"bugs": {
+		"url": "https://github.com/xplosionmind/ournet/issues"
+	},
+	"scripts": {
+		"start": "ELEVENTY_ENV=development eleventy --serve --watch --incremental",
+		"build": "ELEVENTY_ENV=production eleventy",
+		"debug": "DEBUG=Eleventy* bun run start",
+		"clean": "del-cli dist"
+	},
+	"type": "module",
+	"dependencies": {
+		"@11ty/eleventy": "^3.0.0-alpha.20",
+		"js-yaml": "^4.1.0"
+	}
 }

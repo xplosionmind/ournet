@@ -14,7 +14,7 @@ This website is proudly built with [Eleventy](https://11ty.dev 'Eleventy officia
 
 ## 🏠 Hosting
 
-[ourinternet.in](https://ourinternet.in '🪡 Knitting Our Internet 🧶') is proud to be hosted independently on [*Nebuchadnezzar*](https://tommi.space/neb/ 'Nebuchadnezzar’s page on tommi.space'), [Tommi](https://tommi.space 'The virtual representation of Tommi’s mind')’s server.
+[ournet.rocks](https://ournet.rocks '🪡 Knitting Our Internet 🧶') is proud to be hosted independently on [*Nebuchadnezzar*](https://tommi.space/neb/ 'Nebuchadnezzar’s page on tommi.space'), [Tommi](https://tommi.space 'The virtual representation of Tommi’s mind')’s server.
 
 ## 💥 Wanna help? 😍
 
@@ -24,7 +24,7 @@ Here are some possibilities:
 
 ### 🪢 Host the workshop 💕
 
-The whole project is centered on the workshop, and the best possible thing you can do is [to host it](https://ourinternet.in/knit/)!
+The whole project is centered on the workshop, and the best possible thing you can do is [to host it](https://ournet.rocks/knit/)!
 
 ### 🚀 Contribute ✨
 
@@ -42,4 +42,4 @@ Donations are welcome! 💝
 
 ### 📣 Spread the word!
 
-Make our voices heard and reclaim Our Internet! Share [ourinternet.in](https://ourinternet.in) and join our fight!
+Make our voices heard and reclaim Our Internet! Share [ournet.rocks](https://ournet.rocks) and join our fight!

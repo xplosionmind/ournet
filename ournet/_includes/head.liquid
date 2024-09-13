@@ -16,8 +16,8 @@
 	<!-- Metadata -->
 	<title>{{ title | default: site.title }}</title>
 	<meta property='og:title' content='{{ title | default: site.title }}'>
-	<meta name='description' content='{{ description | default: site.description }}' data-pagefind-meta='description[content]'>
-	<meta property='og:description' content='{{ description | default: site.description }}'>
+	<meta name='description' content='{{ description | default: site.description.oneline | markdownify | strip_html }}' data-pagefind-meta='description[content]'>
+	<meta property='og:description' content='{{ description | default: site.description.full | markdownify | strip_html | strip_newlines }}'>
 	<meta property='og:author' content='{{ site.author.name }}'>
 	<meta name='author' content='{{ site.author.name }}'>
 	<meta property='og:site_name' content='{{ site.title }}'>
@@ -43,4 +43,3 @@
 	<meta name='theme-color' content='#FCC920' media='(prefers-color-scheme: light)'>
 	<meta name='theme-color' content='#000000' media='(prefers-color-scheme: dark)'>
 </head>
-

@@ -1,0 +1,56 @@
+- title: SFSCon
+  date: 2024-11-08T09:00:00+01:00
+  url: https://sfscon.it
+  location: Bolzano
+  country: Italy
+
+- title: Reclaim The Tech
+  date: 2024-05-17T17:00:00+02:00
+  url: https://reclaimthetech.it
+  location: Làbas Bologna
+  country: Italy
+  image: /ournet-rtt-2024.webp
+  notes: /rtt-2024/
+
+- title: LibreItalia Conference
+  date: 2024-05-04T17:00:00+02:00
+  url: https://conference.libreitalia.org/2024/
+  location: Monte San Vito (AN)
+  country: Italy
+  image: /ournet-libreitaliaconf.webp
+
+- title: Circonomia
+  date: 2024-03-10
+  url: https://circonomiafano.it
+  location: Fano (AN)
+  country: Italy
+  image: /ournet-circonomia.webp
+  notes: /circonomia/
+
+- title: Assemblea d’Istituto del Liceo Cassini
+  date: 2023-10-20T08:45:00+02:00
+  url: https://tommi.space/fedilab-cassini/
+  location: Sanremo
+  country: Italy
+  image: /ournet-cassini.webp
+  notes: /cassini/
+
+- title: ANTIUNIVERSITY
+  date: 2023-10-06T18:00:00+01:00
+  url: https://2023.antiuniversity.org/events/conceiving-the-social-networks-of-the-future-spoiler-they-already-exist
+  location: MayDay Rooms, London
+  country: Great Britain
+  image: /ournet-antiuniversity.webp
+
+- title: Scambi Festival
+  date: 2023-08-27T18:00:00+02:00
+  url: https://scambi.org/2023/lab/direzione-fediverso/
+  location: Sanremo
+  country: Italy
+  image: https://tommi.space/fedilab-scambi.webp
+
+- title: Quarantennale AGESCI Mira 1
+  date: 2023-06-11T09:30:00+02:00
+  location: Oriago di Mira (VE)
+  country: Italy
+  image: /ournet-mira.webp

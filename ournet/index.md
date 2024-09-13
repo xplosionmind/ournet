@@ -26,6 +26,9 @@ In June 2024, after [having hosted the workshop in many occasions], Tommi decide
 This workshop aims at questioning the very essence of today’s social networks, exposing the critical limits given by centralization, monopoly, and surveillance capitalism.
 
 ### In detail
+<div class='flex'>
+	<a class='yellow button' href='/events/' title='All the occasions when the workshop was hosted'>Past editions</a>
+</div>
 
 <cite>🪡 Knitting Our Internet 🧶</cite> is an in person interactive workshop about the Internet, its history, and its future.
 

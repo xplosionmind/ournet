@@ -1,0 +1,35 @@
+---
+title: Past and future events
+description: A collection of all the occasions when this workshop was hosted.
+class: wide
+---
+<p class='center'>{{ description }}</p>
+
+<article class='events'>
+	{% for event in events %}
+		{% assign buildTime = 'now' | date: '%Y%m%d' %}
+		{% assign eventDate = event.date | date: '%Y%m%d' %}
+		<article class='event | center box {% if eventDate > buildTime %}future{% endif %}' id='{{ event.title | slugify }}'>
+			{% if event.image %}
+				<figure>
+					<img src='{{ event.image }}' title='A photo of Tommi while hosting the workshop at {{ event.title }}'
+				</figure>
+			{% endif %}
+			<h2>{{ event.title }}</h2>
+			<p>{{ event.location }} – {{ event.date | date_to_string }}</p>
+			<div class='flex'>
+				{% if event.url %}
+					<a class='yellow button' href='{{ event.url }}'>Event</a>
+				{% endif %}
+				{% if event.notes %}
+					<a class='red button' href='{{ event.notes }}'>Notes</a>
+				{% endif %}
+			</div>
+		</article>
+	{% endfor %}
+</article>
+
+<article id='interested' class='flow'>
+	<h2 class='center'>Interested? 👀</h2
+	<p>If you are interested in hosting <cite>Knitting Our Internet</cite> at your event, you are welcome to <a href='/invite/'>invite Tommi</a> or <a href='/knit/'>go through the <cite>Weaver kit</cite> to host it yourself</a>!</p>
+</article>

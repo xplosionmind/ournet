@@ -27,9 +27,24 @@ body {
 		--color: white;
 		--bg: black;
 		--shadow: 0 0 3em #FFF8;
+header {
+	display: flex;
+	position: sticky;
+	inset: 0;
+	background: var(--bg);
+	font-weight: 800;
+	padding: var(--space-2xs) var(--space-s);
+	justify-content: end;
+	gap: var(--space-2xs-l);
 
-		background: var(--bg);
+	a {
+		text-decoration: none;
 		color: var(--color);
+	}
+
+	[href='/'] {
+		position: absolute;
+		left: var(--space-s);
 	}
 }
 

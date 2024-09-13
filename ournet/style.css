@@ -86,6 +86,7 @@ summary {
 }
 
 footer {
+	border-top: 1px solid lightsteelblue;
 	font-size: var(--size--1);
 }
 

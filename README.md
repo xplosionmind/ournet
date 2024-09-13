@@ -4,21 +4,23 @@ This repository hosts the resources, the material, and the website’s source co
 
 This workshop aims at questioning the very essence of today’s social networks, exposing the critical limits given by centralization, monopoly, and surveillance capitalism.
 
+## 📟 Software
+
+This website is proudly built with [Eleventy](https://11ty.dev/ 'Eleventy official website').
+
+## 🏠 Hosting
+
+[ournet.rocks](https://ournet.rocks '🪡 Knitting Our Internet 🧶') is proudly hosted on [Codeberg Pages](https://codeberg.page 'Codeberg Pages main page'). More about this below.
+
 ## 👾 Source code
 
 The main repository is [hosted on Codeberg](https://codeberg.org/tommi/ournet 'ournet on Codeberg') and mirrored on [GitHub](https://github.com/xplosionmind/ournet 'ournet on GitHub'), where [issues](https://github.com/xplosiomind/tommi.space/issues 'ournet issues on GitHub') are being tracked.
 
-## 📟 Software
-
-This website is proudly built with [Eleventy](https://11ty.dev 'Eleventy official website').
-
-## 🏠 Hosting
-
-[ournet.rocks](https://ournet.rocks '🪡 Knitting Our Internet 🧶') is proud to be hosted independently on [*Nebuchadnezzar*](https://tommi.space/neb/ 'Nebuchadnezzar’s page on tommi.space'), [Tommi](https://tommi.space 'The virtual representation of Tommi’s mind')’s server.
+The [`www` directory](https://codeberg.org/tommi/ournet.rocks 'ournet.rocks repository on Codeberg') inside this repository is [a git submodule](https://git-scm.com/docs/gitsubmodules 'About submodules on Git’s website') with the final files that are directly served by Codeberg Pages.
 
 ## 💥 Wanna help? 😍
 
-If you are interested in helping us knit *our* internet, you are most welcome to!
+If you are [interested in helping us](https://ournet.works/contribute/) knit *our* Internet, you are most welcome to!
 
 Here are some possibilities:
 
@@ -36,9 +38,9 @@ In order to make this workshop as accessible as possible, we welcome translation
 
 ### 🪙 Donate
 
-This project is fully independent, and has **no funding** whatsoever. All the expenses we face come our of our pockets.
+This project is fully independent, and has **no funding** whatsoever at the moment. All the expenses we face come our of our pockets, so far.
 
-Donations are welcome! 💝
+[**Donations are *very* welcome**](https://ournet.rocks/contribute/)! 💝
 
 ### 📣 Spread the word!
 

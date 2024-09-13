@@ -16,7 +16,7 @@ This website is proudly built with [Eleventy](https://11ty.dev/ 'Eleventy offici
 
 The main repository is [hosted on Codeberg](https://codeberg.org/tommi/ournet 'ournet on Codeberg') and mirrored on [GitHub](https://github.com/xplosionmind/ournet 'ournet on GitHub'), where [issues](https://github.com/xplosiomind/tommi.space/issues 'ournet issues on GitHub') are being tracked.
 
-The [`www` directory](https://codeberg.org/tommi/ournet.rocks 'ournet.rocks repository on Codeberg') inside this repository is [a git submodule](https://git-scm.com/docs/gitsubmodules 'About submodules on Git’s website') with the final files that are directly served by Codeberg Pages.
+The [`www` directory](https://codeberg.org/tommi/ournet-website 'ournet-website repository on Codeberg') inside this repository is [a git submodule](https://git-scm.com/docs/gitsubmodules 'About submodules on Git’s website') with the final files that are directly served by Codeberg Pages.
 
 ## 💥 Wanna help? 😍
 

@@ -17,12 +17,6 @@
 	{% render 'head.liquid', date: date, updated: updated, title: title, description: description, lang: lang, alternates: alternates, site: site, url: page.url %}
 
 	<body{% if class %} class='{{ class }}'{% endif %}>
-	<div class='red disclaimer center'>
-		<h2>⚠️ Disclaimer ⚠️</h2>
-		<p>This website is under heavy development, both in terms of code and content.<br>
-			Please, <strong>do not share it</strong> yet, and consider anything on here as <strong>ephemeral</strong> and <strong>incomplete</strong>.</p>
-		<p><strong>You are welcome to <a href='/contribute/'>contribute</a>!</strong> Have a look at the <a href='/roadmap' title='Knitting Our Internet – Roadmap · GitHub'>roadmap</a> to learn more</a>.</p>
-	</div>
 	{% include 'header.liquid', lang: lang, nav: site.nav %}
 
 		{{ content }}

@@ -47,7 +47,7 @@ For these reasons, this whole project is brought forward on the principles of **
 
 If you are interested in learning more, read [the introductory email](first-email.md) I sent to the first members of the team to invite them to get involved.
 
-## 🙋🏼 The team
+## 🙋🏼 Contributors 💝
 
 <ul>
 	{%- for person in people -%}

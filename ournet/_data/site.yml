@@ -32,3 +32,31 @@ changelog: https://codeberg.org/tommi/ournet/commits/branch/main
 issues: https://github.com/xplosionmind/ournet/issues
 roadmap: /roadmap
 
+nav:
+  - name:
+      en: 🏠 Home
+    title:
+      en: Go to the homepage
+    url:
+      en: /
+
+  - name:
+      en: 🌟 Invite
+    title:
+      en: Info for inviting Tommi to host this workshop
+    url:
+      en: /invite/
+
+  - name:
+      en: 🪡 Weaver kit
+    title:
+      en: A kit to host the workshop yourself!
+    url:
+      en: /knit/
+
+  - name:
+      en: 🛣️ Roadmap
+    title:
+      en: This project’s roadmap
+    url:
+      en: /roadmap

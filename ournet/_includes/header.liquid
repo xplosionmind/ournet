@@ -1,6 +1,10 @@
 <header>
-	<a href='/'>🧶</a>
-	<a href='/invite/'>Invite Tommi</a>
-	<a href='/knit/'>Weaver kit</a>
-	<a href='/roadmap'>Roadmap</a>
+	<input type='checkbox' id='navToggle'>
+	<nav id='mainNav' aria-label='Main'>
+		{% for page in nav %}
+			<a href='{{ page.url[lang] }}' title='{{ page.title[lang] }}'>{{ page.name[lang] }}</a>
+		{% endfor %}
+	</nav>
+
+	<label id='navToggleBtn' for='navToggle' aria-label='toggle-navigation'>🍔</label>
 </header>

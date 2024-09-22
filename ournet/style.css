@@ -52,24 +52,90 @@ body {
 
 header {
 	display: flex;
-	position: sticky;
-	inset: 0;
-	background: var(--bg);
-	font-weight: 800;
-	padding: var(--space-2xs) var(--space-s);
 	justify-content: end;
-	gap: var(--space-2xs-l);
+	position: sticky;
+	top: var(--space-s);
+	right: 0;
+	z-index: 3;
+	font-size: var(--size-1);
+	font-weight: 800;
+	line-height: var(--space-l);
+	text-align: center;
 
 	a {
 		text-decoration: none;
 		color: var(--color);
-	}
+		&:hover,
+		&:focus {
+			transform: scale(1.5) rotate(3deg);
+		}
 
-	[href='/'] {
-		position: absolute;
-		left: var(--space-s);
+		&:active {
+			opacity: .6;
+		}
 	}
 }
+
+#navToggle,
+#navToggleBtn,
+#altLangListToggle {
+	display: none;
+
+}
+
+#mainNav,
+#altLangList {
+	display: flex;
+	height: min-content;
+	padding: 0 var(--space-m);
+	backdrop-filter: blur(2em);
+	border-radius: var(--space-xs);
+	align-items: center;
+	gap: var(--space-m);
+}
+
+
+
+#navToggle:checked {
+	&~#mainNav {
+		right: var(--space-2xs);
+	}
+}
+
+@media (max-width: 950px) {
+	header {
+		position: fixed;
+		top: unset;
+		bottom: 0;
+	}
+
+	#navToggleBtn {
+		display: block;
+	}
+
+	#navToggleBtn,
+	#altLangListToggleBtn {
+		backdrop-filter: blur(2em);
+		line-height: var(--space-xl);
+		height: var(--space-xl);
+		width: var(--space-xl);
+		border-radius: var(--space-xs);
+		margin: var(--space-s) var(--space-2xs);
+	}
+
+	#mainNav,
+	#altLangList {
+		position: fixed;
+		inset: unset;
+		bottom: calc(2 * var(--space-s) + var(--space-xl));
+		right: -15rem;
+		flex-direction: column;
+		gap: var(--space-3xs);
+	}
+
+	#mainNav {
+		padding: var(--space-xs) var(--space-m);
+	}
 
 main:not(.wide),
 footer,
@@ -204,7 +270,9 @@ footer {
 
 .button {
 	text-decoration: none;
+	text-align: center;
 	font-weight: 800;
+	font-size: inherit;
 	background: var(--primary);
 	color: var(--bg);
 	border-radius: var(--space-2xs);

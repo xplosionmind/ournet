@@ -3,7 +3,7 @@ title: 🪡 Knitting Our Internet 🧶
 reference_page: index
 ---
 
-{{ site.description.full }}
+{{ site.description[lang].full }}
 
 <article class='yellow box'>
 	<h2 id='host' class='center'>Host the workshop! 🤩</h2>

@@ -1,17 +1,34 @@
-title: Knitting Our Internet
-url: https://ournet.rocks
+title:
+  en: Knitting Our Internet
+  it: La Nostra Rete
 description:
-  oneline: A **face-to-face** **participatory** **workshop** about the Internet, its history, and its **future**.
-  short: <cite>Knitting Our Internet</cite> is a **face-to-face** **workshop** about the Internet. It consists of an **interactive journey** through its history and a **collective rethinking** of its future.
-  full: |
-    <cite>Knitting Our Internet</cite> is a **face-to-face** **workshop** about the Internet. It consists of an **interactive journey** through its history and a **collective rethinking** of its future.
+  en:
+    oneline: A **face-to-face** **participatory** **workshop** about the Internet, its history, and its **future**.
+    short: <cite>Knitting Our Internet</cite> is a **face-to-face** **workshop** about the Internet. It consists of an **interactive journey** through its history and a **collective rethinking** of its future.
+    full: |
+      <cite>Knitting Our Internet</cite> is a **face-to-face** **workshop** about the Internet. It consists of an **interactive journey** through its history and a **collective rethinking** of its future.
 
-    The lab provides tangible examples on how the internet *actually* works, **questioning** the very essence of today’s mainstream social networks. Its main purpose is to expose the critical limits of **surveillance capitalism**, **centralization**, and its **environmental impact**.
+      The lab provides tangible examples on how the Internet *actually* works, **questioning** the very essence of today’s mainstream social networks. Its main purpose is to expose the critical limits of **surveillance capitalism**, **centralization**, and its **environmental impact**.
 
-    After aknowledging the challenges the digital domain is currently facing, participants are encouraged to reinterpret social networks starting from **decentralization**, envisioning more human, collective, and participatory **digital futures**.
-lang: en
+      After aknowledging the challenges the digital domain is currently facing, participants are encouraged to reinterpret social networks starting from **decentralization**, envisioning more human, collective, and participatory **digital futures**.
+  it:
+    oneline: Un laboratorio interattivo **in presenza** su Internet, la sua storia e il suo **futuro**.
+    short: <cite>La Nostra Rete</cite> è un laboratorio in presenza su Internet. Consiste in un viaggio interattivo nella sua storia e un **ripensamento collettivo** del suo futuro.
+    full: |
+      <cite>La Nostra Rete</cite> è un laboratorio **in presenza** su Internet. Consiste in un viaggio interattivo nella sua storia e un **ripensamento collettivo** del suo futuro.
+
+      Il laboratorio dà esempi tangibili di come Internet *realmente* funziona, **mettendo in questione** i fondamenti tecnici su cui si basano i social media mainstream di oggi. L’obiettivo principale è di smascherare i problemi del **capitalismo della sorveglianza**, della **centralizzazione** e del suo **impatto ambientale**.
+
+      Dopo aver riconosciuto le sfide digitali che dobbiamo affrontare, le persone partecipanti sono incoraggiate a reinterpretare i social network partendo dalla **decentralizzazione** e immaginando **futuri digitali** più umani, corali e partecipativi.
+
+author:
+  name: Tommi
+  website: https://tommi.space/
+  email: surfing@tommi.space
+url: https://ournet.rocks
 image: https://tommi.space/fedilab-scambi.webp
 source: https://codeberg.org/tommi/ournet
 changelog: https://codeberg.org/tommi/ournet/commits/branch/main
 issues: https://github.com/xplosionmind/ournet/issues
 roadmap: /roadmap
+

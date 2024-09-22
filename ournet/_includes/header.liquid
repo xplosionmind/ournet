@@ -6,5 +6,22 @@
 		{% endfor %}
 	</nav>
 
+	{% if reference_page %}
+		<input type='checkbox' id='altLangListToggle'>
+		<div id='altLangList'>
+			{% for alternate in alternates %}
+				<a href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}'>
+					{% if alternate.data.lang == 'en' %}
+						🇬🇧
+					{% elsif alternate.data.lang == 'it' %}
+						🇮🇹
+					{% else %}
+						{{ alternate.data.lang }}
+					{% endif %}
+				</a>
+			{% endfor %}
+		</div>
+		<label id='altLangListToggleBtn' for='altLangListToggle' aria-label='toggle-language-menu'>🌐</label>
+	{% endif %}
 	<label id='navToggleBtn' for='navToggle' aria-label='toggle-navigation'>🍔</label>
 </header>

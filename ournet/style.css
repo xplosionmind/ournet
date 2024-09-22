@@ -62,9 +62,15 @@ header {
 	line-height: var(--space-l);
 	text-align: center;
 
-	a {
+	label {
+		font-size: var(--size-3);
+	}
+
+	a,
+	label {
 		text-decoration: none;
 		color: var(--color);
+
 		&:hover,
 		&:focus {
 			transform: scale(1.5) rotate(3deg);
@@ -94,11 +100,29 @@ header {
 	gap: var(--space-m);
 }
 
+#altLangList {
+	position: fixed;
+	top: calc(var(--size-3) + var(--space-m));
+	right: -15rem;
+	flex-direction: column;
+	font-size: var(--size-3);
+	width: var(--space-xl);
+	padding: var(--space-xs) 0;
+}
 
+#altLangListToggleBtn {
+	margin-right: var(--space-m);
+}
 
 #navToggle:checked {
 	&~#mainNav {
 		right: var(--space-2xs);
+	}
+}
+
+#altLangListToggle:checked {
+	&~#altLangList {
+		right: var(--space-s);
 	}
 }
 
@@ -136,6 +160,13 @@ header {
 	#mainNav {
 		padding: var(--space-xs) var(--space-m);
 	}
+
+	#altLangListToggle:checked {
+		&~#altLangList {
+			right: calc(3 * var(--space-2xs) + var(--space-xl));
+		}
+	}
+}
 
 main:not(.wide),
 footer,

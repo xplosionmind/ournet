@@ -1,0 +1,54 @@
+body {
+	--bg: none;
+	background: none;
+	color: black;
+}
+
+header,
+footer {
+	display: none !important;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.no-print {
+	display: none;
+}
+
+.page-break {
+	break-before: page;
+}
+
+.scroll {
+	article {
+		break-after: page;
+	}
+
+	article:not(#intro) {
+		counter-increment: page 1;
+
+		&::before {
+			content: counter(page);
+			display: block;
+			text-align: center;
+			font: 800 var(--size-2) sans-serif;
+			margin: 0 auto;
+			width: 2.5em;
+			height: 2.5em;
+			line-height: 2em;
+			background: url('/empty-scroll-emoji.svg');
+			color: saddlebrown;
+		}
+
+		&>*:first-child {
+			break-before: page;
+		}
+	}
+
+	h2 {
+		text-align: center;
+	}
+}

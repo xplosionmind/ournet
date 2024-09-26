@@ -19,6 +19,8 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ './assets/': '/' });
 	eleventyConfig.addPassthroughCopy('./ournet/style.css');
 	eleventyConfig.addWatchTarget('./ournet/style.css');
+	eleventyConfig.addPassthroughCopy('./ournet/print.css');
+	eleventyConfig.addWatchTarget('./ournet/print.css');
 
 	eleventyConfig.addFilter('markdownify', function (content) {
 		return mdIt.renderInline(content);

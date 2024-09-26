@@ -42,6 +42,11 @@ body {
 	font: var(--size-0) system-ui, sans-serif;
 	margin: 0;
 	line-height: 1.5;
+	counter-set: scrollSheet 0;
+
+	&.scroll {
+		--bg: oldlace;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,6 +55,14 @@ body {
 		--color: white;
 		--bg: black;
 		--shadow: 0 0 3em #FFF8;
+
+		&.scroll {
+			--bg: saddlebrown;
+		}
+
+		.dark {
+			filter: invert(1);
+		}
 	}
 }
 
@@ -205,6 +218,22 @@ figure {
 		width: 100%;
 		height: auto;
 		border-radius: var(--space-m);
+	}
+
+	&.tall {
+		display: flex;
+		flex-direction: column;
+		height: 80%;
+		width: auto;
+		margin: 0;
+		justify-content: center;
+
+		img {
+			height: 100%;
+			width: auto;
+			max-width: 100%;
+			margin: 0 auto;
+		}
 	}
 }
 
@@ -437,4 +466,19 @@ footer {
 		padding: var(--space-3xs) 0;
 	}
 }
+
+
+.scroll {
+	h2 {
+		text-align: center;
+	}
+}
+
+@media screen {
+	.scroll {
+		article:not(#intro) {
+			padding: var(--space-xl) 0;
+			border-top: solid 1px saddlebrown;
+		}
+	}
 }

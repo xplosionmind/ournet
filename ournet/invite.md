@@ -15,4 +15,6 @@ He prefers not to travel by airplane.
 
 ## 🪙 Retribution
 
-Even though preparing every activity requires quite some time and a bit of expenses, Tommi is super happy to host the workshop completely **for free**. If the entity inviting him is a for-profit, though, he asks to be paid for his work. Details to be discussed via email, and evaluated case-by-case.
+Even though preparing every activity requires quite some time and a bit of expenses, Tommi usually hosts the worshop **for free**. Still, it would be immensely meaningful for him if his work could be valued with some sort of retribution, especially if the hosting entity is a for-profit.
+
+Details to be discussed via email, and evaluated case-by-case.

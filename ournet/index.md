@@ -1,6 +1,6 @@
 ---
-title: 🪡 Knitting Our Internet 🧶
-reference_page: index
+title: Knitting Our Internet 🧶
+priority: 1
 ---
 
 {{ site.description[lang].full }}

@@ -281,6 +281,36 @@ details {
 	/*border: 1px solid #666;*/
 	padding: var(--space-xs) var(--space-m);
 
+	summary {
+		list-style: none;
+		position: relative;
+
+		&::after {
+			content: '＋';
+			box-shadow: var(--shadow);
+			background: #FFFC;
+			color: midnightblue;
+			backdrop-filter: blur(8px);
+			border-radius: 100%;
+			font-weight: 900;
+			line-height: var(--size-3);
+			height: var(--size-3);
+			width: var(--size-3);
+			text-align: center;
+			position: absolute;
+			top: calc(-1 * var(--space-m));
+			right: calc(-1 * var(--space-l));
+		}
+	}
+
+	&[open] {
+		summary {
+			&::after {
+				content: '−';
+			}
+		}
+	}
+
 	h3 {
 		display: inline;
 		margin: 0;

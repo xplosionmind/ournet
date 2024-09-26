@@ -353,17 +353,15 @@ footer {
 }
 
 .red {
-	--primary: lightyellow;
+	--primary: wheat;
 	color: white;
 	background: crimson;
-	border-color: crimson;
 }
 
 .yellow {
 	--primary: crimson;
 	color: black;
 	background: gold;
-	border-color: gold;
 
 	::selection {
 		background: orangered;
@@ -375,29 +373,25 @@ footer {
 	--primary: gold;
 	color: white;
 	background: darkblue;
-	border-color: darkblue;
 }
 
 .core {
-	background: midnightblue;
+	--primary: gold;
+	background: indigo;
 	color: white;
 
-	a {
-		color: gold;
-	}
 }
 
 .main {
+	--primary: wheat;
 	background: royalblue;
 	color: white;
-
-	a {
-		color: lightyellow;
-	}
 }
 
-.extra {
-	background: #53B9FF33;
+.extension {
+	--primary: mediumvioletred;
+	background: paleturquoise;
+	color: black;
 }
 
 .environment {
@@ -410,16 +404,9 @@ footer {
 }
 
 .history {
+	--primary: wheat;
 	background: maroon;
 	color: white;
-
-	a {
-		color: lightyellow;
-	}
-}
-
-
-	}
 }
 
 .events {
@@ -467,6 +454,35 @@ footer {
 	}
 }
 
+.scroll-sheet {
+	border-radius: var(--space-m);
+	padding: var(--space-s);
+	color: black;
+	background: wheat;
+	counter-increment: scrollSheet;
+	margin: 1em auto;
+
+	a[href*='/scroll/'] {
+		color: wheat;
+		background: maroon;
+		padding: 0 var(--space-3xs);
+		border-radius: var(--space-3xs);
+		font-weight: 600;
+
+		&::before {
+			content: '📜 ';
+		}
+
+		&::after {
+			content: ' #' counter(scrollSheet);
+			font-weight: 900;
+		}
+	}
+
+	a {
+		color: maroon;
+	}
+}
 
 .scroll {
 	h2 {

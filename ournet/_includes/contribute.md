@@ -1,25 +1,3 @@
-<h1 align='center'>🪡 Knitting Our Internet 🧶</h1>
-
-This repository hosts the resources, the material, and the website’s source code for *🪡 [Knitting Our Internet](https://ournet.org 'Knitting Our Internet – website') 🧶*, an interactive workshop travelling through the history of the Internet, and a collective re-imagination of participatory, decentralized alternatives.
-
-This workshop aims at questioning the very essence of today’s social networks, exposing the critical limits given by centralization, monopoly, and surveillance capitalism.
-
-## 📟 Software
-
-This website is proudly built with [Eleventy](https://11ty.dev/ 'Eleventy official website').
-
-## 🏠 Hosting
-
-[ournet.rocks](https://ournet.rocks '🪡 Knitting Our Internet 🧶') is proudly hosted on [Codeberg Pages](https://codeberg.page 'Codeberg Pages main page'). More about this below.
-
-## 👾 Source code
-
-The main repository is [hosted on Codeberg](https://codeberg.org/tommi/ournet 'ournet on Codeberg') and mirrored on [GitHub](https://github.com/xplosionmind/ournet 'ournet on GitHub'), where [issues](https://github.com/xplosiomind/tommi.space/issues 'ournet issues on GitHub') are being tracked.
-
-The [`www` directory](https://codeberg.org/tommi/ournet-website 'ournet-website repository on Codeberg') inside this repository is [a git submodule](https://git-scm.com/docs/gitsubmodules 'About submodules on Git’s website') with the final files that are directly served by Codeberg Pages.
-
-## 💝 Wanna help?
-
 As a proudly independent project <cite>Knitting Our Internet</cite> is meant to be collective and collaborative. Not only contributions are welcome, but they are the essence of this workshop!
 
 ### 🪢 Host the workshop 💕
@@ -34,11 +12,11 @@ At the moment, we **no funding** whatsoever: all the expenses we face come our o
 
 Possible ways to do it (sorted by preference):
 
-	1. [LiberaPay](https://liberapay.com/tommi/ 'Tommi on LiberaPay')
-	1. [PayPal](https://paypal.me/xplosionmind '@xplosionmind on PayPal.me')
-	1. Wire transfer: [get in touch](mailto:surfing@tommi.space) to get the bank account info
-	1. Cash: [get in touch](mailto:surfing@tommi.space), let’s see what we can do
-	1. Monero: `4AXFHU3h1GDGVr5nfnyngmSepfesyUJxCSXNH2JzFeBGbGxzzoMuhSCBDVf3THK1E5VnfLLm2hfgV3YosYd27ZFLMCVNUrP`
+1. [LiberaPay](https://liberapay.com/tommi/ 'Tommi on LiberaPay')
+1. [PayPal](https://paypal.me/xplosionmind '@xplosionmind on PayPal.me')
+1. Wire transfer: [get in touch](mailto:surfing@tommi.space) to get the bank account info
+1. Cash: [get in touch](mailto:surfing@tommi.space), let’s see what we can do
+1. Monero: `4AXFHU3h1GDGVr5nfnyngmSepfesyUJxCSXNH2JzFeBGbGxzzoMuhSCBDVf3THK1E5VnfLLm2hfgV3YosYd27ZFLMCVNUrP`
 
 ### 💡 Add or improve information
 

@@ -42,16 +42,20 @@ It is not merely rhethorical: this workshop is truly **for everyone**! This work
 
 
 
+## 💝 Contribute
 
+{% render 'contribute.md' %}
 
+## 🤗 Contribution philosophy
 
-## 🙋🏼 Contributors 💝
+When considering the idea of involving other people and ask for their time and effort, Tommi did not want to do so for the sake of friendship only, but at the same time he did not have the funds to pay their work either.
 
-<ul>
-	{%- for person in people -%}
-		<li>
-			<a href='{{ person.url }}'>{{ person.name }}</a>,
-			{{ person.role }}
-		</li>
-	{%- endfor -%}
-</ul>
+For these reasons, this whole project is brought forward on the principles of **mutual aid** and **personal curiosity**.
+
+If you are interested in learning more, read [the introductory email](first-email.md) Tommi sent to the first people he invited to collaborate.
+
+## 🙋🏼 Contributors
+
+{% for person in people -%}
+	- [{{ person.name }}]({{ person.url }}), {{ person.role }}
+{% endfor -%}

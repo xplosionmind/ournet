@@ -192,7 +192,7 @@ main:not(.wide),
 footer,
 .wide>p {
 	margin: var(--space-m) auto;
-	width: clamp(15rem, 94vw, 50rem);
+	width: clamp(15rem, calc(100vw - 2 * var(--space-2xs)), 50rem);
 
 	&>*+* {
 		margin: 1em 0 0 0;
@@ -268,12 +268,11 @@ mark {
 	background: gold;
 	padding: 0 var(--space-3xs);
 	border-radius: var(--space-3xs);
+	font-weight: 600;
 }
 
 blockquote {
-	p {
-		font-family: 'EB Garamond', serif;
-	}
+	font-family: 'EB Garamond', serif;
 }
 
 details {
@@ -318,6 +317,10 @@ details {
 
 	h4 {
 		margin: 1em auto 0;
+	}
+
+	.box {
+		margin-top: 1em;
 	}
 }
 
@@ -369,14 +372,15 @@ footer {
 
 .box {
 	padding: var(--space-s);
-	border-radius: var(--space-s);
+	border-radius: var(--space-m);
 
 	h2 {
 		margin: 0 0 var(--space-xs);
 	}
 }
 
-.button {
+.button,
+button {
 	text-decoration: none;
 	text-align: center;
 	font-weight: 800;
@@ -384,6 +388,7 @@ footer {
 	background: var(--primary);
 	color: var(--bg);
 	border-radius: var(--space-2xs);
+	border: none;
 	padding: var(--space-3xs) var(--space-s);
 	box-shadow: var(--shadow);
 

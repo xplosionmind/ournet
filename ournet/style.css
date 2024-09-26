@@ -34,7 +34,7 @@
 body {
 	--primary: crimson;
 	--color: black;
-	--bg: mintcream;
+	--bg: linear-gradient(-9deg, mintcream, honeydew, lavenderblush, aliceblue, lightyellow);
 	--shadow: .2em .2em .8em #0004;
 
 	color: var(--color);
@@ -53,7 +53,7 @@ body {
 	body {
 		--primary: gold;
 		--color: white;
-		--bg: black;
+		--bg: linear-gradient(-9deg, indigo, midnightblue, black);
 		--shadow: 0 0 3em #FFF8;
 
 		&.scroll {

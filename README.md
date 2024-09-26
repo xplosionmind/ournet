@@ -6,7 +6,7 @@ This workshop aims at questioning the very essence of today’s social networks,
 
 ## 📟 Software
 
-This website is proudly built with [Eleventy](https://11ty.dev/ 'Eleventy official website').
+This website is proudly built with [Eleventy](https://11ty.dev/ 'Eleventy official website'). Translations are handled with [Weblate](https://weblate.org), hosted on [Codeberg Translate](https://translate.codeberg.org)
 
 ## 🏠 Hosting
 

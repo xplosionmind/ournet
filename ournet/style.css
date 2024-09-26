@@ -303,6 +303,16 @@ ol {
 	}
 }
 
+li {
+	&.book {
+		list-style: '📖 ';
+	}
+
+	&.movie {
+		list-style: '📽️ ';
+	}
+}
+
 code {
 	line-break: anywhere;
 }

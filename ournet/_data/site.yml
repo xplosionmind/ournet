@@ -30,7 +30,7 @@ image: https://tommi.space/fedilab-scambi.webp
 source: https://codeberg.org/tommi/ournet
 changelog: https://codeberg.org/tommi/ournet/commits/branch/main
 issues: https://github.com/xplosionmind/ournet/issues
-roadmap: /roadmap
+roadmap: https://github.com/users/xplosionmind/projects/3
 
 nav:
   - name:
@@ -59,4 +59,4 @@ nav:
 #    title:
 #      en: This project’s roadmap
 #    url:
-#      en: /roadmap
+#      en: https://github.com/users/xplosionmind/projects/3

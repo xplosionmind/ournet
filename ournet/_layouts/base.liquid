@@ -5,10 +5,10 @@
 	prefix='og: http://ogp.me/ns#'
 >
 
-	{% if reference_page %}{% comment %}If the page has the reference_page value, it means that it has a translation, or that it is the translation of another page{% endcomment %}
+	{% if ref %}{% comment %}If the page has the ref value, it means that it has a translation, or that it is the translation of another page{% endcomment %}
 		{% assign alternates = '' | split: '/' %}{% comment %}Creating an empty array{% endcomment %}
 		{% for entry in collections.all %}{% comment %}Loop through all pages of the website{% endcomment %}
-			{% if entry.data.reference_page == reference_page and entry.data.lang != lang %}{% comment %}Check if the entry has the same reference_page value of the current page, and if it has a different language{% endcomment %}
+			{% if entry.data.ref == ref and entry.data.lang != lang %}{% comment %}Check if the entry has the same ref value of the current page, and if it has a different language{% endcomment %}
 				{% assign alternates = alternates | concat: entry %}{% comment %}If previous conditions apply, add the entry to the array of alternates of this page{% endcomment %}
 			{% endif %}
 		{% endfor %}

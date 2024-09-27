@@ -1,7 +1,7 @@
 ---
 titolo: La Nostra Rete 🧶\
 priority: 0.9\
-reference_page: index
+ref: index
 ---
 
 {{ site.description[lang].full }}

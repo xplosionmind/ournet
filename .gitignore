@@ -3,3 +3,6 @@ node_modules
 
 # Eleventy stuff
 .env
+
+# Built website files
+www

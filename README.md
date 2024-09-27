@@ -34,11 +34,11 @@ At the moment, we **no funding** whatsoever: all the expenses we face come our o
 
 Possible ways to do it (sorted by preference):
 
-	1. [LiberaPay](https://liberapay.com/tommi/ 'Tommi on LiberaPay')
-	1. [PayPal](https://paypal.me/xplosionmind '@xplosionmind on PayPal.me')
-	1. Wire transfer: [get in touch](mailto:surfing@tommi.space) to get the bank account info
-	1. Cash: [get in touch](mailto:surfing@tommi.space), let’s see what we can do
-	1. Monero: `4AXFHU3h1GDGVr5nfnyngmSepfesyUJxCSXNH2JzFeBGbGxzzoMuhSCBDVf3THK1E5VnfLLm2hfgV3YosYd27ZFLMCVNUrP`
+1. [LiberaPay](https://liberapay.com/tommi/ 'Tommi on LiberaPay')
+1. [PayPal](https://paypal.me/xplosionmind '@xplosionmind on PayPal.me')
+1. Wire transfer: [get in touch](mailto:surfing@tommi.space) to get the bank account info
+1. Cash: [get in touch](mailto:surfing@tommi.space), let’s see what we can do
+1. Monero: `4AXFHU3h1GDGVr5nfnyngmSepfesyUJxCSXNH2JzFeBGbGxzzoMuhSCBDVf3THK1E5VnfLLm2hfgV3YosYd27ZFLMCVNUrP`
 
 ### 💡 Add or improve information
 

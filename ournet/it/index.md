@@ -1,5 +1,7 @@
 ---
-title: Knitting Our Internet 🧶 priority: 1
+titolo: La Nostra Rete 🧶\
+priority: 0.9\
+reference_page: index
 ---
 
 {{ site.description[lang].full }}
@@ -18,74 +20,77 @@ title: Knitting Our Internet 🧶 priority: 1
 	<img src='{{ site.image }}' alt='A group of people sitting in a circle, connected by a red rope'>
 </figure>
 
-## 🧐 About 👀
+## 🧐 Informazioni 👀
 
-### The story
+### La storia
 
-During the first semester of 2023, while writing [his bachelor’s
-thesis](https://tommi.space/csss/ '“Computer Sciences Are Social Sciences”,
-Tommaso Marmo’s bachelor’s thesis'), [Tommi](https://tommi.space/ 'The virtual
-representation of Tommi’s mind'), got an idea for a simple yet critical and
-accurate introduction the [Fediverse](https://en.wikipedia.org/wiki/Fediverse
-'Fediverse on Wikipedia') to non-experts. Enriched by the research for his
-thesis, the content and structure of the workshop changed and matured over time,
-adapting to very diverse publics of any age and background.
+Nel primo semestre del 2023, mentre scriveva [la sua
+tesi](https://tommi.space/csss/ '“Computer Sciences Are Social Sciences”, la
+tesi di Tommaso Marmo'), [Tommi](https://tommi.space/ 'La rappresentazione
+virtuale della mente di Tommi') ha avuto un’idea per un’introduzione semplice ma
+accurata al [Fediverso](https://en.wikipedia.org/wiki/Fediverse 'Il Fediverso su
+Wikipedia') per non-esperti. Arricchiti dalla ricerca per la sua tesi, sia il
+contenuto che la struttura del workshop sono cambiati e maturati nel tempo,
+adattandosi a pubblici diversi di ogni età e background.
 
-In June 2024, after [having hosted the workshop in many occasions](/#events
-'past and future occasions when this workshop was and will be hosted'), Tommi
-decided to deepen his work on <cite>Knitting Our Internet</cite>, also involving
-[some friends](#contributors) to give it a visual identity, a better structure,
-and publish its website—the one you are reading right now.
+Nel giugno 2024, dopo aver tenuto il laboratorio [in molte occasioni](/#events
+'occasioni presenti e future in cui il workshop è stato e sarà tenuto'), Tommi
+ha deciso di approfondire il suo lavoro su <cite>La Nostra Rete</cite>, anche
+includendo [alcunз amicз](#contributors), per dargli un’identità visiva, una
+struttura migliore e per pubblicare questo sito—quello che stai leggendo ora.
 
 <div class='flex'>
 	<a class='yellow button' href='/#events' title='All the occasions when the workshop was hosted'>Past editions</a>
 </div>
 
-### 🫱🏼‍🫲🏾 For all! 💕
+### 🫱🏼‍🫲🏾 Per tuttз! 💕
 
-It is not merely rhethorical: this workshop is truly **for everyone**! This
-workshop was [concieved to adapt](/knit/#modularity) to any public and
-environment, by design.
+Non è meramente retorico: questo workshop è davvero **per tuttз**! Sin dal
+principio, questo workshop è stato [concepito per adattarsi](/knit/#modularity)
+a ogni pubblico e situazione.
 
-- It is **inter-disciplinary**, because it highlights the profoundly
-  socio-political nature of something that is usually considered from a merely
-  technical point of view. Furthermore, the workshop is meant to be contaminated
-  by different forms of art and approaches.
-- It is **inter-generational**, because it can be very powerful as a simple and
-  entertaining game for kids, as a profound reflection on the digital domain for
-  the elders, but also as an opportunity to approach the same topic from the
-  perspective of different generations.
-- It is **critical but welcoming**, because it is very opinionated and strongly
-  positioned politically, but it is also open to critiques, aiming to be a truly
-  safe space even if the participants do not know each other.
-- It is ***truly* accessible**. Despite “accessibility” being a widely popular
-  but misused buzzword, since the beginning this workshop was built to be a
-  meaningful experience also for people coming from under-represented minorities
-  or with disabilities. The accessibility of <cite>Knitting Our Internet</cite>
-  is <strong>deeply relational</strong>: only by interacting and through the
-  guidance of the host the experience can be inclusive and safe for all.
+- È **interdisciplinare**, perché mette in luce la natura profondamente
+  socio-politica di qualcosa che di solito è considerato da un punto di vista
+  meramente tecnico. Inoltre, il workshop è pensato per essere contaminato da
+  forme d’arte e approcci differenti.
+- È **intergenerazionale**, perché può essere molto potente come un semplice e
+  divertente gioco per bambinз, ma anche come una profonda riflessione sul
+  dominio digitale per lз più anzianз, o un’opportunità per approcciare lo
+  stesso argomento da una prospettiva diversa per ciascuna generazione.
+- È **critico ma aperto**, perché ha opinioni chiare ed è fortemente posizionato
+  politicamente, ma è anche aperto a critiche, perché vuol essere uno spazio
+  sicuro anche quando le persone partecipanti non si conoscono fra loro.
+- È ***veramente* accessibile**. Nonostante “accessibilità” sia una parola molto
+  popolare ma spesso fraintesa, sin dall’inizio questo workshop è stato pensato
+  per essere un’esperienza significativa anche per persone appartenenti a
+  minoranze sotto-rappresentate o con disabilità. L’accessibilità de <cite>La
+  Nostra Rete</cite> è <strong>profondamente relazionale</strong>: solamente
+  interagendo guidatз dallə moderatorə l’esperienza può essere inclusiva e
+  sicura per tuttз.
 
-## 🗓️ Past and future events
+## 🗓️ Eventi passati e futuri
 
 {% render 'events.liquid', events: events %}
 
-## 💝 Contribute
+## 💝 Contribuisci
 
 {% render 'contribute.md' %}
 
-## 🤗 Contribution philosophy
+## 🤗 Filosofia di contribuzione
 
-When considering the idea of involving other people and ask for their time and
-effort, Tommi did not want to do so for the sake of friendship only, but at the
-same time he did not have the funds to pay their work either.
+Considerando l’idea di coinvolgere altre persone chiedendo il loro tempo e
+impegno, Tommi non voleva fosse per pura amicizia, ma contemporaneamente non
+aveva nemmeno fondi per pagare il loro lavoro.
 
-For these reasons, this whole project is brought forward on the principles of
-**mutual aid** and **personal curiosity**.
+Per queste ragioni, questo progetto è interamente portato avanti da principi di
+**mutuo aiuto** e **curiosità personale**.
 
-If you are interested in learning more, read [the introductory
-email](first-email.md) Tommi sent to the first people he invited to collaborate.
+Se sei interessatə a scoprire di più, leggi [l’email
+introduttiva](first-email.md) che Tommi ha inviato alle prime persone che ha
+invitato a collaborare.
 
-## 🙋🏼 Contributors
+## 🙋🏼 Contributorз
 
-{% for person in people -%} - [{{ person.name }}]({{ person.url }}), {{
-person.role }} {% endfor -%}
+{% for person in people -%}\
+- [{{ person.name }}]({{ person.url }}), {{ person.role }}\
+{% endfor -%}

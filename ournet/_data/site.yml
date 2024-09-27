@@ -35,24 +35,33 @@ roadmap: https://github.com/users/xplosionmind/projects/3
 nav:
   - name:
       en: 🏠 Home
+      it: 🏠 Intro
     title:
       en: Go to the homepage
+      it: Vai alla homepage
     url:
       en: /
+      it: /it/
 
   - name:
       en: 🌟 Invite
+      it: 🌟 Invita
     title:
       en: Info for inviting Tommi to host this workshop
+      it: Info per invitare Tommi a tenere questo lab
     url:
       en: /invite/
+      it: /invita/
 
   - name:
       en: 🪡 Weaver kit
+      it: 🪡 Weaver kit
     title:
       en: A kit to host the workshop yourself!
+      it: Un kit per tenere il workshop tu stessə!
     url:
       en: /knit/
+      it: /it/weaver-kit/
 
 #  - name:
 #      en: 🛣️ Roadmap

@@ -5,4 +5,21 @@
 	"description_short": "<cite>Knitting Our Internet</cite> is a face-to-face workshop about the Internet. It consists of an interactive journey through its history and a collective rethinking of its future.",
 	"tagline": "A <strong>face-to-face</strong> <strong>participatory</strong> <strong>workshop</strong> about the Internet, its history, and its <strong>future</strong>.",
 	"footer": "en/footer.html",
+	"nav": [
+		{
+			"name": "🏠 Home",
+			"title": "Go to the homepage",
+			"url": "/"
+		},
+		{
+			"name": "🌟 Invite",
+			"title": "Info for inviting Tommi to host this workshop",
+			"url": "/invite/"
+		},
+		{
+			"name": "🪡 Weaver kit",
+			"title": "A kit to host the workshop yourself!",
+			"url": "/knit/"
+		}
+	]
 }

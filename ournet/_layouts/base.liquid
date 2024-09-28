@@ -17,7 +17,7 @@
 	{% render 'head.liquid', date: date, updated: updated, title: title, description: description, lang: lang, alternates: alternates, site: site, url: page.url %}
 
 	<body{% if class %} class='{{ class }}'{% endif %}>
-	{% include 'header.liquid', lang: lang, nav: site.nav %}
+	{% render 'header.liquid', lang: lang, nav: nav %}
 
 		{{ content }}
 		{% render 'footer.liquid', lang: lang, source: site.source, path: page.inputPath, url: page.url, eleventyVersion: eleventy.version %}

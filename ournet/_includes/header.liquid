@@ -2,7 +2,7 @@
 	<input type='checkbox' id='navToggle'>
 	<nav id='mainNav' aria-label='Main'>
 		{% for page in nav %}
-			<a href='{{ page.url[lang] }}' title='{{ page.title[lang] }}'>{{ page.name[lang] }}</a>
+			<a href='{{ page.url }}' title='{{ page.title }}'>{{ page.name }}</a>
 		{% endfor %}
 	</nav>
 
@@ -10,7 +10,7 @@
 		<input type='checkbox' id='altLangListToggle'>
 		<div id='altLangList'>
 			{% for alternate in alternates %}
-				<a href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}'>
+				<a href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='View this page in {{ alternate.data.lang }}'>
 					{% if alternate.data.lang == 'en' %}
 						🇬🇧
 					{% elsif alternate.data.lang == 'it' %}

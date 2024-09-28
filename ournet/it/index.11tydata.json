@@ -1,25 +1,25 @@
 {
-    "lang": "",
-    "title": "",
-    "description": "",
-    "description_short": "",
-    "tagline": "",
-    "footer": "",
+    "lang": "it",
+    "title": "La Nostra Rete",
+    "description": "<p><cite>La Nostra Rete</cite> è un laboratorio <strong>in presenza</strong> su Internet. Consiste in un viaggio interattivo nella sua storia e un <strong>ripensamento collettivo</strong> del suo futuro.</p><p>Il laboratorio dà esempi tangibili di come Internet <em>realmente</em> funziona, <strong>mettendo in questione</strong> i fondamenti tecnici su cui si basano i social media mainstream di oggi. L’obiettivo principale è di smascherare i problemi del <strong>capitalismo della sorveglianza</strong>, della <strong>centralizzazione</strong> e del suo <strong>impatto ambientale</strong>.</p><p>Dopo aver riconosciuto le sfide digitali che dobbiamo affrontare, le persone partecipanti sono incoraggiate a reinterpretare i social network partendo dalla <strong>decentralizzazione</strong> e immaginando <strong>futuri digitali</strong> più umani, corali e partecipativi.</p>",
+    "description_short": "<cite>La Nostra Rete</cite> è un laboratorio in presenza su Internet. Consiste in un viaggio interattivo nella sua storia e un <strong>ripensamento collettivo</strong> del suo futuro.",
+    "tagline": "Un laboratorio interattivo <strong>in presenza</strong> su Internet, la sua storia e il suo <strong>futuro</strong>.",
+    "footer": "it/footer.html",
     "nav": [
         {
-            "name": "",
-            "title": "",
-            "url": ""
+            "name": "🏠 Home",
+            "title": "Vai alla homepage",
+            "url": "/it/"
         },
         {
-            "name": "",
-            "title": "",
-            "url": ""
+            "name": "🌟 Invita",
+            "title": "Info per invitare Tommi a tenere questo workshop",
+            "url": "/invita/"
         },
         {
-            "name": "",
-            "title": "",
-            "url": ""
+            "name": "🪡 Weaver kit",
+            "title": "Un kit per tenere il laboratorio tu stessə!",
+            "url": "/it/weaver-kit/"
         }
     ]
 }

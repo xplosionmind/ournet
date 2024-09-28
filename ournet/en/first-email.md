@@ -1,6 +1,7 @@
 ---
 title: The first email sent to the team
 date: 2024-06-11T15:59:00+02:00
+permalink: /intro-email/
 ---
 Dear friends,
 
@@ -71,4 +72,3 @@ Tommi
 [Fediverse]: https://www.theverge.com/24063290/fediverse-explained-activitypub-social-media-open-protocol
 [a workshop]: https://tommi.space/fedilab/
 [here]: https://tommi.space/fedilab/#when
-

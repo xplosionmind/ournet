@@ -15,10 +15,10 @@
 	<link rel='icon' sizes='any' href='/yarn.svg' type='image/svg+xml'>
 
 	<!-- Metadata -->
-	<title>{{ title | default: site.title[lang] }}</title>
-	<meta property='og:title' content='{{ title | default: site.title[lang] }}'>
-	<meta name='description' content='{{ description | default: site.description[lang].oneline | markdownify | strip_html }}' data-pagefind-meta='description[content]'>
-	<meta property='og:description' content='{{ description | default: site.description[lang].full | markdownify | strip_html | replace: '\n', ' ' }}'>
+	<title>{{ title }}</title>
+	<meta property='og:title' content='{{ title }}'>
+	<meta name='description' content='{{ description | strip_html | replace: '\n', ' ' }}' data-pagefind-meta='description[content]'>
+	<meta property='og:description' content='{{ description | strip_html | replace: '\n', ' ' }}'>
 	<meta property='og:author' content='{{ site.author.name }}'>
 	<meta name='author' content='{{ site.author.name }}'>
 	<meta property='og:site_name' content='{{ site.title[lang] }}'>

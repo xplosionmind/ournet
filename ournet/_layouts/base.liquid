@@ -20,6 +20,8 @@
 	{% render 'header.liquid', lang: lang, nav: nav %}
 
 		{{ content }}
-		{% render 'footer.liquid', lang: lang, source: site.source, path: page.inputPath, url: page.url, eleventyVersion: eleventy.version %}
+		<footer>
+			{% render footer, lang: lang, source: site.source, path: page.inputPath, url: page.url, eleventyVersion: eleventy.version %}
+		</footer>
 	</body>
 </html>

@@ -10,13 +10,11 @@ This website is proudly built with [Eleventy](https://11ty.dev/ 'Eleventy offici
 
 ## 🏠 Hosting
 
-[ournet.rocks](https://ournet.rocks '🪡 Knitting Our Internet 🧶') is proudly hosted on [Codeberg Pages](https://codeberg.page 'Codeberg Pages main page'). More about this below.
+[ournet.rocks](https://ournet.rocks '🪡 Knitting Our Internet 🧶') is proudly hosted on [*Nebuchadnezzar*](https://tommi.space/neb/ 'Nebuchadnezzar info on tommi.space'), Tommi’s server.
 
 ## 👾 Source code
 
 The main repository is [hosted on Codeberg](https://codeberg.org/tommi/ournet 'ournet on Codeberg') and mirrored on [GitHub](https://github.com/xplosionmind/ournet 'ournet on GitHub'), where [issues](https://github.com/xplosiomind/tommi.space/issues 'ournet issues on GitHub') are being tracked.
-
-The [`www` directory](https://codeberg.org/tommi/ournet-website 'ournet-website repository on Codeberg') inside this repository is [a git submodule](https://git-scm.com/docs/gitsubmodules 'About submodules on Git’s website') with the final files that are directly served by Codeberg Pages.
 
 ## 💝 Wanna help?
 
@@ -24,7 +22,7 @@ As a proudly independent project <cite>Knitting Our Internet</cite> is meant to 
 
 ### 🪢 Host the workshop 💕
 
-The best possible thing you can do is to [invite Tommi](/invite/) to host the workshop, or [to host it yourself](/knit/ 'The Weaver kit')!
+The best possible thing you can do is to [invite Tommi](https://ournet.rocks/invite/) to host the workshop, or [to host it yourself](https://ournet.rocks/knit/ 'The Weaver kit')!
 
 ### 🪙 Donate
 

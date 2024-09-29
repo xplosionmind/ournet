@@ -114,8 +114,8 @@ permalink: /it/
 
 <h2>🙋🏼 Contributrici</h2>
 
-{% for person in people %}
-	<ul>
+<ul>
+	{% for person in people %}
 		<li><a href="{{ person.url }}">{{ person.name }}</a>, {{ person.role }}</li>
-	</ul>
-{% endfor %}
+		{% endfor %}
+</ul>

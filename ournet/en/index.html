@@ -117,8 +117,8 @@ redirect_from: [/en/]
 
 <h2>🙋🏼 Contributors</h2>
 
-{% for person in people %}
-	<ul>
+<ul>
+	{% for person in people %}
 		<li><a href='{{ person.url }}'>{{ person.name }}</a>, {{ person.role }}</li>
-	</ul>
-{% endfor %}
+	{% endfor %}
+</ul>

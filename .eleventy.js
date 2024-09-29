@@ -16,8 +16,6 @@ export default function (eleventyConfig) {
 	eleventyConfig.setLibrary('md', mdIt);
 	eleventyConfig.addDataExtension('yaml,yml', contents => yaml.load(contents));
 
-	eleventyConfig.setDataFileBaseName('index');
-
 	eleventyConfig.addPassthroughCopy({ './assets/': '/' });
 	eleventyConfig.addPassthroughCopy('./ournet/style.css');
 	eleventyConfig.addWatchTarget('./ournet/style.css');

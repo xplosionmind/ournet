@@ -28,7 +28,7 @@ The best possible thing you can do is to [invite Tommi](https://ournet.rocks/inv
 
 Every detail of <cite>Knitting Our Internet</cite> costed us a lot of work.
 
-At the moment, we **no funding** whatsoever: all the expenses we face come our of our pockets. Even though we definitely do not do this for profit ([we hate capitalism](/knit/#surveillance-capitalism 'Section on Surveillance capitalism in The Weaver kit')), it would help a lot if you could chip in with **a donation you can afford**.
+At the moment, we have **no funding** whatsoever: all the expenses we face come our of our pockets. Even though we definitely do not do this for profit ([we hate capitalism](/knit/#surveillance-capitalism 'Section on Surveillance capitalism in The Weaver kit')), it would help a lot if you could chip in with **a donation you can afford**.
 
 Possible ways to do it (sorted by preference):
 

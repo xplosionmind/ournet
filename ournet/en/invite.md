@@ -1,8 +1,3 @@
----
-title: Invite Tommi 🚀
-description: "<a href='https://tommi.space/' title='The virtual representation of Tommi’s mind'>Tommi</a>, the creator of <cite>Knitting Our Internet</cite>, is the person who hosted it the most, so far. He absolutely looooooves to travel around and engage people of every age in many different contexts and events!"
----
-
 {{ description }}
 
 Tommi can host the workshop in Italian, English, and French.

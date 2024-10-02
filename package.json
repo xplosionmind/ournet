@@ -45,7 +45,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@11ty/eleventy": "^3.0.0-alpha.20",
+		"@11ty/eleventy": "^3.0.0",
 		"js-yaml": "^4.1.0"
 	}
 }

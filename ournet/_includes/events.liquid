@@ -5,7 +5,7 @@
 		<article class='event | center box {% if eventDate > buildTime %}future{% endif -%}' id='{{ event.title | slugify }}'>
 			{%- if event.image -%}
 				<figure>
-					<img src='{{ event.image }}' title='A photo of Tommi while hosting the workshop at {{ event.title }}' loading='lazy'
+					<img src='{{ event.image }}' alt='A photo of Tommi while hosting the workshop at {{ event.title }}'>
 				</figure>
 			{%- endif -%}
 			<h2>{{ event.title }}</h2>

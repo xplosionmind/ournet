@@ -3,6 +3,7 @@ import {
 	InputPathToUrlTransformPlugin,
 	IdAttributePlugin,
 } from '@11ty/eleventy';
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import yaml from 'js-yaml';
 
 import markdownIt from 'markdown-it';
@@ -16,11 +17,10 @@ export default function (eleventyConfig) {
 	eleventyConfig.setLibrary('md', mdIt);
 	eleventyConfig.addDataExtension('yaml,yml', contents => yaml.load(contents));
 
-	eleventyConfig.addPassthroughCopy({ './assets/': '/' });
+	eleventyConfig.addPassthroughCopy({ './ournet/assets/': '/' });
 	eleventyConfig.addPassthroughCopy('./ournet/style.css');
-	eleventyConfig.addWatchTarget('./ournet/style.css');
 	eleventyConfig.addPassthroughCopy('./ournet/print.css');
-	eleventyConfig.addWatchTarget('./ournet/print.css');
+	eleventyConfig.addWatchTarget('./ournet/*.css');
 
 	eleventyConfig.addFilter('markdownify', function (content) {
 		return mdIt.renderInline(content);
@@ -31,6 +31,15 @@ export default function (eleventyConfig) {
 		extensions: 'html,liquid,md',
 	});
 	eleventyConfig.addPlugin(IdAttributePlugin);
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		extensions: 'html',
+		formats: ['webp', 'auto'],
+		defaultAttributes: {
+			loading: 'lazy',
+			decoding: 'async'
+		},
+		outputDir: './www/img/'
+	});
 
 	return {
 		dir: {

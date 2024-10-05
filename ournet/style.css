@@ -34,7 +34,7 @@
 body {
 	--primary: crimson;
 	--color: black;
-	--bg: linear-gradient(-9deg, mintcream, honeydew, lavenderblush, aliceblue, lightyellow);
+	--bg: white;
 	--shadow: .2em .2em .8em #0004;
 
 	color: var(--color);
@@ -51,9 +51,9 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		--primary: gold;
+		--primary: mediumspringgreen;
 		--color: white;
-		--bg: linear-gradient(-9deg, indigo, midnightblue, black);
+		--bg: black;
 		--shadow: 0 0 3em #FFF8;
 
 		&.scroll {
@@ -265,7 +265,7 @@ h4 {
 
 mark {
 	color: black;
-	background: gold;
+	background: mediumspringgreen;
 	padding: 0 var(--space-3xs);
 	border-radius: var(--space-3xs);
 	font-weight: 600;
@@ -397,8 +397,9 @@ button {
 	}
 }
 
-.red {
-	--primary: wheat;
+.red,
+.core {
+	--primary: lightyellow;
 	color: white;
 	background: crimson;
 }
@@ -415,37 +416,30 @@ button {
 }
 
 .blue {
-	--primary: gold;
+	--primary: mediumspringgreen;
 	color: white;
-	background: darkblue;
+	background: indigo;
 }
 
-.core {
-	--primary: gold;
-	background: indigo;
-	color: white;
+.green,
+.environment {
+	--primary: indigo;
+	color: black;
+	background: springgreen;
+}
 
+.fuchsia,
+.extension {
+	--primary: indigo;
+	color: black;
+	background: fuchsia;
 }
 
 .main {
-	--primary: wheat;
-	background: royalblue;
+	--primary: mediumspringgreen;
+	background: indigo;
 	color: white;
-}
 
-.extension {
-	--primary: mediumvioletred;
-	background: paleturquoise;
-	color: black;
-}
-
-.environment {
-	background: mediumspringgreen;
-	color: black;
-
-	a {
-		color: navy;
-	}
 }
 
 .history {
@@ -477,23 +471,23 @@ button {
 .event {
 	width: clamp(10rem, 25vw, 80vw);
 	flex-shrink: 0;
-	background: lightskyblue;
-	color: black;
+	background: indigo;
+	color: white;
 }
 
 .future {
-	background: purple;
-	color: white;
+	background: fuchsia;
+	color: black;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 
 	h2::before {
-		content: 'UPCOMING!';
+		content: 'UPCOMING! 👀';
 		display: block;
 		color: black;
-		background: gold;
-		margin-bottom: var(--space-m);
+		background: mediumspringgreen;
+		margin: 0 auto var(--space-m);
 		border-radius: var(--space-s);
 		padding: var(--space-3xs) 0;
 	}

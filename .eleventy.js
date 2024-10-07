@@ -5,6 +5,7 @@ import {
 } from '@11ty/eleventy';
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import yaml from 'js-yaml';
+import { parse as csvParse } from 'csv-parse/sync';
 
 import markdownIt from 'markdown-it';
 let mdIt = markdownIt({
@@ -16,6 +17,10 @@ let mdIt = markdownIt({
 export default function (eleventyConfig) {
 	eleventyConfig.setLibrary('md', mdIt);
 	eleventyConfig.addDataExtension('yaml,yml', contents => yaml.load(contents));
+	eleventyConfig.addDataExtension('csv', contents => csvParse(contents, {
+		columns: true,
+		skip_empty_lines: true
+	}));
 
 	eleventyConfig.addPassthroughCopy({ './ournet/assets/': '/' });
 	eleventyConfig.addPassthroughCopy('./ournet/style.css');

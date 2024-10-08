@@ -6,7 +6,7 @@
 		{% endfor %}
 	</nav>
 
-	{% if ref %}
+	{% if alternates != empty %}
 		<input type='checkbox' id='altLangListToggle'>
 		<div id='altLangList'>
 			{% for alternate in alternates %}

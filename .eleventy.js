@@ -22,6 +22,8 @@ export default function (eleventyConfig) {
 		skip_empty_lines: true
 	}));
 
+	eleventyConfig.setDataFileBaseName('root');
+
 	eleventyConfig.addPassthroughCopy({ './ournet/assets/': '/' });
 	eleventyConfig.addPassthroughCopy('./ournet/style.css');
 	eleventyConfig.addPassthroughCopy('./ournet/print.css');

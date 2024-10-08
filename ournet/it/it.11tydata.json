@@ -1,0 +1,25 @@
+{
+	"lang": "it",
+	"title": "La Nostra Rete",
+	"description": "<p><cite>La Nostra Rete</cite> è un laboratorio <strong>in presenza</strong> riguardo a Internet. Consiste in un viaggio interattivo nella sua storia e un <strong>ripensamento collettivo</strong> del suo futuro.</p><p>Il laboratorio dà esempi tangibili di come Internet <em>realmente</em> funziona, <strong>mettendo in questione</strong> i fondamenti tecnici su cui si basano i social media mainstream di oggi. Il suo obiettivo principale è smascherare i problemi del <strong>capitalismo della sorveglianza</strong>, della <strong>centralizzazione</strong> e il loro <strong>impatto ambientale</strong>.</p><p>Dopo aver riconosciuto le sfide digitali che dobbiamo affrontare, le persone partecipanti sono incoraggiate a reinterpretare i social network partendo dalla <strong>decentralizzazione</strong> e immaginando <strong>futuri digitali</strong> più umani, corali e partecipativi.</p>",
+	"description_short": "<cite>La Nostra Rete</cite> è un laboratorio in presenza riguardo a Internet, un viaggio interattivo nella sua storia e un <strong>ripensamento collettivo</strong> del suo futuro.",
+	"tagline": "Un laboratorio interattivo <strong>in presenza</strong> riguardo a Internet, la sua storia e il suo <strong>futuro</strong>.",
+	"footer": "it/footer.html",
+	"nav": [
+		{
+			"name": "🏠 Homepage",
+			"title": "Vai alla homepage",
+			"url": "/it/"
+		},
+		{
+			"name": "🌟 Invita",
+			"title": "Informazioni per invitare Tommi a tenere il workshop",
+			"url": "/invita/"
+		},
+		{
+			"name": "🪡 Weaver kit",
+			"title": "Un kit per tenere il laboratorio tu stessə!",
+			"url": "/it/weaver-kit/"
+		}
+	]
+}

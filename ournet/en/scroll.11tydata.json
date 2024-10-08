@@ -2,5 +2,6 @@
 	"title": "The Internet’s Scroll 📜",
 	"description": "This page collects images and quotes that tell the story of the Internet. Print it following <a href='#instructions'>the instructions</a>, and distribute the sheets to the participants to involve them in the narration!",
 	"class": "scroll",
-	"permalink": "/scroll/"
+	"permalink": "/scroll/",
+	"ref": "scroll"
 }

@@ -224,6 +224,10 @@ dt {
 	}
 }
 
+small {
+	font-size: 75%;
+}
+
 figure {
 	img {
 		width: 100%;
@@ -286,59 +290,6 @@ blockquote {
 	font-family: 'EB Garamond', serif;
 }
 
-details {
-	border-radius: var(--space-m);
-	/*border: 1px solid #666;*/
-	padding: var(--space-xs) var(--space-m);
-
-	summary {
-		list-style: none;
-		position: relative;
-
-		&::after {
-			content: '＋';
-			box-shadow: var(--shadow);
-			background: #FFFC;
-			color: midnightblue;
-			backdrop-filter: blur(8px);
-			border-radius: 100%;
-			font-weight: 900;
-			line-height: var(--size-3);
-			height: var(--size-3);
-			width: var(--size-3);
-			text-align: center;
-			position: absolute;
-			top: calc(-1 * var(--space-m));
-			right: calc(-1 * var(--space-l));
-		}
-	}
-
-	&[open] {
-		summary {
-			&::after {
-				content: '−';
-			}
-		}
-	}
-
-	h3 {
-		display: inline;
-		margin: 0;
-	}
-
-	h4 {
-		margin: 1em auto 0;
-	}
-
-	.box {
-		margin-top: 1em;
-	}
-}
-
-summary {
-	cursor: pointer;
-}
-
 ol {
 	ol {
 		li {
@@ -381,11 +332,14 @@ footer {
 	text-align: center;
 }
 
-.box {
+.box,
+.module {
 	padding: var(--space-s);
 	border-radius: var(--space-m);
 
-	h2 {
+	h2,
+	h3 {
+		text-align: center;
 		margin: 0 0 var(--space-xs);
 	}
 }

@@ -3,6 +3,7 @@ node_modules
 
 # Eleventy stuff
 .env
+.cache
 
 # Built website files
 www

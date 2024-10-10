@@ -75,8 +75,10 @@ body {
 	}
 }
 
-* {
-	transition: .3s;
+@media (prefers-reduced-motion: no-preference) {
+	* {
+		transition: .2s;
+	}
 }
 
 header {

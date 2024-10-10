@@ -1,6 +1,6 @@
 <h1 align='center'>🪡 Knitting Our Internet 🧶</h1>
 
-This repository hosts the resources, the material, and the website’s source code for *🪡 [Knitting Our Internet](https://ournet.org 'Knitting Our Internet – website') 🧶*, an interactive workshop travelling through the history of the Internet, and a collective re-imagination of participatory, decentralized alternatives.
+This repository hosts the resources, the material, and the website’s source code for *🪡 [Knitting Our Internet](https://ournet.rocks/ 'Knitting Our Internet – website') 🧶*, an interactive workshop travelling through the history of the Internet, and a collective re-imagination of participatory, decentralized alternatives.
 
 This workshop aims at questioning the very essence of today’s social networks, exposing the critical limits given by centralization, monopoly, and surveillance capitalism.
 

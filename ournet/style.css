@@ -438,11 +438,20 @@ button {
 	color: white;
 }
 
+#events {
+	padding: var(--space-s) 0;
+	border: 3px solid var(--color);
+
+	&>h2 {
+		text-align: center;
+		margin: 0 var(--space-s) var(--space-xs);
+	}
+}
+
 .events {
 	display: flex;
 	overflow-x: scroll;
-	gap: var(--space-m);
-	padding: 0 var(--space-m);
+	gap: var(--space-s);
 
 	figure {
 		margin: 0;
@@ -464,11 +473,25 @@ button {
 	flex-shrink: 0;
 	background: indigo;
 	color: white;
+	border: none;
+
+	.flex {
+		flex-wrap: wrap;
+		gap: var(--space-2xs);
+	}
+
+	&:first-child {
+		margin-left: var(--space-s);
+	}
+
+	&:last-child {
+		margin-right: var(--space-s);
+	}
 }
 
 .future {
-	background: fuchsia;
-	color: black;
+	background: var(--primary);
+	color: var(--bg);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -479,7 +502,6 @@ button {
 		color: black;
 		background: mediumspringgreen;
 		margin: 0 auto var(--space-m);
-		border-radius: var(--space-s);
 		padding: var(--space-3xs) 0;
 	}
 }

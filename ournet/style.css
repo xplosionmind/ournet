@@ -328,6 +328,10 @@ li {
 	&.movie {
 		list-style: '📽️ ';
 	}
+
+	&.idea {
+		list-style: '💡 ';
+	}
 }
 
 code {
@@ -379,7 +383,7 @@ footer {
 .box,
 .module {
 	padding: var(--space-s);
-	border-radius: var(--space-m);
+	border: 3px solid var(--color);
 
 	h2,
 	h3 {
@@ -392,14 +396,12 @@ footer {
 button {
 	text-decoration: none;
 	text-align: center;
-	font-weight: 800;
-	font-size: inherit;
+	font: 800 var(--size-1) FT88, sans-serif;
 	background: var(--primary);
 	color: var(--bg);
-	border-radius: var(--space-2xs);
 	border: none;
 	padding: var(--space-3xs) var(--space-s);
-	box-shadow: var(--shadow);
+	box-shadow: var(--space-3xs) var(--space-3xs) 0 var(--color);
 
 	&:hover {
 		box-shadow: none;
@@ -526,7 +528,6 @@ button {
 }
 
 .scroll-sheet {
-	border-radius: var(--space-m);
 	padding: var(--space-s);
 	color: black;
 	background: wheat;
@@ -537,7 +538,6 @@ button {
 		color: wheat;
 		background: maroon;
 		padding: 0 var(--space-3xs);
-		border-radius: var(--space-3xs);
 		font-weight: 600;
 
 		&::before {
@@ -558,14 +558,5 @@ button {
 .scroll {
 	h2 {
 		text-align: center;
-	}
-}
-
-@media screen {
-	.scroll {
-		article:not(#intro) {
-			padding: var(--space-xl) 0;
-			border-top: solid 1px saddlebrown;
-		}
 	}
 }

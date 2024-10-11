@@ -225,7 +225,6 @@ aside {
 }
 
 main:not(.wide),
-footer,
 .wide>p {
 	margin: var(--space-m) auto;
 	width: clamp(15rem, calc(100vw - 2 * var(--space-2xs)), 50rem);
@@ -257,7 +256,6 @@ figure {
 	img {
 		width: 100%;
 		height: auto;
-		border-radius: var(--space-m);
 	}
 
 	&.tall {
@@ -307,7 +305,6 @@ mark {
 	color: black;
 	background: mediumspringgreen;
 	padding: 0 var(--space-3xs);
-	border-radius: var(--space-3xs);
 	font-weight: 600;
 }
 
@@ -338,8 +335,30 @@ code {
 }
 
 footer {
-	border-top: 1px solid lightsteelblue;
+	--primary: indigo;
+	color: black;
+	background: mediumspringgreen;
 	font-size: var(--size--1);
+	padding-bottom: var(--space-s);
+
+	p {
+		width: clamp(15rem, calc(100vw - 2 * var(--space-2xs)), 50rem);
+		margin: 0 auto 1em;
+
+		&:first-child {
+			padding-top: var(--space-m);
+		}
+	}
+
+	&::before {
+		content: '';
+		display: block;
+		height: var(--space-xl);
+		background:
+			url('data:image/svg+xml;utf8,<svg width="16" height="6" version="1.1" viewBox="0 0 16 6" xmlns="http://www.w3.org/2000/svg"><path d="m5 0v1h1v-1zm7 0v1h1v-1zm-12 1v1h1v-1zm1 1v1h1v-1zm0 1h-1v1h1zm0 1v1h-1v1h15v-1h1v-1h-1v1h-1v1h-1v-2h-1v1h-1v1h-2v-1h-1v-2h-1v1h-1v2h-1v-2h-1v-1h-1v1zm4 0h1v-1h1v-1h-2zm2-2h1v-1h-1zm2 3h1v-1h-1zm1-1h2v-1h-2zm0-1v-1h-1v1zm0-1h1v-1h-1zm3 2h1v-1h-1zm-10-3v1h1v-1zm11 0v1h1v1h1v-1l-1 2e-3v-1zm-12 4h1v1h-1z" fill="mediumspringgreen"/></svg>'),
+			var(--bg);
+		background-size: contain;
+	}
 }
 
 .flow {

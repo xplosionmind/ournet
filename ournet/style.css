@@ -451,6 +451,7 @@ button {
 	h2 {
 		font-size: var(--size-2);
 		margin: var(--space-3xs) 0;
+		word-break: break-word;
 	}
 
 	p {

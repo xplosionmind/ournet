@@ -5,6 +5,7 @@ body {
 }
 
 header,
+aside,
 footer {
 	display: none !important;
 }

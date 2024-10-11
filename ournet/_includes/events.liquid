@@ -1,4 +1,4 @@
-<article class='events'>
+<div class='events'>
 	{%- for event in events -%}
 		{%- assign buildTime = 'now' | date: '%Y%m%d' -%}
 		{%- assign eventDate = event.date | date: '%Y%m%d' -%}
@@ -15,9 +15,9 @@
 					<a class='green button' href='{{ event.url }}'>Event</a>
 				{%- endif -%}
 				{%- if event.notes -%}
-					<a class='red button' href='{{ event.notes }}'>Notes</a>
+					<a class='fuchsia button' href='{{ event.notes }}'>Notes</a>
 				{%- endif -%}
 			</div>
 		</article>
 	{%- endfor -%}
-</article>
+</div>

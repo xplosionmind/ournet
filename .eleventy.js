@@ -6,6 +6,7 @@ import {
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import yaml from 'js-yaml';
 import { parse as csvParse } from 'csv-parse/sync';
+import miniHtml from 'html-minifier-terser';
 
 import markdownIt from 'markdown-it';
 let mdIt = markdownIt({
@@ -47,6 +48,26 @@ export default function (eleventyConfig) {
 		},
 		outputDir: './www/img/'
 	});
+
+	if (process.env.ELEVENTY_ENV != 'development') {
+		// Minify output //
+		eleventyConfig.addTransform(miniHtml, function (content) {
+			if ((this.page.outputPath || '').endsWith('.html')) {
+				let minified = miniHtml.minify(content, {
+					collapseWhitespace: true,
+					decodeEntities: true,
+					minifyCSS: true,
+					minifyJS: true,
+					minifyURLs: true,
+					removeComments: true,
+					removeEmptyAttributes: true,
+					useShortDoctype: true,
+				});
+				return minified;
+			}
+			return content;
+		});
+	}
 
 	return {
 		dir: {

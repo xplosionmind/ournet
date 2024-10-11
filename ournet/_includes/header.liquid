@@ -1,27 +1,3 @@
 <header>
-	<input type='checkbox' id='navToggle'>
-	<nav id='mainNav' aria-label='Main'>
-		{% for page in nav %}
-			<a href='{{ page.url }}' title='{{ page.title }}'>{{ page.name }}</a>
-		{% endfor %}
-	</nav>
-
-	{% if alternates != empty %}
-		<input type='checkbox' id='altLangListToggle'>
-		<div id='altLangList'>
-			{% for alternate in alternates %}
-				<a href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='View this page in {{ alternate.data.lang }}'>
-					{% if alternate.data.lang == 'en' %}
-						🇬🇧
-					{% elsif alternate.data.lang == 'it' %}
-						🇮🇹
-					{% else %}
-						{{ alternate.data.lang }}
-					{% endif %}
-				</a>
-			{% endfor %}
-		</div>
-		<label id='altLangListToggleBtn' for='altLangListToggle' aria-label='toggle-language-menu'>🌐</label>
-	{% endif %}
-	<label id='navToggleBtn' for='navToggle' aria-label='toggle-navigation'>🍔</label>
+	<h1><a href='/{% if lang != 'en'%}{{ lang }}{% endif %}/' title='Homepage'>{{ site.title[lang] }}</a></h1>
 </header>

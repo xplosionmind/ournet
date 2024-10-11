@@ -16,7 +16,8 @@
 
 	<body{% if class %} class='{{ class }}'{% endif %}>
 
-		{% render 'header.liquid', lang: lang, nav: nav, alternates: alternates %}
+		{% render 'header.liquid', lang: lang, site: site %}
+		{% render 'nav.liquid', lang: lang, nav: nav, alternates: alternates %}
 
 		{{ content }}
 

@@ -552,11 +552,22 @@ button {
 
 	a {
 		color: maroon;
+@media screen {
+	.print-only {
+		display: none;
 	}
 }
 
 .scroll {
 	h2 {
 		text-align: center;
+	.scroll-sheet,
+	#internetscroll {
+		--primary: maroon;
+		padding: var(--space-s);
+		color: black;
+		background: wheat;
+		counter-increment: scrollSheet;
+		margin: 1em auto;
 	}
 }

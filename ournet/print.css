@@ -1,13 +1,33 @@
-body {
-	--bg: none;
+@page {
+	size: a4 portrait;
+}
+
+body,
+.module {
 	background: none;
 	color: black;
 }
 
 header,
+footer,
 aside,
-footer {
-	display: none !important;
+button,
+.weaver-kit>*:not(.module, #internetscroll) {
+	display: none;
+}
+
+.tall {
+	img {
+		max-height: 90vh;
+	}
+}
+
+.module {
+	border: none;
+
+	&>*:not(.scroll-sheet) {
+		display: none;
+	}
 }
 
 a {
@@ -15,41 +35,36 @@ a {
 	text-decoration: none;
 }
 
-.no-print {
-	display: none;
+#internetscroll {
+	border: none;
+	break-after: page;
+
+	#instructions {
+		break-before: page;
+	}
 }
 
-.page-break {
-	break-before: page;
-}
+.scroll-sheet {
+	color: black;
+	background: none;
+	break-after: page;
+	counter-increment: scrollSheet;
 
-.scroll {
-	article {
-		break-after: page;
+	img,
+	blockquote {
+		break-before: page;
 	}
 
-	article:not(#intro) {
-		counter-increment: page 1;
-
-		&::before {
-			content: counter(page);
-			display: block;
-			text-align: center;
-			font: 800 var(--size-2) sans-serif;
-			margin: 0 auto;
-			width: 2.5em;
-			height: 2.5em;
-			line-height: 2em;
-			background: url('/empty-scroll-emoji.svg');
-			color: saddlebrown;
-		}
-
-		&>*:first-child {
-			break-before: page;
-		}
-	}
-
-	h2 {
+	&::before {
+		content: counter(scrollSheet);
+		display: block;
 		text-align: center;
+		font: 800 var(--size-2) sans-serif;
+		margin: 0 auto;
+		width: 2.5em;
+		height: 2.5em;
+		line-height: 2em;
+		background: url('/empty-scroll-emoji.svg');
+		color: maroon;
 	}
 }

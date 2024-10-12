@@ -1,8 +1,8 @@
 ---
 layout: base.liquid
 ---
-<main{% if class %} class='{{ class }}'{% endif %}>
-	{% unless page.inputPath contains 'index' %}
+<main class='{{ ref }}'>
+	{% unless ref == 'index' %}
 		<h1>{{ title }}</h1>
 	{% endunless %}
 	{{ content }}

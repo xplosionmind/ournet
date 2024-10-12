@@ -14,7 +14,7 @@
 
 	{% render 'head.liquid', date: date, updated: updated, title: title, description: description, lang: lang, alternates: alternates, site: site, url: page.url %}
 
-	<body{% if class %} class='{{ class }}'{% endif %}>
+	<body>
 
 		{% render 'header.liquid', lang: lang, site: site %}
 		{% render 'nav.liquid', lang: lang, nav: nav, alternates: alternates %}

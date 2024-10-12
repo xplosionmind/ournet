@@ -362,6 +362,28 @@ footer {
 	margin: 1em auto;
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,
+			minmax(clamp(16rem, 33vw, 26rem), 1fr));
+	gap: var(--space-m);
+	margin: var(--space-m) var(--space-s);
+
+	dt,
+	dd {
+		display: inline;
+		margin: 0;
+	}
+
+	dt {
+		font-weight: 800;
+
+		&::after {
+			content: ':';
+		}
+	}
+}
+
 .flex {
 	display: flex;
 	justify-content: center;

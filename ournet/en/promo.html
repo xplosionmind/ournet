@@ -1,0 +1,39 @@
+<main class='wide promo'>
+	<h1>{{ title }}</h1>
+	{{ text }}
+	<div class='grid'>
+		{% for thing in promo %}
+			<article id='{{ thing.id }}'>
+				<a href='/promo/{{ thing.id }}.svg' target='_blank'>
+					<figure>
+						<img eleventy:ignore src='/promo/{{ thing.id }}.svg' alt='{{ thing.alt }}'>
+					</figure>
+				</a>
+				<dl>
+					<div>
+						<dt>{{ vocabulary.creator }}</dt>
+						<dd>
+							{% for creator in people %}
+								{% if creator.name == thing.creator %}
+									<a href='{{ creator.url }}'>{{ creator.name }}</a>
+								{% endif %}
+							{% endfor %}
+						</dd>
+					</div>
+					<div>
+						<dt>{{ vocabulary.kind }}</dt>
+						<dd>{{ thing.kind }}</dd>
+					</div>
+					<div>
+						<dt>{{ vocabulary.sizes }}</dt>
+						<dd>{{ thing.sizes }}</dd>
+					</div>
+					<div>
+						<dt>{{ vocabulary.source }}</dt>
+						<dd><a href='{{ site.source }}/src/branch/main/assets/promo/{{ thing.id }}.svg'><code>{{ thing.id }}.svg</code></a></dd>
+					</div>
+				</dl>
+			</article>
+		{% endfor %}
+	</div>
+</main>

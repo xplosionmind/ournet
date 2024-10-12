@@ -12,19 +12,19 @@
             "url": "/it/"
         },
         {
+            "name": "😎 Promo",
+            "title": "Adesivi e grafiche fantasmagoriche!",
+            "url": "/it/promo/"
+        },
+        {
             "name": "🌟 Invita",
-            "title": "Informazioni per invitare Tommi a tenere il workshop",
+            "title": "Info per invitare Tommi a tenere il workshop",
             "url": "/invita/"
         },
         {
-            "name": "🪡 Weaver kit",
             "title": "Un kit per tenere il laboratorio tu stessə!",
-            "url": "/it/weaver-kit/"
-        },
-        {
-            "title": "",
-            "url": "",
-            "name": ""
+            "url": "/it/weaver-kit/",
+            "name": "🪡 Weaver kit"
         }
     ]
 }

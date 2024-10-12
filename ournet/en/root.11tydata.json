@@ -12,6 +12,11 @@
 			"url": "/"
 		},
 		{
+			"name": "😎 Promo",
+			"title": "Cool stickers and posters!",
+			"url": "/promo/"
+		},
+		{
 			"name": "🌟 Invite",
 			"title": "Info for inviting Tommi to host this workshop",
 			"url": "/invite/"

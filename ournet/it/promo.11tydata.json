@@ -1,14 +1,14 @@
 {
-    "title": "",
-    "description": "",
-    "permalink": "",
-    "ref": "",
-    "layout": "",
+    "title": "Materiale promo 😎",
+    "description": "Supporta e promuovi questo workshop acquistando materiale promozionale, inclusi fantastici adesivi e poster! Alternativamente, puoi stamparli tu stessə.",
+    "permalink": "/it/promo/",
+    "ref": "promo",
+    "layout": "base.liquid",
     "vocabulary": {
-        "creator": "",
-        "kind": "",
-        "sizes": "",
-        "source": ""
+        "creator": "Creatore",
+        "kind": "Tipo",
+        "sizes": "Dimensioni",
+        "source": "Sorgente"
     },
-    "text": ""
+    "text": "<p>Condividiamo il nostro amore per la Nostra Rete con orgoglio e stile!</p><p>Qui ci sono adesivi, poster e grafiche fantasmagoriche. Sei liberə di <a href='{{ site.source }}/src/branch/main/assets/promo' title='assets/promo directory in tommi/ournet, su Codeberg'>scaricare i file sorgente</a> e stamparli tu stessə, ma ti incoraggiamo a supportare il nostro lavoro facendo una <strong>donazione</strong> e ti invieremo il materiale già stampato!</p>"
 }

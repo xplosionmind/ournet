@@ -52,10 +52,6 @@ body {
 	margin: 0;
 	line-height: 1.5;
 	counter-set: scrollSheet 0;
-
-	&.scroll {
-		--bg: oldlace;
-	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -64,10 +60,6 @@ body {
 		--color: white;
 		--bg: black;
 		--shadow: 0 0 3em #FFF8;
-
-		&.scroll {
-			--bg: saddlebrown;
-		}
 
 		.dark {
 			filter: invert(1);
@@ -527,40 +519,11 @@ button {
 	}
 }
 
-.scroll-sheet {
-	padding: var(--space-s);
-	color: black;
-	background: wheat;
-	counter-increment: scrollSheet;
-	margin: 1em auto;
-
-	a[href*='/scroll/'] {
-		color: wheat;
-		background: maroon;
-		padding: 0 var(--space-3xs);
-		font-weight: 600;
-
-		&::before {
-			content: '📜 ';
-		}
-
-		&::after {
-			content: ' #' counter(scrollSheet);
-			font-weight: 900;
-		}
-	}
-
-	a {
-		color: maroon;
 @media screen {
 	.print-only {
 		display: none;
 	}
-}
 
-.scroll {
-	h2 {
-		text-align: center;
 	.scroll-sheet,
 	#internetscroll {
 		--primary: maroon;

@@ -9,17 +9,17 @@
         {
             "name": "🏠 Anasayfa",
             "title": "Anasayfaya git",
-            "url": "/"
+            "url": "/tr/"
         },
         {
             "name": "😎 Tanıtım",
             "title": "Havalı stickerlar ve posterler!",
-            "url": "/tr/promo/"
+            "url": "/promo/"
         },
         {
             "name": "🌟 Davet Et",
             "title": "Tommi’yi bu atölyeyi düzenlemeye davet etmek için bilgi",
-            "url": "/davet/"
+            "url": "/invite/"
         },
         {
             "name": "🪡 Dokuma Kiti",

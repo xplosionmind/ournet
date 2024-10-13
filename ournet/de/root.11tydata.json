@@ -14,17 +14,17 @@
         {
             "name": "😎 Werbung",
             "title": "Coole Sticker und Poster!",
-            "url": "/werbung/"
+            "url": "/promo/"
         },
         {
             "name": "🌟 Einladen",
             "title": "Informationen dazu, Tommi zur Durchführung dieses Workshops einzuladen",
-            "url": "/einladen/"
+            "url": "/invite/"
         },
         {
             "name": "🪡 Weaver Kit",
             "title": "Ein Kit, den Workshop selbst durchzuführen!",
-            "url": "/weben/"
+            "url": "/weaver-kit/"
         }
     ]
 }

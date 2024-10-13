@@ -10,14 +10,19 @@
 		<input type='checkbox' id='altLangListToggle'>
 		<div id='altLangList'>
 			{% for alternate in alternates %}
-				<a href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='View this page in {{ alternate.data.lang }}'>
-					{% if alternate.data.lang == 'en' %}
+				<a href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='View this page in {{ alternate.data.lang | upcase }}'>
+					{% case alternate.data.lang %}
+					{% when 'en' %}
 						🇬🇧
-					{% elsif alternate.data.lang == 'it' %}
+					{% when 'it' %}
 						🇮🇹
+					{% when 'de' %}
+						🇩🇪
+					{% when 'tr' %}
+						🇹🇷
 					{% else %}
 						{{ alternate.data.lang }}
-					{% endif %}
+					{% endcase %}
 				</a>
 			{% endfor %}
 		</div>

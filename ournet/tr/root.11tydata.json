@@ -1,0 +1,30 @@
+{
+    "lang": "en",
+    "title": "İnternetimizi Örgülemek",
+    "description": "<p><cite>İnternetimizi Örgülemek</cite>, Internet hakkında <strong>yüz yüze</strong> bir <strong>atölye çalışmasıdır</strong>. Bu, tarih boyunca <strong>etkileşimli bir yolculuk</strong> ve geleceği <strong>kolektif yeniden düşünme</strong> sürecini içerir.</p><p>Atölye, internetin <em>aslında</em> nasıl çalıştığına dair somut örnekler sunarak, bugünün ana akım sosyal ağlarının özünü <strong>sorgular</strong>. Ana amacı, <strong>gözetim kapitalizminin</strong>, <strong>merkezileşmenin</strong> ve bunun <strong>çevresel etkisinin</strong> eleştirel sınırlarını açığa çıkarmaktır.</p><p>Katılımcıların dijital alanın şu anda karşılaştığı zorlukları kabul ettikten sonra, sosyal ağları <strong>merkezileşmeyi</strong> göz önünde bulundurarak yeniden yorumlamaları teşvik edilir; daha insani, kolektif ve katılımcı <strong>dijital gelecekler</strong> hayal etmeleri amaçlanır.</p>",
+    "description_short": "<cite>İnternetimizi Örgülemek</cite>, internet hakkında yüz yüze bir atölye çalışmasıdır. Bu, tarih boyunca etkileşimli bir yolculuk ve geleceğini kolektif olarak yeniden düşünmeyi içerir.",
+    "tagline": "<strong>İnternet</strong>, <strong>tarihi</strong> ve <strong>geleceği</strong> hakkında bir <strong>yüz yüze</strong> <strong>katılımcı</strong> <strong>atölye çalışması</strong>.",
+    "footer": "en/footer.html",
+    "nav": [
+        {
+            "name": "🏠 Anasayfa",
+            "title": "Anasayfaya git",
+            "url": "/tr/"
+        },
+        {
+            "name": "😎 Tanıtım",
+            "title": "Havalı stickerlar ve posterler!",
+            "url": "/promo/"
+        },
+        {
+            "name": "🌟 Davet Et",
+            "title": "Tommi’yi bu atölyeyi düzenlemeye davet etmek için bilgi",
+            "url": "/invite/"
+        },
+        {
+            "name": "🪡 Dokuma Kiti",
+            "title": "Kendi atölyenizi düzenlemeniz için bir kit!",
+            "url": "/knit/"
+        }
+    ]
+}

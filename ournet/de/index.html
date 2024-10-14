@@ -1,0 +1,119 @@
+{{ description }}
+
+<article class="green box">
+	<h2 id="host" class="center">Führe den Workshop durch! 🪢</h2>
+	<p>Dieser Workshop wird konzipiert, um <strong>ausschließlich persönlich</strong> durchgeführt zu werden: Diese Webseite enthält nur Informationen über ihn.</p>
+	<p>Du bist herzlich willkommen, Tommi, den Initiator, zur Durchführung des Workshops einzuladen und ihm einen persönlichen Touch zu verleihen! Andernfalls haben wir <cite>das Weaver Kit</cite> erstellt, welches alle Materialien und Informationen enthält, um dir bei der eigenen Durchführung des Workshops zu helfen.</p>
+	<div class="flex">
+		<a class="red button" href="/invite/">Lade Tommi ein</a> <a class="blue button" href="/knit/">Das Weaver Kit</a>
+	</div>
+</article>
+
+<figure>
+	<img src="{{ site.image }}" alt="Eine Gruppe an Menschen in einem Sitzkreis, mithilfe von rotem Faden verbunden">
+</figure>
+
+<h2>🧐 Über</h2>
+
+<h3>Die Geschichte</h3>
+
+<p>During the first semester of 2023, while writing <a href="https://tommi.space/csss/" title="“Computer Sciences Are Social Sciences”, Tommaso Marmo’s bachelor’s thesis">his bachelor’s thesis</a>, <a href="https://tommi.space/" title="The virtual representation of Tommi’s mind">Tommi</a>, got an idea for a simple yet critical and accurate introduction the <a href="https://en.wikipedia.org/wiki/Fediverse" title="Fediverse on Wikipedia">Fediverse</a> to non-experts. Enriched by the research for his thesis, the content and structure of the workshop changed and matured over time, adapting to very diverse publics of any age and background.</p>
+
+<p>In June 2024, after <a href="/#events" title="Past and future occasions when this workshop was and will be hosted">having hosted the workshop in many occasions</a> Tommi decided to deepen his work on <cite>Knitting Our Internet</cite>, also involving <a href="#contributors">some friends</a> to give it a visual identity, a better structure, and publish its website—the one you are reading right now.</p>
+
+<div class="flex">
+	<a class="button" href="/#events" title="All the occasions when the workshop was hosted">Past editions</a>
+</div>
+
+<h3>🫱🏼‍🫲🏾 For all! 💕</h3>
+
+<p>It is not merely rhethorical: this workshop is truly <strong>for everyone</strong>! This workshop was <a href="/knit/#modularity">concieved to adapt</a> to any public and environment, by design.</p>
+
+<ul>
+	<li>It is <strong>inter-disciplinary</strong>, because it highlights the profoundly socio-political nature of something that is usually considered from a merely technical point of view. Furthermore, the workshop is meant to be contaminated by different forms of art and approaches.</li>
+	<li>It is <strong>inter-generational</strong>, because it can be very powerful as a simple and entertaining game for kids, as a profound reflection on the digital domain for the elders, but also as an opportunity to approach the same topic from the perspective of different generations.</li>
+	<li>It is <strong>international</strong>, because this whole website and the workshop material <a href="{{ site.translate}}" title="Translate Knitting Our Internet via Codeberg Translate">can be translated</a> in any language!</li>
+	<li>It is <strong>critical but welcoming</strong>, because it is very opinionated and strongly positioned politically, but it is also open to critiques, aiming to be a truly safe space even if the participants do not know each other.</li>
+	<li>It is <strong><em>truly</em> accessible</strong>. Despite “accessibility” being a widely popular but misused buzzword, since the beginning this workshop was built to be a meaningful experience also for people coming from under-represented minorities or with disabilities. The accessibility of <cite>Knitting Our Internet</cite> is <strong>deeply relational</strong>: only by interacting and through the guidance of the host the experience can be inclusive and safe for all.</li>
+</ul>
+
+<article id="events">
+	<h2>🗓️ Past and future events</h2>
+	{% render 'events.liquid', events: events %}
+</article>
+
+<h2>💝 Contribute</h2>
+
+<p>As a proudly independent project <cite>Knitting Our Internet</cite> is meant to be collective and collaborative. Not only contributions are welcome, but they are the essence of this workshop!</p>
+
+<h3>🪢 Host the workshop 💕</h3>
+
+<p>The best possible thing you can do is to <a href="/invite/">invite Tommi</a> to host the workshop, or <a href="/knit/" title="The Weaver kit">to host it yourself</a>!</p>
+
+<h3>🪙 Donate</h3>
+
+<p>Every detail of <cite>Knitting Our Internet</cite> costed us a lot of work.</p>
+
+<p>At the moment, we <strong>no funding</strong> whatsoever: all the expenses we face come our of our pockets. Even though we definitely do not do this for profit (<a href="/knit/#surveillance-capitalism" title="Section on Surveillance capitalism in The Weaver kit">we hate capitalism</a>), it would help a lot if you could chip in with <strong>a donation you can afford</strong>.</p>
+
+<p>Possible ways to do it (sorted by preference):</p>
+
+<ul>
+	<li><a href="https://liberapay.com/tommi/" title="Tommi on LiberaPay">LiberaPay</a></li>
+	<li><a href="https://paypal.me/xplosionmind" title="@xplosionmind on PayPal.me">PayPal</a></li>
+	<li>Wire transfer: <a href="mailto:surfing@tommi.space">get in touch</a> to get the bank account info</li>
+	<li>Cash: <a href="mailto:surfing@tommi.space">get in touch</a>, let’s see what we can do</li>
+	<li>Monero: <code>4AXFHU3h1GDGVr5nfnyngmSepfesyUJxCSXNH2JzFeBGbGxzzoMuhSCBDVf3THK1E5VnfLLm2hfgV3YosYd27ZFLMCVNUrP</code></li>
+</ul>
+
+<h3>💡 Add or improve information</h3>
+
+<p>Even though we did a lot of research, there is always a lot to learn, and we are open to question our stances.</p>
+
+<p>If you have any critiques, ideas, or suggestions, <a href="https://github.com/xplosionmind/ournet/issues/new" title="New issue for ournet on GitHub">open an issue</a> or <a href="mailto:surfing@tommi.space">write us</a>!</p>
+
+<h3>🧑🏽‍💻 Improve the code</h3>
+
+<p>We absolutely are not Web development masters…</p>
+
+<p>If you think you can help us with the workflow or with the technical infrastructure of this website, please do not hesitate to open a pull request <a href="https://codeberg.org/tommi/ournet/pulls" title="Pull requests for tommi/ournet on Codeberg">on Codeberg</a> or <a href="https://codeberg.org/tommi/ournet/pulls" title="Pull requests for xplosionmind/ournet on GitHub">on GitHub</a>! The source code is open for you to play with!</p>
+
+<h3>🗣️ Translate</h3>
+
+<p>Translate the content of this website and the workshop materials to enable non English speakers to get involved!</p>
+
+<div class="flex">
+	<a class="fuchsia button" href="https://translate.codeberg.org/projects/ournet/" title="ournet on Codeberg Translate (Weblate)">Translate</a> <a class="blue button" href="https://translate.codeberg.org/projects/ournet/#information" title="Info page for ournet on Codeberg Translate (Weblate)">Translation guide</a>
+</div>
+
+<h3>🎨 Make art</h3>
+
+<p>Our mission is not merely to take back control of Our Internet. We believe in the strong value of art to convey and amplify a message and a mission.</p>
+
+<p>You are welcome to realize any artwork 😎! Feel free to create stickers, paint posters, improve the CSS of this website, create flyers… you name it.</p>
+
+<div class="flex">
+	<a class="button" href="/promo/" title="Get stickers, posters, and cool graphics">Promo material!</a>
+</div>
+
+<h3>📣 Spread the word!</h3>
+
+<p>Make our voices heard and reclaim Our Internet! Share <a href="https://ournet.rocks/">ournet.rocks</a> and join our fight!</p>
+
+<p>It would be particularly meaningful if you knew anyone organizing events or actively participating in communities that would be interested in hosting the workshop. Connect us!</p>
+
+<h2>🤗 Contribution philosophy</h2>
+
+<p>When considering the idea of involving other people and ask for their time and effort, Tommi did not want to do so for the sake of friendship only, but at the same time he did not have the funds to pay their work either.</p>
+
+<p>For these reasons, this whole project is brought forward on the principles of <strong>mutual aid</strong> and <strong>personal curiosity</strong>.</p>
+
+<p>If you are interested in learning more, read <a href="/intro-email/">the introductory email</a> Tommi sent to the first people he invited to collaborate.</p>
+
+<h2>🙋🏼 Contributors</h2>
+
+<ul>
+	{% for person in people %}
+		<li><a href="{{ person.url }}">{{ person.name }}</a>, {{ person.role }}</li>
+	{% endfor %}
+</ul>

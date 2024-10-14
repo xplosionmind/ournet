@@ -159,6 +159,7 @@ aside {
 	&~#altLangList {
 		bottom: 0;
 		padding: 0 var(--space-xs);
+		gap: var(--space-xs);
 	}
 }
 
@@ -211,7 +212,9 @@ aside {
 			text-align: center;
 			width: var(--space-xl);
 			right: calc(2 * var(--space-s) + var(--space-xl));
-			bottom: calc(2 * var(--space-s) + var(--space-xl))
+			bottom: calc(2 * var(--space-s) + var(--space-xl));
+			gap: 0;
+			padding: 0;
 		}
 	}
 }

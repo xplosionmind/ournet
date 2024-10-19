@@ -1,5 +1,5 @@
 - name: Tommi
-  role: Creator
+  role: Creator + 🇮🇹 Italian translation
   url: https://tommi.space/
   image: https://tommi.space/profile.webp
 
@@ -22,3 +22,13 @@
 #- name: Wing
 #  role: Designer
 #  url: https://wingpang.com/
+
+## Translators
+
+- name: Furkan
+  role: 🇹🇷 Turkish translation
+  url: https://furkanunsalan.dev/
+
+- name: Otto
+  role: 🇩🇪 German translation
+  url: https://codeberg.org/fnetx

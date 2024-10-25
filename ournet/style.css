@@ -73,6 +73,11 @@ body {
 	}
 }
 
+::selection {
+	background: crimson;
+	color: white;
+}
+
 header {
 	position: sticky;
 	top: 0;

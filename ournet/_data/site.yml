@@ -8,7 +8,7 @@ author:
   website: https://tommi.space/
   email: surfing@tommi.space
 url: https://ournet.rocks
-image: https://tommi.space/fedilab-scambi.webp
+image: /ournet.png
 source: https://codeberg.org/tommi/ournet
 changelog: https://codeberg.org/tommi/ournet/commits/branch/main
 issues: https://github.com/xplosionmind/ournet/issues

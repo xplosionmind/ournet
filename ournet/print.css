@@ -6,20 +6,18 @@ body,
 .module {
 	background: none;
 	color: black;
+	padding: 0;
+	margin: 0 !important;
+	font-size: var(--size-1);
 }
 
 header,
 footer,
 aside,
 button,
-.weaver-kit>*:not(.module, #internetscroll) {
+.no-print,
+.weaver-kit>*:not(.module, #internetscroll, .print-only) {
 	display: none;
-}
-
-.tall {
-	img {
-		max-height: 90vh;
-	}
 }
 
 .module {
@@ -70,14 +68,11 @@ a {
 	&::before {
 		content: counter(scrollSheet);
 		display: block;
-		text-align: center;
-		font: 800 var(--size-2) sans-serif;
-		margin: 0 auto;
-		width: 2.5em;
-		height: 2.5em;
-		line-height: 2em;
-		background: url('/empty-scroll-emoji.svg');
-		color: maroon;
+		font: 800 1.2cm FT88, sans-serif;
+		color: indigo;
+		margin: 0;
+		padding: 0;
+		text-align: right
 	}
 }
 

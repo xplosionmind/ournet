@@ -52,7 +52,7 @@ body {
 	margin: 0;
 	line-height: 1.5;
 	counter-set: scrollSheet 0;
-	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="crimson" stroke-width="3"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>'), default;
+	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="crimson" stroke-width="3"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>') 16 16, default;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -243,7 +243,7 @@ a {
 a,
 label,
 button {
-	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="mediumspringgreen" stroke-width="3"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>'), pointer;
+	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="mediumspringgreen" stroke-width="3"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>') 16 16, pointer;
 }
 
 p,

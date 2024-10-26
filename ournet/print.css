@@ -47,12 +47,24 @@ a {
 .scroll-sheet {
 	color: black;
 	background: none;
-	break-after: page;
 	counter-increment: scrollSheet;
 
-	img,
-	blockquote {
+	figure {
+		break-after: page;
 		break-before: page;
+		height: 24cm !important;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+		padding-top: 2cm;
+
+		&.tall {
+			img {
+				height: calc(100% - 4cm);
+			}
+		}
 	}
 
 	&::before {
@@ -66,5 +78,8 @@ a {
 		line-height: 2em;
 		background: url('/empty-scroll-emoji.svg');
 		color: maroon;
+	}
+}
+
 	}
 }

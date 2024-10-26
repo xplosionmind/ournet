@@ -76,5 +76,22 @@ a {
 	}
 }
 
+#print-watermark {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	color: #000 !important;
+	font: 800 1.2cm FT88, sans-serif;
+	line-height: 1.2cm;
+	z-index: -1;
+
+	img {
+		height: 1.2cm;
+		width: auto;
+		margin-right: .2cm;
 	}
 }

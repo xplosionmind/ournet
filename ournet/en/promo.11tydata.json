@@ -11,6 +11,7 @@
 		"creator": "Creator",
 		"kind": "Kind",
 		"sizes": "Sizes",
+		"license": "Licence",
 		"source": "Source"
 	},
 	"text": "<p>Let’s share our love for Our Internet with pride and style!</p><p>Below, there a few nice stickers and posters. You are free to <a href='{{ site.source }}/src/branch/main/assets/promo' title='assets/promo directory in tommi/ournet on Codeberg'>download the source files</a> and print them yourself, but we encourage you to support our work by making a <strong>donation</strong>, and we will send the stickers to you!</p>"

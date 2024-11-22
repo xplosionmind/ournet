@@ -31,6 +31,14 @@
 					<div>
 						<dt>{{ vocabulary.source }}</dt>
 						<dd><a href='{{ site.source }}/src/branch/main/assets/promo/{{ thing.id }}.svg'><code>{{ thing.id }}.svg</code></a></dd>
+						<dt>{{ vocabulary.license }}</dt>
+						<dd>
+							{% if thing.license %}
+								<a href='{{ thing.license.url }}' title='{{ thing.license.license }} license deed'>{{ thing.license.license }}</a>
+							{% else %}
+								<a href='https://creativecommons.org/licenses/by-sa/4.0' title='Creative Commons Attribution-ShareAlike 4.0'>CC-BY-SA 4.0</a>
+							{% endif %}
+						</dd>
 					</div>
 				</dl>
 			</article>

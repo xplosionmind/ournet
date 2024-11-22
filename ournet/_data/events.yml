@@ -1,20 +1,22 @@
-- title: xHain Hackerspace
-  date: 2024-10-26T17:30:00+02:00
-  url: https://x-hain.de/en/
-  location: xHain, Berlin
-  country: Germany
-
-- title: SFSCon
-  date: 2024-11-08T09:00:00+01:00
-  url: https://sfscon.it
-  location: Bolzano
-  country: Italy
-
 - title: Inter Alia Roots Winter School
   date: 2024-12-01T16:30:00+02:00
   url: https://interaliaproject.com/participation/roots-winter-school-2024-strategies-for-socio-ecological-transformations-in-times-of-uncertainty/
   location: Athens
   country: Greece
+
+- title: SFSCon
+  date: 2024-11-08T10:40:00+01:00
+  url: https://www.sfscon.it/workshops/knitting-our-internet/
+  location: Bolzano
+  country: Italy
+  image: /assets/ournet-sfscon.webp
+
+- title: xHain Hackerspace
+  date: 2024-10-26T17:30:00+02:00
+  url: https://pan.rent/@tommi/113350206004167303
+  location: xHain, Berlin
+  country: Germany
+  image: /assets/ournet-xhain.webp
 
 - title: Reclaim The Tech
   date: 2024-05-17T17:00:00+02:00

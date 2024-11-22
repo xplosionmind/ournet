@@ -2,6 +2,9 @@
 	"title": "Promo material 😎",
 	"description": "Support and promote this workshop by buying promotional material, including super cool stickers and posters! Alternatively, you can print them yourself.",
 	"permalink": "/promo/",
+	"redirect_from": [
+		"/it/promo/"
+	],
 	"ref": "promo",
 	"layout": "base.liquid",
 	"vocabulary": {

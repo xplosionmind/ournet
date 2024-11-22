@@ -21,9 +21,11 @@
 
 		{{ content }}
 
-		<footer>
-			{% render footer, lang: lang, source: site.source, path: page.inputPath, url: page.url, eleventyVersion: eleventy.version %}
-		</footer>
+		<div class='footer-container'>
+			<footer>
+				{% render footer, lang: lang, source: site.source, path: page.inputPath, url: page.url, eleventyVersion: eleventy.version %}
+			</footer>
+		</div>
 
 	</body>
 </html>

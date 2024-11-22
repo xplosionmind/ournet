@@ -50,6 +50,7 @@ body {
 	background: url('/ournet-bg-light.svg'), var(--bg);
 	font: var(--size-0) 'Space Grotesk', system-ui, sans-serif;
 	margin: 0;
+	min-height: 100vh;
 	line-height: 1.5;
 	counter-set: scrollSheet 0;
 	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="crimson" stroke-width="3"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>') 16 16, default;
@@ -117,7 +118,6 @@ aside {
 	font: 800 var(--size-1) FT88, sans-serif;
 	z-index: 3;
 	text-align: center;
-	background: var(--bg);
 	padding: var(--space-s);
 
 	a,
@@ -136,7 +136,6 @@ aside {
 #navToggleBtn,
 #altLangListToggle {
 	display: none;
-
 }
 
 #mainNav {
@@ -174,7 +173,6 @@ aside {
 	aside {
 		left: unset;
 		right: 0;
-		background: none;
 		gap: var(--space-s);
 		flex-direction: row;
 		font-size: var(--size-3);
@@ -361,14 +359,15 @@ footer {
 			padding-top: var(--space-m);
 		}
 	}
+}
 
+.footer-container {
 	&::before {
 		content: '';
 		display: block;
 		height: var(--space-xl);
 		background:
-			url('data:image/svg+xml;utf8,<svg width="16" height="6" version="1.1" viewBox="0 0 16 6" xmlns="http://www.w3.org/2000/svg"><path d="m5 0v1h1v-1zm7 0v1h1v-1zm-12 1v1h1v-1zm1 1v1h1v-1zm0 1h-1v1h1zm0 1v1h-1v1h15v-1h1v-1h-1v1h-1v1h-1v-2h-1v1h-1v1h-2v-1h-1v-2h-1v1h-1v2h-1v-2h-1v-1h-1v1zm4 0h1v-1h1v-1h-2zm2-2h1v-1h-1zm2 3h1v-1h-1zm1-1h2v-1h-2zm0-1v-1h-1v1zm0-1h1v-1h-1zm3 2h1v-1h-1zm-10-3v1h1v-1zm11 0v1h1v1h1v-1l-1 2e-3v-1zm-12 4h1v1h-1z" fill="mediumspringgreen"/></svg>'),
-			var(--bg);
+			url('data:image/svg+xml;utf8,<svg width="16" height="6" version="1.1" viewBox="0 0 16 6" xmlns="http://www.w3.org/2000/svg"><path d="m5 0v1h1v-1zm7 0v1h1v-1zm-12 1v1h1v-1zm1 1v1h1v-1zm0 1h-1v1h1zm0 1v1h-1v1h15v-1h1v-1h-1v1h-1v1h-1v-2h-1v1h-1v1h-2v-1h-1v-2h-1v1h-1v2h-1v-2h-1v-1h-1v1zm4 0h1v-1h1v-1h-2zm2-2h1v-1h-1zm2 3h1v-1h-1zm1-1h2v-1h-2zm0-1v-1h-1v1zm0-1h1v-1h-1zm3 2h1v-1h-1zm-10-3v1h1v-1zm11 0v1h1v1h1v-1l-1 2e-3v-1zm-12 4h1v1h-1z" fill="mediumspringgreen"/></svg>');
 		background-size: contain;
 	}
 }
@@ -384,6 +383,14 @@ footer {
 			minmax(clamp(16rem, 33vw, 26rem), 1fr));
 	gap: var(--space-m);
 	margin: var(--space-m) var(--space-s);
+
+	article {
+		background: var(--bg);
+	}
+
+	dl {
+		padding: 0 var(--space-2xs) var(--space-2xs);
+	}
 
 	dt,
 	dd {
@@ -555,6 +562,23 @@ button {
 		background: mediumspringgreen;
 		margin: 0 auto var(--space-m);
 		padding: var(--space-3xs) 0;
+	}
+}
+
+.scroll-sheet {
+	position: relative;
+
+	&::before {
+		position: absolute;
+		top: calc(-1 * var(--space-2xs));
+		right: calc(-1 * var(--space-2xs));
+		content: counter(scrollSheet);
+		background: center / contain no-repeat url('/yarn.svg');
+		display: block;
+		font: 800 var(--size-3) FT88, sans-serif;
+		color: white;
+		padding: var(--space-3xs) var(--space-2xs) var(--space-2xs);
+		text-align: center;
 	}
 }
 

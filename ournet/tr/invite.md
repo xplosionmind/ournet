@@ -1,24 +1,22 @@
 {{ description }}
 
-Tommi, atölyeyi İtalyanca, İngilizce ve Fransızca olarak düzenleyebilir.
+I can host the workshop in Italian, English, and French.
 
-Eğer onu atölyeyi düzenlemesi için davet etmek istiyorsanız, [ona bir e-posta
-yazmaktan](mailto:lost.in@tommi.space) çekinmeyin! Aşağıda bazı genel yönergeler
-bulunmaktadır.
+If you want to invite me to host the workshop, do not hesitate to [write me an
+email](mailto:surfingtommi.space)! Some general guidelines below.
 
 ## 🚅 Seyahat masrafları
 
-Tommi bir öğrencidir ve kendi bütçesiyle seyahat etmeyi karşılayamaz. Davet
-edildiğinde, tek istediği şey seyahat masraflarının **tamamen geri
-ödenmesidir**.
+I cannot afford to travel around self-funded. Whenever I am invited, the only
+thing I ask is for my travel expenses to be **fully reimbursed**.
 
-Uçakla seyahat etmeyi tercih etmemektedir.
+I prefer not to travel by airplane.
 
 ## 🪙 Ücretlendirme
 
-Her etkinliği hazırlamak oldukça zaman alıcı ve biraz masraflı olsa da, Tommi
-genellikle atölyeyi **ücretsiz** düzenlemektedir. Yine de, eğer düzenleyen
-kuruluş kâr amacı güden bir kuruluşsa, yaptığı işin bir tür ücretlendirme ile
-değer görmesi onun için son derece anlamlı olacaktır.
+Even though preparing every activity requires quite some time and a bit of
+expenses, I usually host the worshop **for free**. Still, it would be immensely
+meaningful for me if his work could be valued with some sort of retribution,
+especially if the hosting entity is a for-profit.
 
 Detaylar e-posta aracılığıyla görüşülecek ve durum bazında değerlendirilecektir.

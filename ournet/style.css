@@ -497,6 +497,7 @@ button {
 }
 
 #events {
+	margin: var(--space-xl) 0;
 	padding: var(--space-s) 0;
 	border: 3px solid var(--color);
 	background: var(--bg);

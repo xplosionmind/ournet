@@ -12,7 +12,7 @@ body,
 }
 
 header,
-footer,
+.footer-container,
 aside,
 button,
 .no-print,
@@ -46,10 +46,12 @@ a {
 	color: black;
 	background: none;
 	counter-increment: scrollSheet;
+	break-before: always;
+	break-after: always;
 
 	figure {
-		break-after: page;
-		break-before: page;
+		break-before: always;
+		break-after: always;
 		height: 24cm !important;
 		width: 100%;
 		display: flex;

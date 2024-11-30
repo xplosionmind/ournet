@@ -402,7 +402,7 @@ footer {
 		font-weight: 800;
 
 		&::after {
-			content: ':';
+			content: ': ';
 		}
 	}
 }

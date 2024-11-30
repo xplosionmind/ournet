@@ -566,6 +566,29 @@ button {
 	}
 }
 
+#colors {
+	display: flex;
+	padding: 0;
+	gap: var(--space-xs);
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	li {
+		display: block;
+		padding: var(--space-m) var(--space-s);
+	}
+
+	code {
+		display: block;
+		text-align: center;
+	}
+
+	.hex {
+		font-size: .7em;
+	}
+}
+
 .scroll-sheet {
 	position: relative;
 

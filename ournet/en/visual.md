@@ -39,5 +39,5 @@ If they weren’t too heavy, I would have definitely used [Serenity OS emojis](h
 	<a href='/yarn.svg' title='Open alone in a new tab' target='_blank'>
 		<img eleventy:ignore src='/yarn.svg' style='width: 10rem;height:auto'>
 	</a>
-	<figcaption>I manually traced the <a href='https://emojipedia.org/serenityos/2024-01-31/yarn title='Serenity OS version of the yarn emoji on Emojipedia'>Serenity OS yarn emoji</a>, making it <strong>the symbol</strong> of <cite>Knitting Our Internet</cite> (it’s also your cursor right now).</figcaption>
+	<figcaption>I manually traced the <a href='https://emojipedia.org/serenityos/2024-01-31/yarn' title='Serenity OS version of the yarn emoji on Emojipedia'>Serenity OS yarn emoji</a>, making it <strong>the symbol</strong> of <cite>Knitting Our Internet</cite> (it’s also your cursor right now).</figcaption>
 </figure>

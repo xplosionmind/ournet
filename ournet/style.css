@@ -52,8 +52,9 @@ body {
 	margin: 0;
 	min-height: 100vh;
 	line-height: 1.5;
-	counter-set: scrollSheet 0;
-	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="crimson" stroke-width="3"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>') 16 16, default;
+	/* Why dowes the first .scroll-sheet becomes 2 if this is set to 0? */
+	counter-set: scrollSheet -1;
+	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="crimson"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>') 16 16, default;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -89,11 +90,13 @@ header {
 
 	&::after {
 		content: '';
+		position: relative;
+		top: calc(-1 * var(--space-xs));
+		height: var(--space-2xl);
 		display: block;
-		height: var(--space-xl);
-		background:
-			url('data:image/svg+xml;utf8,<svg width="16" height="6" version="1.1" viewBox="0 0 16 6" xmlns="http://www.w3.org/2000/svg"><path d="m5 6v-1h1v1zm7 0v-1h1v1zm-12-1v-1h1v1zm1-1v-1h1v1zm0-1h-1v-1h1zm0-1v-1h-1v-1h15v1h1v1h-1v-1h-1v-1h-1v2h-1v-1h-1v-1h-2v1h-1v2h-1v-1h-1v-2h-1v2h-1v1h-1v-1zm4 0h1v1h1v1h-2zm2 2h1v1h-1zm2-3h1v1h-1zm1 1h2v1h-2zm0 1v1h-1v-1zm0 1h1v1h-1zm3-2h1v1h-1zm-10 3v-1h1v1zm11 0v-1h1v-1h1v1l-1-2e-3v1zm-12-4h1v-1h-1z" fill="crimson"/></svg>');
+		background: url('data:image/svg+xml;utf8,<svg width="16" height="8" version="1.1" viewBox="0 0 16 8" xmlns="http://www.w3.org/2000/svg"><path d="m0 0v2 1h1v1h2v1h1v-1h1v-2h1v2h1v1h1v-2h1v-1h2v1h1v1h1v-2h1v1h1v-1h1v-2h-16zm15 3v1h1v-1h-1zm-2 1v1h1v-1h-1zm-1 0h-2v1h2v-1zm-2 1h-1v1h1v-1zm0 1v1h1v-1h-1zm0-2v-1h-1v1h1zm-3 1h-1v-1h-1v2h2v-1zm0 1v1h1v-1h-1zm-6-2h-1v1h1v-1zm0 1v1h1v-1h-1zm0 1h-1v1h1v-1zm1-4h1v1h-1v-1zm13 3v1l1 2e-3v-1h-1zm-12 1v1h1v-1h-1zm11 0v1l1-2e-3v-1h-1zm-9 1v1h1v-1h-1zm7 0v1h1v-1h-1z" fill="crimson"/></svg>');
 		background-size: contain;
+		z-index: -1;
 	}
 
 	h1 {
@@ -241,7 +244,7 @@ a {
 a,
 label,
 button {
-	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="mediumspringgreen" stroke-width="3"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>') 16 16, pointer;
+	cursor: url('data:image/svg+xml;utf8,<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="m10 1h12v3h3v3h3v12h-3v3h-3v3h-12v-3h-3v6h18v-3h3v3h-3v3h-18v-3h-3v-6h3v-3h-3v-12h3v-3h3z" fill="mediumspringgreen"/><path d="m7 4h3v15h3v-3h3v-3h-3v-12h3v12h3v-3h3v-3h-3v-6h3v6h3v3h-3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v-3h3v-3h3v3h-3v3h-3v3h-3v3h3v-3h3v-3h3v3h-3v3h-3v3h-3v-3h-3v3h-3v-3h-3v-3h-3z" fill="indigo"/></svg>') 16 16, pointer;
 }
 
 p,
@@ -365,10 +368,12 @@ footer {
 	&::before {
 		content: '';
 		display: block;
-		height: var(--space-xl);
+		height: var(--space-2xl);
 		background:
-			url('data:image/svg+xml;utf8,<svg width="16" height="6" version="1.1" viewBox="0 0 16 6" xmlns="http://www.w3.org/2000/svg"><path d="m5 0v1h1v-1zm7 0v1h1v-1zm-12 1v1h1v-1zm1 1v1h1v-1zm0 1h-1v1h1zm0 1v1h-1v1h15v-1h1v-1h-1v1h-1v1h-1v-2h-1v1h-1v1h-2v-1h-1v-2h-1v1h-1v2h-1v-2h-1v-1h-1v1zm4 0h1v-1h1v-1h-2zm2-2h1v-1h-1zm2 3h1v-1h-1zm1-1h2v-1h-2zm0-1v-1h-1v1zm0-1h1v-1h-1zm3 2h1v-1h-1zm-10-3v1h1v-1zm11 0v1h1v1h1v-1l-1 2e-3v-1zm-12 4h1v1h-1z" fill="mediumspringgreen"/></svg>');
+			url('data:image/svg+xml;utf8,<svg width="16" height="8" version="1.1" viewBox="0 0 16 8" xmlns="http://www.w3.org/2000/svg"><path d="m5 0v1h1v-1zm7 0v1h1v-1zm-12 1v1h1v-1zm1 1v1h1v-1zm0 1h-1v1h1zm0 1v1h-1v3h16v-2h-1v-1h-1v1h-1v-2h-1v1h-1v1h-2v-1h-1v-2h-1v1h-1v2h-1v-2h-1v-1h-1v1zm4 0h1v-1h1v-1h-2zm2-2h1v-1h-1zm2 3h1v-1h-1zm1-1h2v-1h-2zm0-1v-1h-1v1zm0-1h1v-1h-1zm3 2h1v-1h-1zm2 1h1v-1h-1zm-12-4v1h1v-1zm11 0v1h1v-1zm2 1-1 2e-3v1h1zm-14 3h1v1h-1z" fill="mediumspringgreen"/></svg>');
 		background-size: contain;
+		position: relative;
+		bottom: calc(-1 * var(--space-xs));
 	}
 }
 

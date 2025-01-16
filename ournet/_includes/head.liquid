@@ -5,7 +5,7 @@
 	<meta name='color-scheme' content='dark light'>
 
 	<!-- Block AI robots -->
-	<meta name='robots' content='noai, noimageai'>
+	<meta name='robots' content='noai, noimageai, noml'>
 
 	<!-- Assets -->
 	<link rel='stylesheet' href='/style.css' type='text/css'>
@@ -17,8 +17,8 @@
 	<!-- Metadata -->
 	<title>{{ title }}</title>
 	<meta property='og:title' content='{{ title }}'>
-	<meta name='description' content='{{ description | strip_html | replace: '\n', ' ' }}' data-pagefind-meta='description[content]'>
-	<meta property='og:description' content='{{ description | strip_html | replace: '\n', ' ' }}'>
+	<meta name='description' content='{{ description | markdownify | strip_html | replace: '\n', ' ' }}' data-pagefind-meta='description[content]'>
+	<meta property='og:description' content='{{ description | markdownify | strip_html | replace: '\n', ' ' }}'>
 	<meta property='og:author' content='{{ site.author.name }}'>
 	<meta name='author' content='{{ site.author.name }}'>
 	<meta name='fediverse:creator' content='@tommi@pan.rent'>
@@ -28,7 +28,7 @@
 	<link rel='canonical' href='{{ site.url }}{{ page.url }}'>
 	{% if date %}<meta property='og:article:published_time' content='{{ date | date_to_xmlschema }}'>{% endif %}
 	{% if updated %}<meta property='article:modified_time' content='{{ updated | date_to_xmlschema }}'>{% endif %}
-	<meta property='og:image' content='{{ image | default: site.image }}'>
+	<meta property='og:image' content='{{ site.url }}{{ site.image }}'>
 	<meta name='twitter:card' content='summary_large_image'>
 	<meta property='og:type' content='{{ type | default: 'website' }}'>
 	<meta property='og:locale' content='{{ lang }}'>
@@ -38,10 +38,7 @@
 	{% endfor %}
 
 	<link rel='me' href='{{ site.author.website }}'>
-	<link rel='me pgpkey' href='https://api.protonmail.ch/pks/lookup?op=get&search={{ site.author.email }}'>
+	<link rel='me pgpkey' href='https://api.proton.me/pks/lookup?op=get&search={{ site.author.email }}'>
 
-	<link rel='alternate' type='application/rss+xml' title='Main feed' href='/index.xml'>
-
-	<meta name='theme-color' content='#FCC920' media='(prefers-color-scheme: light)'>
-	<meta name='theme-color' content='#000000' media='(prefers-color-scheme: dark)'>
+	<meta name='theme-color' content='#DC143C'>
 </head>

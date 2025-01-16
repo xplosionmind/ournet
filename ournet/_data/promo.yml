@@ -16,13 +16,13 @@
   sizes: 5×5cm
   alt: shake your <head> / move your <body>
 
-- id: antifascist-fediverse_v1
+- id: antifascist-fediverse_v1.1
   creator: Tommi
   kind: sticker
   sizes: 5×5cm
   alt: The Fediverse logo with the text “ANTIFASCIST FEDIVERSE” written around it
-  source: https://codeberg.org/tommi/antifascist-fediverse/src/tag/v1.0/antifascist-fediverse-sticker.svg
-  file: https://codeberg.org/attachments/6cf64dd3-9eed-4f3c-b29e-0b9e35c4e17c
+  source: https://codeberg.org/tommi/antifascist-fediverse/src/tag/v1.1/antifascist-fediverse-sticker.svg
+  file: https://codeberg.org/attachments/5ca3f25a-e7b9-4644-979a-b2343734252c
   license:
     license: CC0 1.0
     url: https://creativecommons.org/publicdomain/zero/1.0/

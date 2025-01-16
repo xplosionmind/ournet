@@ -1,0 +1,15 @@
+---
+permalink: /humans.txt
+layout: ~
+---
+/* TEAM */
+	{% for person in people %}
+	{{ person.role }}: {{ person.url }}
+	Website: {{ person.url }}
+	{% endfor %}
+
+/* SITE */
+	Last update: {{ 'now' | date_to_xmlschema }}
+	Standards: HTML, CSS
+	Components: none
+	Software: Eleventy

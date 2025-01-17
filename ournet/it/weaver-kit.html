@@ -70,6 +70,9 @@
 	<h3>🤔 Discussione<br><small>Cosa pensiamo dei social media attualmente più diffusi?</small></h3>
 	<p>Raccogli i pensieri e i sentimenti di ciascunə riguardo lo stato corrente dei social media centralizzati più comuni.</p>
 	<p>Dividi una <strong>lavagna</strong>/cartellone in due parti: annota i commenti <strong>positivi</strong> da un lato, e quelli <strong>negativi</strong> dall’altro.</p>
+	<figure>
+		{% render 'svg/pros-cons.svg' %}
+	</figure>
 	<p>Se necessario, le seguenti domande possono essere utili per avviare la discussione:</p>
 	<ul>
 		<li>Come vi sentite riguardo ai social media attualmente più diffusi?</li>
@@ -88,9 +91,7 @@
 	<p>Lə facilitatorə chiede: <q>Chi vuole iscriversi a questo nuovo, super figo, super attraente, super popolare social network?</q> Per le finalità della simulazione, assumiamo che moltз partecipanti vogliano unirsi.</p>
 	<p>Ogni persona che si iscrive al social network centralizzato riceverà un capo del filo dal gomitolo, ma sempre tornando alla persona in centro, in modo che la sola connessione fra gli “utenti” del social network sia tramite chi sta in centro.</p>
 	<figure>
-		<a href="https://github.com/xplosionmind/ournet/issues/21" title="Illustrazioni del Weaver kit – issue #21 of xplosionmind/ournet su GitHub">
-			<img alt="🏗️ WIP: ILLUSTRAZIONE">
-		</a>
+		{% render 'svg/centralized.svg' %}
 	</figure>
 	<h4 id="centralized-simulation">I limiti della centralizzazione</h4>
 	<p>Per mettere in luce i problemi intrinsechi dei social network centralizzati, rappresenta alcune operazioni comuni che hanno luogo nei social media. Lo scopo principale di questa simulazione è <u>smascherare il potere incredibile di chiunque sia in mezzo</u>, ovvero l’entità centralizzata che <u>media tutti gli scambi</u> che avvengono all’interno della rete. Per farlo, inizialmente comportati “bene”, poi sfrutta il potere di essere il nodo cruciale di ogni comunicazione, distorcendo o creando messaggi:</p>
@@ -107,9 +108,7 @@
 		<li><a href="#environment">Impatto ambientale</a></li>
 	</ol>
 	<figure>
-		<a href="https://github.com/xplosionmind/ournet/issues/21" title="Illustrazioni del Weaver kit – issue #21 of xplosionmind/ournet su GitHub">
-			<img alt="🏗️ WIP: ILLUSTRAZIONE">
-		</a>
+		{% render 'svg/centralized-msg.svg' %}
 	</figure>
 </article>
 
@@ -120,17 +119,13 @@
 	<h4 id="environment-centralized">L’impatto ambientale di una rete centralizzata</h4>
 	<p>Dunque, per ogni nuovo utente che si iscrive alla rete centralizzata, un nuovo peso/libro è aggiunto fra le braccia della persona che fa da server, dimostrando quanto sia dispendioso avere un computer acceso 24/7 e sempre connesso a Internet, per centinaia di milioni di persone.</p>
 	<figure>
-		<a href="https://github.com/xplosionmind/ournet/issues/21" title="Illustrazioni del Weaver kit – issue #21 of xplosionmind/ournet su GitHub">
-			<img alt="🏗️ WIP: ILLUSTRAZIONE">
-		</a>
+		{% render 'svg/environment-centralized.svg' %}
 	</figure>
 	<h4 id="environment-decentralized">L’impatto ambientale di una rete decentralizzata</h4>
 	<p>Cosa cambia in una rete decentralizzata? Svelalo alla fine del <a href="#decentralization">modulo decentralizzazione</a>.</p>
 	<p>Il carico per ciascun nuovo utente non carica un unico nodo, ovvero sul server centralizzato, ma si <u>distribuisce nella rete</u>. Simbolicamente, il peso/libro per ogni nuovo utente è tenuto dall’utente stesso.</p>
 	<figure>
-		<a href="https://github.com/xplosionmind/ournet/issues/21" title="Illustrazioni del Weaver kit – issue #21 of xplosionmind/ournet su GitHub">
-			<img alt="🏗️ WIP: ILLUSTRAZIONE">
-		</a>
+		{% render 'svg/environment-decentralized.svg' %}
 	</figure>
 </article>
 
@@ -142,8 +137,8 @@
 	<div class="fuchsia box">
 		Questo modulo segna l’inizio della <strong><a href="#history">traccia <mark class="history">storia</mark></a></strong><a href="#history">. In certi punti della storia, troverai figure segnate con un numero corrispondente a una pagina della <cite>Pergamena di Internet</cite>. Leggi </a><a href="#internetscroll">informazioni più dettagliate nella sezione dedicata</a>.
 		<figure>
-			<a href="https://github.com/xplosionmind/ournet/issues/21" title="Illustrazioni del Weaver kit – issue #21 of xplosionmind/ournet su GitHub">
-				<img alt="🏗️ WIP: ILLUSTRAZIONE">
+			<a href="https://github.com/xplosionmind/ournet/issues/21" title="Weaver’s kit illustrations – issue #21 of xplosionmind/ournet on GitHub">
+				<img alt="🏗️ WIP: ILLUSTRATION">
 			</a>
 		</figure>
 	</div>
@@ -303,9 +298,7 @@
 	<p>Usando lo stesso gomitolo usato per <a href="#centralized-network">la simulazione di una rete centralizzata</a>, comincia a collegare le persone alla rete, una per una, direttamente. Connetti le persone agli estremi opposti della circonferenza, in modo che la rete decentralizzata che ne risulta sia più scenica.</p>
 	<p>La rete finale mostrerà la struttura essenziale del <em>vero</em> Internet, una rete che è creata <em>da</em> noi <em>per</em> noi.</p>
 	<figure>
-		<a href="https://github.com/xplosionmind/ournet/issues/21" title="Illustrazioni del Weaver kit – issue #21 of xplosionmind/ournet su GitHub">
-			<img alt="🏗️ WIP: ILLUSTRAZIONE">
-		</a>
+		{% render 'svg/decentralized.svg' %}
 	</figure>
 	<p>Indovina un po’? Questo non è un sogno remoto e utopistico, ma un social network così esiste! Ecco a voi <a href="#fediverse">il <strong>Fediverso</strong></a>.</p>
 </article>

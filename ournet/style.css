@@ -490,6 +490,7 @@ button {
 
 .main {
 	--primary: mediumspringgreen;
+	--bg: black;
 	background: indigo;
 	color: white;
 
@@ -608,6 +609,48 @@ button {
 		color: white;
 		padding: var(--space-3xs) var(--space-2xs) var(--space-2xs);
 		text-align: center;
+	}
+}
+
+@keyframes frameAnimation {
+	0% {
+		opacity: 0;
+	}
+
+	33.33% {
+		opacity: 1;
+	}
+
+	66.66% {
+		opacity: 0;
+	}
+}
+
+.weaver-kit svg {
+	width: 100%;
+	height: auto;
+
+	.frame2,
+	.frame3 {
+		opacity: 0;
+	}
+
+	.frame1,
+	.frame2,
+	.frame3 {
+		animation: frameAnimation 1.5s infinite steps(1);
+	}
+
+	.frame1 {
+		animation-delay: 0s;
+	}
+
+	.frame2 {
+		animation-delay: -1s;
+	}
+
+	.frame3 {
+		animation-delay: -0.5s;
 	}
 }
 

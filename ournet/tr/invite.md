@@ -16,7 +16,7 @@ I prefer not to travel by airplane.
 
 Even though preparing every activity requires quite some time and a bit of
 expenses, I usually host the worshop **for free**. Still, it would be immensely
-meaningful for me if his work could be valued with some sort of retribution,
+meaningful for me if my work could be valued with some sort of retribution,
 especially if the hosting entity is a for-profit.
 
 Detaylar e-posta aracılığıyla görüşülecek ve durum bazında değerlendirilecektir.

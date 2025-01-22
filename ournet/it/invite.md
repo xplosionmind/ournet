@@ -14,10 +14,10 @@ Preferisco non viaggiare via aereo.
 
 ## 🪙 Retribuzione
 
-Anche se la preparazione di quest’attività richiede parecchio tempo e alcune
-spese, solitamente conduco il laboratorio **gratuitamente**. Tuttavia, per me
-sarebbe davvero significativo se il mio lavoro potesse essere ricompensato con
-qualche genere di retribuzione, specialmente se l’ente ospitante è for-profit.
+Even though preparing every activity requires quite some time and a bit of
+expenses, I usually host the worshop **for free**. Still, it would be immensely
+meaningful for me if my work could be valued with some sort of retribution,
+especially if the hosting entity is a for-profit.
 
 I dettagli saranno discussi via email e valutati caso per caso.
 

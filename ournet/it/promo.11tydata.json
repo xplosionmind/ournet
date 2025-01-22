@@ -8,7 +8,11 @@
         "creator": "Creatore",
         "kind": "Tipo",
         "sizes": "Dimensioni",
-        "source": "Sorgente"
+        "source": "Sorgente",
+        "license": "Licenza"
     },
-    "text": "<p>Condividiamo il nostro amore per la Nostra Rete con orgoglio e stile!</p><p>Qui ci sono adesivi, poster e grafiche fantasmagoriche. Sei liberə di <a href='{{ site.source }}/src/branch/main/assets/promo' title='assets/promo directory in tommi/ournet, su Codeberg'>scaricare i file sorgente</a> e stamparli tu stessə, ma ti incoraggiamo a supportare il nostro lavoro facendo una <strong>donazione</strong> e ti invieremo il materiale già stampato!</p>"
+    "text": "<p>Condividiamo il nostro amore per la Nostra Rete con orgoglio e stile! 😎</p><p>Qui ci sono adesivi, poster e grafiche fantasmagoriche. Sei liberə di scaricare i file sorgente e stamparli tu stessə, ma ti incoraggio a <u>supportare il mio lavoro <a href=\"/it/#donate\">facendo una <strong>donazione</strong></a></u> 🥰</p><p>Presto avrò stampato il materiale e potrò spedirtelo direttamente 💌! <a href='mailto:surfing@tommi.space'>scrivimi</a> se sei interessatə! 👀</p>",
+    "redirect_from": [
+        "/materiale-promo/"
+    ]
 }

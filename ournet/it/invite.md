@@ -1,22 +1,33 @@
 {{ description }}
 
-I can host the workshop in Italian, English, and French.
+Posso condurre il laboratorio in italiano, inglese e francese.
 
-If you want to invite me to host the workshop, do not hesitate to [write me an
-email](mailto:surfingtommi.space)! Some general guidelines below.
+Se volessi invitarmi a condurre il laboratorio, non esitare a [scrivermi
+un’email](mailto:surfingtommi.space)! Di seguito alcune linee guida generali.
 
 ## 🚅 Spese di viaggio
 
-I cannot afford to travel around self-funded. Whenever I am invited, the only
-thing I ask is for my travel expenses to be **fully reimbursed**.
+Non posso permettermi di viaggiare di tasca mia. Perciò, ogni volta che vengo
+invitato, chiedo unicamente che le mie spese siano **completamente rimborsate**.
 
-I prefer not to travel by airplane.
+Preferisco non viaggiare via aereo.
 
 ## 🪙 Retribuzione
 
-Even though preparing every activity requires quite some time and a bit of
-expenses, I usually host the worshop **for free**. Still, it would be immensely
-meaningful for me if his work could be valued with some sort of retribution,
-especially if the hosting entity is a for-profit.
+Anche se la preparazione di quest’attività richiede parecchio tempo e alcune
+spese, solitamente conduco il laboratorio **gratuitamente**. Tuttavia, per me
+sarebbe davvero significativo se il mio lavoro potesse essere ricompensato con
+qualche genere di retribuzione, specialmente se l’ente ospitante è for-profit.
 
 I dettagli saranno discussi via email e valutati caso per caso.
+
+## 🧠 Espansioni e adattamenti
+
+Il laboratorio è concepito per essere modulare e adattabile a ogni pubblico e
+situazione.
+
+Inoltre, **su commissione** posso **espanderlo** con ulteriori moduli e studi
+più dettagliati su uno o più aspetti o argomenti richiesti.
+
+Se richiesto, posso anche rendere l’attività più specifica e **adattarla** a un
+settore più particolare (per esempio impresa, educazione, storytelling…)

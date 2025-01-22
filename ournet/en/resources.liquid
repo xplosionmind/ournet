@@ -1,0 +1,16 @@
+---
+title: Resources and Inspiration 💡
+description: A curated collection of further readings, media, blogs, tools, and art to plunge in the wholesomeness of Our Internet.
+permalink: /resources/
+---
+<p>Here’s a curated collection of readings, media, blogs, tools, and art to plunge in the wholesomeness of <em>Our</em> Internet!</p>
+
+{% assign resources = resources | group_by: 'category' %}
+{% for topic in resources %}
+	<h2>{{ topic.name }}</h2>
+	<ul>
+		{% for resource in topic.items %}
+			<li class='{{ resource.type }}'><a href='{{ resource.url }}'>{{ resource.name }}</a>{{ resource.description }}</li>
+		{% endfor %}
+	</ul>
+{% endfor %}

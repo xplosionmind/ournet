@@ -4,6 +4,12 @@
   sizes: A3
   alt: Knitting Our Internet
 
+- id: cat-ours_sticker_red
+  creator: Karthik
+  kind: sticker
+  sizes: 8×8cm
+  alt: A square illustration on red background. In the top right, the text “the internet is ours!”, on the right, a pixelated cat observing a green and purple yarn in the bottom left. In the bottom right, the text “https://ournet.rocks”.
+
 - id: shakHTML_green
   creator: Tommi
   kind: sticker

@@ -12,7 +12,7 @@ I prefer not to travel by airplane.
 
 ## 🪙 Retribution
 
-Even though preparing every activity requires quite some time and a bit of expenses, I usually host the worshop **for free**. Still, it would be immensely meaningful for me if his work could be valued with some sort of retribution, especially if the hosting entity is a for-profit.
+Even though preparing every activity requires quite some time and a bit of expenses, I usually host the worshop **for free**. Still, it would be immensely meaningful for me if my work could be valued with some sort of retribution, especially if the hosting entity is a for-profit.
 
 Details to be discussed via email, and evaluated case-by-case.
 

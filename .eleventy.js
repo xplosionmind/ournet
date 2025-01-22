@@ -60,19 +60,13 @@ export default function (eleventyConfig) {
 		eleventyConfig.addTransform(miniHtml, async function (content) {
 			if ((this.page.outputPath || '').endsWith('.html')) {
 				const minified = miniHtml.minify(content, {
-					collapseBooleanAttributes: true,
 					collapseWhitespace: true,
 					decodeEntities: true,
 					minifyCSS: true,
 					minifyJS: true,
 					noNewlinesBeforeTagClose: true,
 					quoteCharacter: "'",
-					removeAttributeQuotes: true,
 					removeComments: true,
-					removeEmptyAttributes: true,
-					removeEmptyElements: true,
-					removeOptionalTags: true,
-					removeRedundantAttributes: true,
 					sortAttributes: true,
 					sortClassName: true,
 					useShortDoctype: true,

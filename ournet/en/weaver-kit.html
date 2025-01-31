@@ -372,7 +372,7 @@
 <ul>
 	<li class='book'>Most of the texts and key concepts are taken from <cite><a href='https://tommi.space/csss/' title='“Computer Sciences are Social Sciences” on Tommi’s website'>Computer Sciences are Social Sciences</a></cite>, my (<a href='https://tommi.space/' title='The virtual representation of Tommi’s mind'>Tommi</a>’s, the creator’s) bachelor’s thesis.</li>
 	{% for r in resources %}
-		<li class='{{ r.type }}' lang='{{ r.lang }}'><cite><a href='{{ r.url }}'>{{ r.title }}</a></cite>{{ r.description }}</li>
+		<li class='{{ r.type }}' lang='{{ r.lang }}'><cite><a href='{{ r.url }}'>{{ r.name }}</a></cite>{{ r.description | markdownify }}</li>
 	{% endfor %}
 	<li class='idea'>Any suggestions? <a href='mailto:surfing@tommi.space'>email me</a> or <a href='https://github.com/xplosiomind/ournet/pulls' title='Pull requests for xplosionmind/ournet on GitHub'>open a pull request</a>!</li>
 </ul>

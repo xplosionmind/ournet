@@ -47,7 +47,7 @@ body {
 	--shadow: .2em .2em .8em #0004;
 
 	color: var(--color);
-	background: url('/ournet-bg-light.svg'), var(--bg);
+	background: var(--bg);
 	font: var(--size-0) 'Space Grotesk', system-ui, sans-serif;
 	margin: 0;
 	min-height: 100vh;
@@ -63,7 +63,6 @@ body {
 		--color: white;
 		--bg: black;
 		--shadow: 0 0 3em #FFF8;
-		background: url('/ournet-bg-dark.svg'), var(--bg);
 
 		.dark {
 			filter: invert(1);

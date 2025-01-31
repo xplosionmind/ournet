@@ -281,6 +281,10 @@ figure {
 			margin: 0 auto;
 		}
 	}
+
+	&:not(:only-child) {
+		margin: var(--space-m) 0;
+	}
 }
 
 h1,
@@ -318,6 +322,7 @@ mark {
 
 blockquote {
 	font-family: 'EB Garamond', serif;
+	margin-inline: var(--space-s);
 }
 
 ol {
@@ -599,8 +604,8 @@ button {
 
 	&::before {
 		position: absolute;
-		top: calc(-1 * var(--space-2xs));
-		right: calc(-1 * var(--space-2xs));
+		top: 0;
+		right: var(--space-3xs);
 		content: counter(scrollSheet);
 		background: center / contain no-repeat url('/yarn.svg');
 		display: block;

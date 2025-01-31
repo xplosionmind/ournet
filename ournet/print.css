@@ -36,10 +36,11 @@ a {
 #internetscroll {
 	border: none;
 	break-after: page;
+}
 
-	#instructions {
-		break-before: page;
-	}
+#instructions {
+	break-before: page;
+	padding-top: 2cm;
 }
 
 .scroll-sheet {
@@ -68,8 +69,8 @@ a {
 	}
 
 	&::before {
-		top: .1cm;
-		right: 0;
+		top: 0;
+		right: .3cm;
 	}
 }
 

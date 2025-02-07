@@ -2,7 +2,7 @@
 	{%- for event in events -%}
 		{%- assign buildTime = 'now' | date: '%Y%m%d' -%}
 		{%- assign eventDate = event.date | date: '%Y%m%d' -%}
-		<article class='event | center box {% if eventDate > buildTime %}future{% endif -%}' id='{{ event.title | slugify }}' lang='en'>
+		<article class='event | center box {% if eventDate > buildTime %}future{% endif -%}' lang='en'>
 			{%- if event.image -%}
 				<figure>
 					<img src='{{ event.image }}' alt='A photo of Tommi while hosting the workshop at {{ event.title }}'>

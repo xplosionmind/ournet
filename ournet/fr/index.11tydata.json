@@ -1,9 +1,9 @@
 {
-    "title": "",
-    "ref": "",
-    "priority": "",
-    "permalink": "",
+    "title": "Tresser Notre Internet 🧶",
+    "ref": "index",
+    "priority": "0.5",
+    "permalink": "/fr/",
     "redirect_from": [
-        ""
+        "/accueil/"
     ]
 }

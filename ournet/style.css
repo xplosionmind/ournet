@@ -334,6 +334,11 @@ code {
 	line-break: anywhere;
 }
 
+video {
+	width: 100%;
+	border: none;
+}
+
 footer {
 	--primary: indigo;
 	color: black;

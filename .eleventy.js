@@ -32,7 +32,9 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin, {
 		extensions: 'html,liquid,md',
 	});
-	eleventyConfig.addPlugin(IdAttributePlugin);
+	eleventyConfig.addPlugin(IdAttributePlugin, {
+		selector: 'h2,h3,h4,h5,h6'
+	});
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		extensions: 'html',
 		formats: ['webp', 'auto'],

@@ -71,6 +71,10 @@ body {
 	}
 }
 
+* {
+	box-sizing: border-box;
+}
+
 ::selection {
 	background: crimson;
 	color: white;
@@ -223,11 +227,12 @@ aside {
 
 main:not(.wide),
 .wide>p {
-	margin: var(--space-m) auto;
-	width: clamp(15rem, calc(100vw - 2 * var(--space-2xs)), 50rem);
+	&>* {
+		margin: 1em auto;
 
-	&>*+* {
-		margin: 1em 0 0 0;
+		&:not(.wide) {
+			width: clamp(15rem, calc(100vw - 2 * var(--space-2xs)), 50rem);
+		}
 	}
 }
 
@@ -256,30 +261,13 @@ small {
 }
 
 figure {
+	margin: var(--space-s) auto;
+
 	img {
 		width: 100%;
 		height: auto;
 	}
 
-	&.tall {
-		display: flex;
-		flex-direction: column;
-		height: 80%;
-		width: auto;
-		margin: 0;
-		justify-content: center;
-
-		img {
-			height: 100%;
-			width: auto;
-			max-width: 100%;
-			margin: 0 auto;
-		}
-	}
-
-	&:not(:only-child) {
-		margin: var(--space-m) 0;
-	}
 }
 
 h1,
@@ -386,7 +374,7 @@ footer {
 	grid-template-columns: repeat(auto-fill,
 			minmax(clamp(16rem, 33vw, 26rem), 1fr));
 	gap: var(--space-m);
-	margin: var(--space-m) var(--space-s);
+	margin: var(--space-m) var(--space-s) !important;
 
 	article {
 		background: var(--bg);
@@ -501,18 +489,6 @@ button {
 	color: white;
 }
 
-#events {
-	margin: var(--space-xl) 0;
-	padding: var(--space-s) 0;
-	border: 3px solid var(--color);
-	background: var(--bg);
-
-	&>h2 {
-		text-align: center;
-		margin: 0 var(--space-s) var(--space-xs);
-	}
-}
-
 .events {
 	display: flex;
 	overflow-x: scroll;
@@ -608,6 +584,10 @@ button {
 		color: white;
 		padding: var(--space-3xs) var(--space-2xs) var(--space-2xs);
 		text-align: center;
+	}
+
+	figure {
+		margin: 0;
 	}
 }
 

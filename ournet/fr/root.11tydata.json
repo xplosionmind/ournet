@@ -1,14 +1,14 @@
 {
     "lang": "fr",
     "title": "Tresser Notre Internet",
-    "description": "<p><cite>Tresser notre Internet</cite> est un <strong>voyage interactif </strong> à travers l'histoire de l'Internet et une <strong>réflexion collective</strong> sur son avenir.</p><p></p><p>L'activité consiste en <strong>un atelier en face à face</strong>, fournissant des exemples tangibles et simples sur le fonctionnement d'Internet, tout en <strong>remettant en question</strong> l'essence même des principaux réseaux sociaux d'aujourd'hui. Son objectif principal est d'exposer les limites du <strong>capitalisme de surveillance</strong>, de la <strong>centralisation</strong> et de son <strong>impact sur l'environnement</strong>.</p><p></p><p>Après avoir reconnu les défis auxquels le domaine numérique est actuellement confronté, les participants sont encouragés à réinterpréter les réseaux sociaux à partir de la <strong>décentralisation</strong>, en envisageant des <strong>avenirs numériques</strong> plus humains, collectifs et participatifs.</p>",
-    "description_short": "<cite>Tresser notre Internet</cite> est un atelier en face à face, un voyage interactif à travers l'histoire de l'Internet et une réflexion collective sur son avenir. Il fournit des exemples tangibles et simples du fonctionnement d'Internet, tout <strong>en remettant en question</strong> l'essence même des réseaux sociaux plus utilisés aujourd'hui.",
-    "tagline": "Un atelier <strong>participatif</strong> , <strong>en face à face</strong>, sur l'Internet, son histoire et son <strong>avenir</strong>.",
+    "description": "<p><cite>Tresser notre Internet</cite> est un <strong>voyage interactif </strong> à travers l’histoire de l’Internet et une <strong>réflexion collective</strong> sur son avenir.</p><p></p><p>L’activité consiste en <strong>un atelier en face à face</strong>, fournissant des exemples tangibles et simples sur le fonctionnement de l’Internet, tout en <strong>remettant en question</strong> l’essence même des principaux réseaux sociaux d’aujourd’hui. Son objectif principal est d’exposer les limites du <strong>capitalisme de surveillance</strong>, de la <strong>centralisation</strong> et de son <strong>impact sur l’environnement</strong>.</p><p></p><p>Après avoir reconnu les défis auxquels le domaine numérique est actuellement confronté, les participants sont encouragés à réinterpréter les réseaux sociaux à partir de la <strong>décentralisation</strong>, en envisageant des <strong>avenirs numériques</strong> plus humains, collectifs et participatifs.</p>",
+    "description_short": "<cite>Tresser notre Internet</cite> est un atelier en face à face, un voyage interactif à travers l’histoire de l'Internet et une réflexion collective sur son avenir. Il fournit des exemples tangibles et simples du fonctionnement de l’Internet, tout <strong>en remettant en question</strong> l’essence même des réseaux sociaux plus utilisés aujourd'hui.",
+    "tagline": "Un atelier <strong>participatif</strong>, <strong>en face à face</strong>, sur l’Internet, son histoire et son <strong>avenir</strong>.",
     "footer": "fr/footer.html",
     "nav": [
         {
             "name": "🏠 Accueil",
-            "title": "Accéder à la page d'accueil",
+            "title": "Accéder à la page d’accueil",
             "url": "/fr/"
         },
         {
@@ -23,7 +23,7 @@
         },
         {
             "name": "🪡 Kit de tissage",
-            "title": "Un kit pour animer l'atelier vous-même !",
+            "title": "Un kit pour animer l’atelier vous-même !",
             "url": "/knit/"
         }
     ]

@@ -12,6 +12,14 @@
   thumbnail: /promo/cat-ours_sticker_red.svg
   file: /promo/cat-ours_sticker_red.pdf
 
+- id: ournet-flyer_nerd
+  creator: Karthik
+  kind: flyer
+  sizes: A6
+  alt: The two sides of an A6 flyer, with the same content of the PDF linked below.
+  thumbnail: /promo/ournet-flyer_nerd.webp
+  file: /promo/ournet-flyer_nerd.pdf
+
 - id: shakHTML_green
   creator: Tommi
   kind: sticker

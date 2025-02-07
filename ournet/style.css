@@ -202,7 +202,7 @@ aside {
 		inset: unset;
 		flex-direction: column;
 		bottom: calc(2 * var(--space-s) + var(--space-xl));
-		right: -20rem;
+		right: -30rem;
 		gap: var(--space-3xs);
 		outline: 3px solid var(--color);
 		text-align: right;

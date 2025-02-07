@@ -13,7 +13,9 @@
 					target='_blank'>
 					<figure>
 						<img eleventy:ignore
-							{% if thing.file %}
+							{% if thing.thumbnail %}
+								src='{{ thing.thumbnail }}'
+							{% elsif thing.file %}
 								src='{{ thing.file }}'
 							{% else %}
 								src='/promo/{{ thing.id }}.svg'
@@ -63,14 +65,14 @@
 						{% else %}
 							href='{{ site.source }}/src/branch/main/artwork/{{ thing.id }}.svg'
 						{% endif %}
-					title='View the edit-friendly SVG file, optimized for Inkscape' target='_blank'>Inkscape SVG</a>
+					title='View the edit-friendly SVG file, optimized for Inkscape, or the Adobe Illustrator source file' target='_blank'>Editable source</a>
 					<a class='green button'
 						{% if thing.file %}
 							href='{{ thing.file }}'
 						{% else %}
 							href='/promo/{{ thing.id }}.svg'
 						{% endif %}
-						title='View the file, ready to be printed' target='_blank'>Print-ready SVG</a>
+						title='View the file, ready to be printed' target='_blank'>Print-ready file</a>
 				</div>
 			</article>
 		{% endfor %}

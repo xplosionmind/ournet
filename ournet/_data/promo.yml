@@ -9,6 +9,8 @@
   kind: sticker
   sizes: 8×8cm
   alt: A square illustration on red background. In the top right, the text “the internet is ours!”, on the right, a pixelated cat observing a green and purple yarn in the bottom left. In the bottom right, the text “https://ournet.rocks”.
+  thumbnail: /promo/cat-ours_sticker_red.svg
+  file: /promo/cat-ours_sticker_red.pdf
 
 - id: shakHTML_green
   creator: Tommi

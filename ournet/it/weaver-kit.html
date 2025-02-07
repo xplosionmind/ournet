@@ -359,7 +359,7 @@
 <article id="feedback" class="main | module">
 	<h3>💡 Chiedi feedback!</h3>
 	<p>Il feedback delle persone partecipanti è cruciale per il successo del laboratorio, specialmente perché è un perpetuo cantiere in evoluzione.</p>
-	<p>Chiedi gentilmente ai partecipanti di visitare <a href="/feedback" target="_blank" title="Cosa pensi di questo workshop?"><code>ournet.rocks/feedback</code></a> e scrivere lì il loro feedback. Se servisse loro tempo per pensarci, possono visitare il link e compilare il modulo in qualunque momento.</p>
+	<p>Kindly ask the participants to visit <a href="/feedback/" target="_blank" title="What do you think about this workshop?"><code>ournet.rocks/feedback</code></a> and write their feedback there. If they need time to think about it, they can visit the link and fill out the form whenever they want.</p>
 	<div class="flex">
 		<a class="button" href="/feedback/" title="Cosa pensi di questo laboratorio?">Modulo per il feedback</a>
 	</div>
@@ -372,7 +372,7 @@
 <ul>
 	<li class="book">La maggior parte dei testi e dei concetti chiave sono estratti di <cite lang="en"><a href="https://tommi.space/csss/" title="“Computer Sciences are Social Sciences” on Tommi’s website">Computer Sciences are Social Sciences</a></cite>, la mia tesi triennale.</li>
 	{% for r in resources %}
-		<li class="{{ r.type }}" lang="{{ r.lang }}"><cite><a href="{{ r.url }}">{{ r.title }}</a></cite>{{ r.description }}</li>
+		<li class="{{ r.type }}" lang="{{ r.lang }}"><cite><a href="{{ r.url }}">{{ r.name }}</a></cite>{{ r.description | markdownify }}</li>
 	{% endfor %}
 	<li class="idea">Suggerimenti? <a href="mailto:surfing@tommi.space">scrivimi</a> o <a href="https://github.com/xplosiomind/ournet/pulls" title="Pull requests for xplosionmind/ournet on GitHub">apri una pull request</a>!</li>
 </ul>

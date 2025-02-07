@@ -1,0 +1,135 @@
+{{ description }}
+
+<figure>
+	<picture>
+		<source srcset="/ournet-dark.svg" media="(prefers-color-scheme: dark)">
+		<source srcset="/ournet-light.svg" media="(prefers-color-scheme: light)">
+		<img eleventy:ignore src="/ournet-light.svg" alt="Le texte « Knitting Our Internet » est écrit avec une police de caractères pixelisée. En arrière-plan, un ensemble de lignes interconnectées formant un filet et reliées au dessin pixellisé d'un fil rouge.">
+	</picture>
+</figure>
+
+<article class="green box">
+	<h2 id="host" class="center">Animez l'atelier ! 🪢</h2>
+	<p>Cet atelier est conçu pour se dérouler <strong>exclusivement en personne</strong> : ce site web ne contient que des informations à ce sujet.</p>
+	<p>Vous pouvez bien sur m'inviter (<a href="https://tommi.space/" title="The virtual representation of Tommi’s mind">Tommi</a>, le créateur) pour animer l'atelier et y apporter une touche personnelle ! Sinon, j'ai produit <cite>Le Kit de Tissage</cite>, qui contient tous les matériaux et informations pour vous aider à organiser l’atelier vous-même.</p>
+	<div class="flex">
+		<a class="red button" href="/invite/">Inviter Tommi</a> <a class="blue button" href="/knit/">Kit de Tissage</a>
+	</div>
+</article>
+
+<h2>🧐 À propos</h2>
+
+<h3>L'histoire</h3>
+
+<p>Au cours du premier semestre de 2023, en rédigeant <a href="https://tommi.space/csss/" title="“Computer Sciences Are Social Sciences”, Mémoire de Tommaso Marmo"> mon mémoire de licence</a>, j’ai eu l’idée d’une introduction simple mais critique et précise du Fediverse aux non-experts. Ce fut la première étincelle à partir de laquelle est né cet atelier, enrichi par d’autres recherches et expériences.</p>
+
+<p>En juin 2024, après <a href="/#events" title="Occasions passées et futures où cet atelier a été organisé et sera organisé">, j’ai décidé d’approfondir mon travail sur <cite>Tresser notre Internet</cite>, en faisant également appel à </a><a href="#contributors"> des amis</a> pour lui donner une identité visuelle, une meilleure structure et publier son site web — celui que vous lisez actuellement.</p>
+
+<div class="flex">
+	<a class="button" href="/#events" title="Toutes les occasions où l’atelier a été organisé">Éditions passées</a>
+</div>
+
+<h3>🫱🏼‍🫲🏾 Pour tout.e.s ! 💕</h3>
+
+<p>Ce n’est pas seulement rhétorique : cet atelier est vraiment <strong>pour tout le monde</strong> ! Cet atelier a été conçu <a href="/knit/#modularity">pour s’adapter </a> à tout public et environnement, par conception.</p>
+
+<ul>
+	<li>Il est <strong>interdisciplinaire</strong>, car il met en évidence la nature profondément sociopolitique de quelque chose qui est généralement considéré d’un point de vue purement technique. En outre, l’atelier est censé être contaminé par différentes formes d’art et approches.</li>
+	<li>Il est <strong>intergénérationnel</strong>, car il peut être très puissant en tant que jeu simple et divertissant pour les enfants, comme réflexion profonde sur le domaine numérique pour les personnes plus grandes, mais aussi comme opportunité d’aborder le même sujet du point de vue des différentes générations.</li>
+	<li>Il est <strong>international</strong>, car tout ce site et le matériel de l’atelier <a href="{{ site.translate}}" title="Traduire Tresser notre Internet avec Codeberg Translate">peuvent être traduits</a> dans n’importe quelle langue !</li>
+	<li>Il est <strong>critique mais accueillant</strong>, car il est très opiniâtre et fortement positionné politiquement, mais il est aussi ouvert aux critiques, visant à être un espace vraiment sûr même si les participant.e.s ne se connaissent pas.</li>
+	<li>Il est <strong><em>vraiment</em> accessible</strong>. Bien que « l’accessibilité » soit un mot très populaire mais mal utilisé, cet atelier a été conçu dès le début pour être une expérience significative également pour les personnes issues de minorités sous-représentées ou handicapées. L’accessibilité de Tresser notre Internet est profondément relationnelle : seule l’interaction et la direction de l’hôte peuvent rendre l’expérience inclusive et sûre pour tout.e.s.</li>
+</ul>
+
+<h3>🎨 Identité visuelle</h3>
+
+<p>Le look de l’atelier suit une identité visuelle visant à communiquer <em>l’ambiance</em> de l’expérience, tout en ayant un sens en soi.</p>
+
+<p>J’ai beaucoup discuté avec <a href="https://instagram.com/mariasolefalcomer_/" title="Sole’s Instagram profile">Sole</a>, <a href="https://rahak.net" title="Karthik’s personal website">Karthik</a>Karthik et <a href="https://instagram.com/veronicawithc/" title="Veronica’s Instagram profile">Veronica</a> sur la façon de représenter le <strong>confort</strong> et la mignonnerie d’une manière très nerd, technique et pixelisée, et je suis arrivé à ceci. Apprenez-en davantage en lisant les lignes directrices sur l’identité visuelle ci-dessous.</p>
+
+<div class="flex">
+	<a class="green button" href="visual.md" title="Lignes directrices sur l’identité visuelle pour Tresser notre Internet">Lignes directrices sur l’identité visuelle 💄</a>
+</div>
+
+<article id="events">
+	<h2>🗓️ Événements passés et à venir</h2>
+	{% render 'events.liquid', events: events %}
+</article>
+
+<h2>💝 Contribuer</h2>
+
+<p>En tant que projet fièrement indépendant, Tresser notre Internet est conçu pour être collectif et collaboratif. Non seulement les contributions sont les bienvenues, mais elles sont l’essence de cet atelier !</p>
+
+<h3>🪢 Accueillir l'atelier 💕</h3>
+
+<p>La meilleure chose que vous puissiez faire est de <a href="/invite/">m’inviter</a> à animer l’atelier, ou de <a href="/knit/" title="Kit de Tissage">le faire vous-même</a> !</p>
+
+<h3>🪙 Faire un don</h3>
+
+<p>Chaque détail de Tresser notre Internet a coûté beaucoup de travail.</p>
+
+<p>Pour l’instant, je n’ai <strong>aucun financement</strong> : toutes les dépenses que j’ai à faire me sortent de la poche. Même si je ne fais pas ça pour le profit (<a href="/knit/#surveillance-capitalism" title="Section on Surveillance capitalism in The Weaver kit">je déteste le capitalisme</a>), cela aiderait beaucoup si vous pouviez contribuer avec un don <strong>que vous pouvez vous permettre</strong>.</p>
+
+<p>Façons possibles de le faire (triées par préférence) :</p>
+
+<ul>
+	<li><a href="https://liberapay.com/tommi/" title="Tommi sur LiberaPay">LiberaPay</a></li>
+	<li><a href="https://paypal.me/xplosionmind" title="@xplosionmind sur PayPal.me">Paypal</a></li>
+	<li>Virement bancaire : <a href="mailto:surfing@tommi.space">prendre contact</a> pour obtenir les infos</li>
+	<li>En espèces : <a href="mailto:surfing@tommi.space">écrivez moi</a>, pour comprendre comment faire</li>
+	<li>Monero : <code>4AXFHU3h1GDGVr5nfnyngmSepfesyUJxCSXNH2JzFeBGbGxzzoMuhSCBDVf3THK1E5VnfLLm2hfgV3YosYd27ZFLMCVNUrP</code></li>
+</ul>
+
+<h3>💡 Ajouter ou améliorer</h3>
+
+<p>Même si j’ai fait beaucoup de recherches, il y a toujours beaucoup à apprendre et je suis très ouvert à remettre en question mes positions.</p>
+
+<p>Si vous avez des critiques, idées ou suggestions, <a href="https://github.com/xplosionmind/ournet/issues/new" title="New issue for ournet on GitHub"> ouvrez une issue</a> ou <a href="mailto:surfing@tommi.space">écrivez-moi</a> !</p>
+
+<h3>🧑🏽‍💻 Améliorer le code</h3>
+
+<p>Si vous souhaitez aider avec le workflow technique ou l’infrastructure de ce site, n’hésitez pas à ouvrir une pull request sur a href="{{ site.source }}/pulls" title="Pull requests for tommi/ournet on Codeberg"&gt;Codeberg ou sur <a href="https://github.com/xplosionmind/ournet/pulls" title="Pull requests for xplosionmind/ournet on GitHub">GitHub</a> ! Le code source est ouvert pour vous permettre de jouer avec ! S’il vous plaît, familiarisez-vous avec la structure du site, d’abord !</p>
+
+<div class="flex">
+	<a class="red button" href="{{ site.source }}#site-structure">Structure du site</a> <a class="green button" href="{{ site.source }}#build-steps">Build steps</a>
+</div>
+
+<h3>🗣️ Traduire</h3>
+
+<p>Traduisez le contenu de ce site et les documents de l’atelier pour permettre aux non-anglophones de s’impliquer !</p>
+
+<div class="flex">
+	<a class="fuchsia button" href="https://translate.codeberg.org/projects/ournet/" title="ournet on Codeberg Translate (Weblate)">Traduire</a> <a class="blue button" href="https://translate.codeberg.org/projects/ournet/#information" title="Info page for ournet on Codeberg Translate (Weblate)">Guide de traduction</a>
+</div>
+
+<h3>🖌️ Faire de l'art</h3>
+
+<p>Notre mission n’est pas simplement de reprendre le contrôle de Notre Internet. Je crois en la forte valeur de l’art pour transmettre et amplifier un message et une mission.</p>
+
+<p>Vous êtes invités à réaliser n’importe quelle illustration 😎 ! N’hésitez pas à créer des autocollants, peindre des affiches, améliorer le CSS de ce site, créer des flyers… vous l’appelez.</p>
+
+<div class="flex">
+	<a class="button" href="/promo/" title="Obtenez des autocollants, des affiches et des graphiques sympas">Matériel promotionnel !</a>
+</div>
+
+<h3>📣 Faites passer le mot !</h3>
+
+<p>Faites entendre nos voix et réclamez notre Internet ! Partagez <a href="https://ournet.rocks/">ournet.rocks </a>et rejoignez notre combat !</p>
+
+<p>Il serait particulièrement utile si vous connaissiez quelqu’un qui organise des événements ou participe activement à des communautés et qui serait intéressé à accueillir l’atelier. Connectez-nous !</p>
+
+<h2>🤗 Philosophie de contribution</h2>
+
+<p>Lorsque j’envisage d’impliquer d’autres personnes et de leur demander du temps et des efforts, je ne voulais pas le faire uniquement pour l’amitié, mais en même temps je n’ai pas les fonds nécessaires pour payer leur travail.</p>
+
+<p>Pour ces raisons, tout le projet est mené sur les principes de <strong>l’entraide</strong> et de la <strong>curiosité personnelle</strong>.</p>
+
+<p>Si vous souhaitez en savoir plus, lisez <a href="/intro-email/">le courriel d’introduction</a> que j’ai envoyé aux premières personnes que j'ai invitées à collaborer.</p>
+
+<h2>🙋🏼 Contributeurs</h2>
+
+<ul lang="en">
+	{% for person in people %}
+		<li><a href="{{ person.url }}">{{ person.name }}</a>, {{ person.role }}</li>
+	{% endfor %}
+</ul>

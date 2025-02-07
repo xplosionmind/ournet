@@ -25,9 +25,12 @@
 
 <p>En juin 2024, après <a href="/#events" title="Occasions passées et futures où cet atelier a été organisé et sera organisé">, j’ai décidé d’approfondir mon travail sur <cite>Tresser notre Internet</cite>, en faisant également appel à </a><a href="#contributors"> des amis</a> pour lui donner une identité visuelle, une meilleure structure et publier son site web — celui que vous lisez actuellement.</p>
 
-<div class="flex">
-	<a class="button" href="/#events" title="Toutes les occasions où l’atelier a été organisé">Éditions passées</a>
-</div>
+<article class="wide">
+	<video controls preload poster="/ournet.png">
+		<source src="/ournet-lightning-fosdem-2025.webm" type="video/webm">
+		<p>My <q>lightning lightning talk</q> about Knitting Our Internet at <a href="https://fosdem.org/2025/">FOSDEM 2025</a>. <strong><a href="/ournet-lightning-fosdem-2025.webm">Download here</a></strong>.</p>
+	</video>
+</article>
 
 <h3>🫱🏼‍🫲🏾 Pour tout.e.s ! 💕</h3>
 
@@ -51,8 +54,8 @@
 	<a class="green button" href="visual.md" title="Lignes directrices sur l’identité visuelle pour Tresser notre Internet">Lignes directrices sur l’identité visuelle 💄</a>
 </div>
 
-<article id="events">
-	<h2>🗓️ Événements passés et à venir</h2>
+<article class="wide" id="events">
+	<h2 class="center">🗓️ Événements passés et à venir</h2>
 	{% render 'events.liquid', events: events %}
 </article>
 

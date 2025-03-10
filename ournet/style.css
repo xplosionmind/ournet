@@ -408,6 +408,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	gap: var(--space-s);
+	flex-wrap: wrap;
 }
 
 .center {
@@ -635,6 +636,18 @@ button {
 
 	.frame3 {
 		animation-delay: -0.5s;
+	}
+}
+
+#tour {
+	margin: var(--space-m) var(--space-2xs);
+
+	.text {
+		max-width: 600px;
+	}
+
+	iframe {
+		border: 3px solid var(--color);
 	}
 }
 

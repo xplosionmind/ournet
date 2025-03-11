@@ -1,14 +1,20 @@
 <article id=tour class='wide red box'>
-	<h2 class=center>{% if lang == 'it' %}Italia{% else %}Italy{% endif %} Tour</h2>
-	<div class='flex'>
+	{% if lang == 'it' %}
+		<h2 class=center>Tour in Italia</h2>
+		<p class=center>La Nostra Rete sarà in tour in Italia a Marzo!</p>
+	{% else %}
+		<h2 class=center>Italy Tour</h2>
+		<p class=center>Knitting Our Internet will be touring around Italy in March!</p>
+	{% endif %}
+	<div class=flex>
 		<iframe width=400px height=500px frameborder=0 allowfullscreen allow=geolocation src='https://umap.openstreetmap.fr/en/map/la-nostra-rete-tour_1188200?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=null&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=null&captionControl=null'></iframe>
 		<div class=text>
 			{% if lang == 'it' %}
-				<p>La Nostra Rete sarà in tour in quattro città italiane a Marzo!</p>
 				<ul>
 					<li>14 Marzo: <a href=https://falacosagiusta.org lang=it>Fa’ la cosa giusta</a>, Milano</li>
-					<li>18 Marzo, 18:30: Zero 81, Napoli, ospite del <a href=https://livellosegreto.it/@collettivodemand title='Profilo del Collettivo Demand nel Fediverso'>Collettivo Demand</a></li>
-					<li>25 Marzo: luogo da definirsi, Roma</li>
+					<li>18 Marzo, 18:30: <a href=https://instagram.com/zero81occupato/ title='@zero81occupato su Instagram'>Zero81</a>, Napoli, ospite del <a href=https://livellosegreto.it/@collettivodemand title='Profilo del Collettivo Demand nel Fediverso'>Collettivo Demand</a></li>
+					<li>25 Marzo, 17:00: <a href=https://osm.org/way/1120775726 title='Villa Bernabei su OpenStreetMap'>Villa Bernabei</a>, Velletri</li>
+					<li>27 Marzo: luogo da definire, Roma</li>
 					<li>28 Marzo, 18:30: <a href=https://municipiozero.it/scift/>SCIFT</a>, Làbas, Bologna</li>
 					<li>1–2 Aprile: <strong>ci connetteremo insieme</strong> al <a href=https://fediforum.org hreflang=en>FediForum</a> da <a href=https://municipiozero.it/scift/ lang=it>SCIFT</a>, Làbas, a Bologna!</li>
 				</ul>
@@ -18,11 +24,11 @@
 					<a class='green button' href='https://signal.me/#eu/TB35ZwE_WESkrM6kFAD4EqOp0cSMuZjPq46ycl2tlzmyAMJJp2xPoYxYMNFf_X9v' title='Scrivimi su Signal'>Scrivimi</a>
 				</div>
 			{% else %}
-				<p>Knitting Our Internet will be touring in four Italian cities in March!</p>
 				<ul>
 					<li>14 March: <a href=https://falacosagiusta.org lang=it>Fa’ la cosa giusta</a>, Milan</li>
-					<li>18 March, 18:30: Zero 81, Naples, kindly hosted by the <a href=https://livellosegreto.it/@collettivodemand hreflang=it title='The collective’s profile in the Fediverse'>Demand Collective</a></li>
-					<li>25 March: location TBD, Rome</li>
+					<li>18 March, 18:30: <a href=https://instagram.com/zero81occupato/ title='@zero81occupato on Instagram'>Zero81</a>, Naples, kindly hosted by the <a href=https://livellosegreto.it/@collettivodemand hreflang=it title='The collective’s profile in the Fediverse'>Demand Collective</a></li>
+					<li>25 March, 17:00: <a href=https://osm.org/way/1120775726 title='Villa Bernabei on OpenStreetMap' lang=it>Villa Bernabei</a>, Velletri</li>
+					<li>27 March: location TBD, Rome</li>
 					<li>28 March, 18:30: <a href=https://municipiozero.it/scift/ lang=it>SCIFT</a>, Làbas, Bologna</li>
 					<li>1–2 April: we will connect together to <a href=https://fediforum.org>FediForum</a> from <a href=https://municipiozero.it/scift/ lang=it>SCIFT</a>, Làbas, Bologna!</li>
 				</ul>

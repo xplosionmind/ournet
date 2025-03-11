@@ -5,9 +5,21 @@
   country: Italy
 
 - title: DMND + Zero81
-  date: 2025-03-18
+  date: 2025-03-18T18:30:00+01:00
   url: https://livellosegreto.it/@collettivodemand
   location: Napoli
+  country: Italy
+
+- title: Urban Art Lab
+  date: 2025-03-25T17:00:00+01:00
+  url: https://instagram.com/urbanartlab
+  location: Velletri
+  country: Italy
+
+- title: SCIFT @ Làbas
+  date: 2025-03-28
+  url: https://municipiozero.it/scift/
+  location: Bologna
   country: Italy
 
 - title: O₂F₅FDEM

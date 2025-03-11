@@ -541,8 +541,8 @@ button {
 }
 
 .future {
-	background: var(--primary);
-	color: var(--bg);
+	background: crimson;
+	color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

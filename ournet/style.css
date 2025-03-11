@@ -500,6 +500,10 @@ button {
 	overflow-x: scroll;
 	gap: var(--space-s);
 
+	&:first-of-type {
+		margin-bottom: var(--space-s);
+	}
+
 	figure {
 		margin: 0;
 	}

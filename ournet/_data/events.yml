@@ -1,13 +1,7 @@
-- title: Fa’ la cosa giusta
-  date: 2025-03-14
-  url: https://www.falacosagiusta.org/
-  location: Milano
-  country: Italy
-
-- title: DMND + Zero81
-  date: 2025-03-18T18:30:00+01:00
-  url: https://livellosegreto.it/@collettivodemand
-  location: Napoli
+- title: SCIFT @ Làbas
+  date: 2025-03-29T15:00:00+01:00
+  url: https://municipiozero.it/scift/
+  location: Làbas, Bologna
   country: Italy
 
 - title: Urban Art Lab
@@ -16,11 +10,18 @@
   location: Villa Bernabei, Velletri
   country: Italy
 
-- title: SCIFT @ Làbas
-  date: 2025-03-28
-  url: https://municipiozero.it/scift/
-  location: Bologna
+- title: DMND + Zero81
+  date: 2025-03-18T18:30:00+01:00
+  url: https://livellosegreto.it/@collettivodemand
+  location: Zero81, Napoli
   country: Italy
+
+- title: Fa’ la cosa giusta
+  date: 2025-03-14T09:00:00+01:00
+  url: https://www.falacosagiusta.org/
+  location: Milano
+  country: Italy
+  image: /assets/ournet-strademaestre.webp
 
 - title: O₂F₅FDEM
   date: 2025-02-01T15:30:00+01:00

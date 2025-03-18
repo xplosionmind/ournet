@@ -499,6 +499,7 @@ button {
 	display: flex;
 	overflow-x: scroll;
 	gap: var(--space-s);
+	justify-content: space-around;
 
 	&:first-of-type {
 		margin-bottom: var(--space-s);

@@ -1,8 +1,8 @@
 <div class=events>
-	{%- for event in events -%}
-		{%- assign buildTime = 'now' | date: '%Y%m%d' -%}
-		{%- assign eventDate = event.date | date: '%Y%m%d' -%}
-		{%- if eventDate > buildTime -%}
+	{%- for event in events reversed -%}
+		{%- assign buildTime = 'now' | date: '%Y%m%d%H%M' -%}
+		{%- assign eventDate = event.date | date: '%Y%m%d%H%M' -%}
+		{%- if eventDate >= buildTime -%}
 			<article class='event | center box future' lang='en'>
 				{%- if event.image -%}
 					<figure>
@@ -25,8 +25,8 @@
 </div>
 <div class=events>
 	{%- for event in events -%}
-		{%- assign buildTime = 'now' | date: '%Y%m%d' -%}
-		{%- assign eventDate = event.date | date: '%Y%m%d' -%}
+		{%- assign buildTime = 'now' | date: '%Y%m%d%H%M' -%}
+		{%- assign eventDate = event.date | date: '%Y%m%d%H%M' -%}
 		{%- if eventDate < buildTime -%}
 			<article class='event | center box' lang='en'>
 				{%- if event.image -%}

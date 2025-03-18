@@ -13,7 +13,7 @@
 - title: Urban Art Lab
   date: 2025-03-25T17:00:00+01:00
   url: https://instagram.com/urbanartlab
-  location: Velletri
+  location: Villa Bernabei, Velletri
   country: Italy
 
 - title: SCIFT @ Làbas
@@ -39,7 +39,7 @@
 - title: SFSCon
   date: 2024-11-08T10:40:00+01:00
   url: https://www.sfscon.it/workshops/knitting-our-internet/
-  location: Bolzano
+  location: NOI Techpark, Bolzano
   country: Italy
   image: /assets/ournet-sfscon.webp
 
@@ -53,7 +53,7 @@
 - title: Reclaim The Tech
   date: 2024-05-17T17:00:00+02:00
   url: https://reclaimthetech.it
-  location: Làbas Bologna
+  location: Làbas, Bologna
   country: Italy
   image: /assets/ournet-rtt-2024.webp
   notes: /rtt-2024/
@@ -76,7 +76,7 @@
 - title: Assemblea d’Istituto del Liceo Cassini
   date: 2023-10-20T08:45:00+02:00
   url: https://tommi.space/fedilab-cassini/
-  location: Sanremo
+  location: Liceo G.D. Cassini, Sanremo
   country: Italy
   image: /assets/ournet-cassini.webp
   notes: /cassini/
@@ -91,7 +91,7 @@
 - title: Scambi Festival
   date: 2023-08-27T18:00:00+02:00
   url: https://scambi.org/2023/lab/direzione-fediverso/
-  location: Sanremo
+  location: La Pigna, Sanremo
   country: Italy
   image: https://tommi.space/fedilab-scambi.webp
 

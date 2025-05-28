@@ -1,9 +1,10 @@
 {{ description }}
 
-I can host the workshop in Italian, English, and French.
+Je peux héberger cet atelier en italien, english et français.
 
-If you want to invite me to host the workshop, do not hesitate to [write me an
-email](mailto:surfingtommi.space)! Some general guidelines below.
+Si vous voulez m'inviter à l'hébergement de l'atenier, n'hésitez pas à [m'écrire
+un e-mail](mailto:surfingtommi.space) ! Quelques directives générales sont
+disponibles ci-dessous.
 
 ## 🚅 Travel expenses
 

@@ -1,14 +1,22 @@
+- title: FairMenti
+  date: 2025-05-11T14:00:00+02:00
+  location: Bari
+  country: Italy
+  image: /assets/ournet-fairmenti.webp
+
 - title: SCIFT @ Làbas
   date: 2025-03-29T15:00:00+01:00
   url: https://municipiozero.it/scift/
   location: Làbas, Bologna
   country: Italy
+  image: /assets/ournet-scift.webp
 
 - title: Urban Art Lab
   date: 2025-03-25T17:00:00+01:00
   url: https://instagram.com/urbanartlab
   location: Villa Bernabei, Velletri
   country: Italy
+  image: /assets/ournet-urbanartlab.webp
 
 - title: DMND + Zero81
   date: 2025-03-18T18:30:00+01:00
@@ -50,6 +58,13 @@
   location: xHain, Berlin
   country: Germany
   image: /assets/ournet-xhain.webp
+
+- title: Campo E!State Liberi!
+  date: 2024-07-23T14:30:00+02:00
+  url: https://www.liberainformazione.org/2023/08/24/bordighera-im-domenica-27-agosto-campo-estate-liberi-per-le-case-libere/
+  location: Ville confiscate, Bordighera
+  country: Italy
+  image: /assets/ournet-estateliberi24.webp
 
 - title: Reclaim The Tech
   date: 2024-05-17T17:00:00+02:00

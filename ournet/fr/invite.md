@@ -3,7 +3,7 @@
 Je peux héberger cet atelier en italien, english et français.
 
 Si vous voulez m'inviter à l'hébergement de l'atenier, n'hésitez pas à [m'écrire
-un e-mail](mailto:surfingtommi.space) ! Quelques directives générales sont
+un e-mail](mailto:surfing@tommi.space) ! Quelques directives générales sont
 disponibles ci-dessous.
 
 ## 🚅 Travel expenses

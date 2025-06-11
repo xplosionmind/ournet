@@ -3,7 +3,7 @@
 Posso condurre il laboratorio in italiano, inglese e francese.
 
 Se volessi invitarmi a condurre il laboratorio, non esitare a [scrivermi
-un’email](mailto:surfingtommi.space)! Di seguito alcune linee guida generali.
+un’email](mailto:surfing@tommi.space)! Di seguito alcune linee guida generali.
 
 ## 🚅 Spese di viaggio
 

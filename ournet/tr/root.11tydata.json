@@ -1,8 +1,8 @@
 {
     "lang": "tr",
     "title": "İnternetimizi Örüyoruz",
-    "description": "<p><cite>İnternetimizi Örüyoruz<cite>, Internet tarihi hakkında <strong>etkileşimli yüze</strong> bir <strong>atölye çalışmasıdır</strong>. Bu, tarih boyunca <strong>etkileşimli bir yolculuk</strong> ve geleceği <strong>kolektif yeniden düşünme</strong> sürecini içerir.</cite></cite></p><p>Atölye, internetin aslında nasıl çalıştığına dair somut örnekler sunarak, bugünün ana akım sosyal ağlarının özünü <strong>sorgular</strong>. Ana amacı, <strong>gözetim kapitalizminin</strong>, <strong>merkezileşmenin</strong> ve bunun <strong>çevresel etkisinin</strong> eleştirel sınırlarını açığa çıkarmaktır.</p><p>Katılımcıların dijital alanın şu anda karşılaştığı zorlukları kabul ettikten sonra, sosyal ağları <strong>merkezileşmeyi</strong> göz önünde bulundurarak yeniden yorumlamaları teşvik edilir; daha insani, kolektif ve katılımcı <strong>dijital gelecekler</strong> hayal etmeleri amaçlanır.</p>",
-    "description_short": "<cite>İnternetimizi Örgülemek</cite>, internet hakkında yüz yüze bir atölye çalışmasıdır. Bu, tarih boyunca etkileşimli bir yolculuk ve geleceğini kolektif olarak yeniden düşünmeyi içerir.",
+    "description": "<p><cite>Knitting Our Internet</cite>, İnternetin tarihini ele alan <strong>etkileşimli bir yolculuk</strong> ve İnternetin geleceğine dair <strong>toplu bir yeniden düşünme</strong> sürecidir. </p><p>Etkinlik, İnternetin nasıl çalıştığına dair somut ve basit örnekler sunan ve aynı zamanda günümüzün ana akım sosyal ağlarının özünü <strong>sorgulayan</strong> <strong>yüz yüze</strong> bir <strong>atölye çalışması</strong>ndan oluşmaktadır. Ana amacı, <strong>gözetim kapitalizmi</strong>, <strong>merkezileşme</strong> ve <strong>çevresel etkisi</strong> gibi kritik sınırları ortaya koymaktır. </p><p>Dijital alanın şu anda karşı karşıya olduğu zorlukları kabul ettikten sonra, katılımcılar <strong>merkeziyetsizlik</strong>ten yola çıkarak sosyal ağları yeniden yorumlamaya ve daha insani, kolektif ve katılımcı bir <strong>dijital gelecek</strong> hayal etmeye teşvik ediliyor.</p>",
+    "description_short": "<cite>Knitting Our Internet</cite> yüz yüze bir atölye çalışması, internet tarihine interaktif bir yolculuk ve internetin geleceğine dair kolektif bir yeniden düşünme sürecidir. İnternetin nasıl çalıştığına dair somut ve basit örnekler sunarken, aynı zamanda günümüzün ana akım sosyal ağlarının özünü <strong>sorgulamaktadır</strong>.",
     "tagline": "<strong>İnternet</strong>, <strong>tarihi</strong> ve <strong>geleceği</strong> hakkında bir <strong>yüz yüze</strong> <strong>katılımcı</strong> <strong>atölye çalışması</strong>.",
     "footer": "en/footer.html",
     "nav": [
@@ -17,7 +17,7 @@
             "url": "/promo/"
         },
         {
-            "name": "🌟 Davet Et",
+            "name": "🌟 Beni davet et",
             "title": "Tommi’yi bu atölyeyi düzenlemeye davet etmek için bilgi",
             "url": "/invite/"
         },

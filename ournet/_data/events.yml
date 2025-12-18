@@ -1,3 +1,30 @@
+- title: GRAW 2025 + Software Freedom Day 2025
+  date: 2025-09-20T17:00:00+02:00
+  url: https://www.foundationbad.nl/mix-up/
+  location: Foundation B.a.d, Rotterdam
+  Country: Netherlands
+
+- title: Scambi Festival 2025
+  date: 2025-08-20T11:30:00+02:00
+  url: https://scambi.org/2025/programma/
+  location: La Pigna, Sanremo
+  country: Italy
+  image: /assets/ournet-scambi-2025.webp
+
+- title: What Hackers Yearn
+  date: 2025-08-10T17:00:00+02:00
+  url: https://why2025.org
+  location: Geestmerambacht
+  country: Netherlands
+  image: /assets/ournet-why2025.webp
+
+- title: Bari Città Aperta
+  date: 2025-07-14T19:30:00+02:00
+  url: https://baricittaperta.xyz
+  location: Bari
+  country: Italy
+  image: /assets/ournet-bca.webp
+
 - title: FairMenti
   date: 2025-05-11T14:00:00+02:00
   location: Bari
@@ -104,7 +131,7 @@
   country: Great Britain
   image: /assets/ournet-antiuniversity.webp
 
-- title: Scambi Festival
+- title: Scambi Festival 2023
   date: 2023-08-27T18:00:00+02:00
   url: https://scambi.org/2023/lab/direzione-fediverso/
   location: La Pigna, Sanremo

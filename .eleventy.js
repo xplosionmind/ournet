@@ -1,7 +1,7 @@
 import { EleventyRenderPlugin, InputPathToUrlTransformPlugin, IdAttributePlugin } from 'npm:@11ty/eleventy';
 import { eleventyImageTransformPlugin } from 'npm:@11ty/eleventy-img';
 import markdownIt from 'npm:markdown-it';
-import miniHtml from 'npm:html-minifier-terser';
+import miniHtml from 'npm:html-minifier-next';
 import yaml from 'npm:js-yaml';
 import { parse as csvParse } from 'csv-parse/sync';
 
@@ -62,6 +62,7 @@ export default function (eleventyConfig) {
 		eleventyConfig.addTransform(miniHtml, async function (content) {
 			if ((this.page.outputPath || '').endsWith('.html')) {
 				const minified = miniHtml.minify(content, {
+					collapseBooleanAttributes: true,
 					collapseWhitespace: true,
 					decodeEntities: true,
 					minifyCSS: true,
@@ -69,8 +70,9 @@ export default function (eleventyConfig) {
 					noNewlinesBeforeTagClose: true,
 					quoteCharacter: "'",
 					removeComments: true,
+					removeEmptyAttributes: true,
+					removeRedundantAttributes: true,
 					sortAttributes: true,
-					sortClassName: true,
 					useShortDoctype: true,
 				});
 				return minified;

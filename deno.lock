@@ -4,7 +4,7 @@
     "npm:@11ty/eleventy-img@^6.0.4": "6.0.4",
     "npm:@11ty/eleventy@^3.1.2": "3.1.2_chokidar@3.6.0_posthtml@0.16.6",
     "npm:csv-parse@^6.1.0": "6.1.0",
-    "npm:html-minifier-next@^4.12.2": "4.12.2",
+    "npm:html-minifier-next@^4.16.3": "4.16.3",
     "npm:js-yaml@^4.1.1": "4.1.1"
   },
   "npm": {
@@ -675,8 +675,8 @@
         "tslib"
       ]
     },
-    "html-minifier-next@4.12.2": {
-      "integrity": "sha512-z+LCHD/OCTjsCdd218vkP14fIzd5JfBmed1bGjT7gGyLiLItbJicwhdyZBMFXKEZTEH9ooP0zNavgN9pLShY/w==",
+    "html-minifier-next@4.16.3": {
+      "integrity": "sha512-pdol4+GcphzuO58xsxWZDLxrVh2CoinH7fRXEZUTSjsGUiwydGKYY86M3h8MBnj6LIVeydnwmPnbrykqajkuzQ==",
       "dependencies": [
         "@types/relateurl",
         "change-case",
@@ -1263,7 +1263,7 @@
         "npm:@11ty/eleventy-img@^6.0.4",
         "npm:@11ty/eleventy@^3.1.2",
         "npm:csv-parse@^6.1.0",
-        "npm:html-minifier-next@^4.12.2",
+        "npm:html-minifier-next@^4.16.3",
         "npm:js-yaml@^4.1.1"
       ]
     }

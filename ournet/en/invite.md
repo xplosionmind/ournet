@@ -2,8 +2,6 @@
 
 I can host the workshop in Italian, English, and French.
 
-![test will go here](test.md)
-
 If you want to invite me to host the workshop, do not hesitate to [write me an email](mailto:surfing@tommi.space)! Some general guidelines below.
 
 ## 🚅 Travel expenses

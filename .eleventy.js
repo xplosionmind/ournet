@@ -50,8 +50,8 @@ export default function (eleventyConfig) {
 
 	// Preprocessors //
 	eleventyConfig.addPreprocessor(
-		"mdembedfile",
-		"md",
+		'mdembedfile',
+		'md',
 		(data, content) => {
 			console.log(`[mdembedfile] Processing: ${data.page.inputPath}`);
 
@@ -60,7 +60,7 @@ export default function (eleventyConfig) {
 			const inputDir = 'ournet'; // matches dir.input
 
 			const output = content.replace(imageRegex, (match, altText, filePath) => {
-				const isEmbeddableFile = filePath.endsWith('.html') || filePath.endsWith('.md');
+				const isEmbeddableFile = filePath.endsWith('.html') || filePath.endsWith('.md') || filePath.endsWith('.liquid');
 
 				if (!isEmbeddableFile) {
 					console.log(`[mdembedfile]   Image (keeping): "${filePath}"`);
@@ -108,7 +108,6 @@ export default function (eleventyConfig) {
 					return match;
 				}
 			});
-
 			return output;
 		}
 	);

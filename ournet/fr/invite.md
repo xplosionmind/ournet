@@ -21,14 +21,15 @@ je vous serais infiniment reconnaissant si vous pouviez rémunérer mon travail
 d'une manière ou d'une autre, en particulier si vous m'accueillez à but
 lucratif.
 
-Details to be discussed via email, and evaluated case-by-case.
+Les détails seront discutés par email et évalués au cas par cas.
 
-## 🧠 Expansions and adaptations
+## 🧠 Extensions et adaptations
 
-The workshop is made to be modular and adaptable to any public and situation.
+Cet atelier est conçu pour être modulable et adaptable à tous les publics et à
+toutes les situations.
 
-In addition to that, **on commission** I can **expand it** with modules and more
-detailed studies on one or more requested aspects or topics.
+De plus, sur commande, je peux l’étendre avec des modules et des études plus
+détaillées sur un ou plusieurs aspects ou sujets demandés.
 
-Furthermore, I can happily make it more nuanced and **adapt** it to a more
-specific and niche sector (e.g. entreprise, education, storytelling…)
+En outre, je peux volontiers le rendre plus nuancé et l’adapter à un secteur
+plus spécifique et de niche (par ex. entreprise, éducation, storytelling…).

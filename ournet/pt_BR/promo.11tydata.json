@@ -1,8 +1,8 @@
 {
     "title": "Material promocional 😎",
     "description": "Apoie e divulgue esta oficina comprando material promocional, incluindo adesivos e pôsteres super legais! Como alternativa, você pode imprimi-los você mesmo.",
-    "permalink": "",
-    "ref": "",
+    "permalink": "/pt/promo/",
+    "ref": "promo",
     "layout": "base.liquid",
     "vocabulary": {
         "creator": "Criador(a)",

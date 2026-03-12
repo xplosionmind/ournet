@@ -1,15 +1,15 @@
 {
-    "title": "",
-    "description": "",
+    "title": "Material promocional 😎",
+    "description": "Apoie e divulgue esta oficina comprando material promocional, incluindo adesivos e pôsteres super legais! Como alternativa, você pode imprimi-los você mesmo.",
     "permalink": "",
     "ref": "",
-    "layout": "",
+    "layout": "base.liquid",
     "vocabulary": {
-        "creator": "",
-        "kind": "",
-        "sizes": "",
-        "license": "",
-        "source": ""
+        "creator": "Criador(a)",
+        "kind": "Tipo",
+        "sizes": "Tamanhos",
+        "license": "Licença",
+        "source": "Fonte"
     },
-    "text": ""
+    "text": "<p>Vamos espalhar o amor por Nossa Internet com orgulho e estilo! 😎</p><p>Aqui estão alguns adesivos e pôsteres para você. Sinta-se à vontade para baixar os arquivos e imprimi-los você mesmo, mas incentivamos que <u>apoie nosso trabalho <a href='/#donate'>fazendo uma <strong>doação</strong></a></u>! 🥰</p><p>Logo, você terá um monte de adesivos prontos para ser enviados 💌. <a href='mailto:surfing@tommi.space'>Me envie um e-mail</a> se você tiver interesse! 👀</p>"
 }

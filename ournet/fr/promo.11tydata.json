@@ -1,15 +1,15 @@
 {
-    "title": "",
-    "description": "",
-    "permalink": "",
-    "ref": "",
-    "layout": "",
+    "title": "Matériel promo 😎",
+    "description": "Soutenez et faites connaître cet atelier en achetant du matériel promotionnel, y compris des autocollants et des affiches super stylés ! Sinon, vous pouvez aussi les imprimer vous-même.",
+    "permalink": "/promo/",
+    "ref": "promo",
+    "layout": "base.liquid",
     "vocabulary": {
-        "creator": "",
-        "kind": "",
-        "sizes": "",
-        "license": "",
-        "source": ""
+        "creator": "Créateur",
+        "kind": "Type",
+        "sizes": "Tailles",
+        "license": "Licence",
+        "source": "Source"
     },
-    "text": ""
+    "text": "<p>Partageons notre amour pour « Our Internet » avec fierté et style ! 😎</p> <p>Voici quelques autocollants et affiches pour vous. N’hésitez pas à télécharger les fichiers et les imprimer vous-même, mais je vous encourage à <u>soutenir mon travail en <a href='/#donate'>faisant un <strong>don</strong></a></u> ! 🥰</p> <p>Bientôt, j’aurai un lot d’autocollants prêt à être expédié 💌. <a href='mailto:surfing@tommi.space'>Envoyez-moi un email</a> si vous êtes intéressé ! 👀</p>"
 }

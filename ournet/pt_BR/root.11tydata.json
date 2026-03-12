@@ -1,29 +1,29 @@
 {
-    "lang": "",
-    "title": "",
-    "description": "",
-    "description_short": "",
-    "tagline": "",
-    "footer": "",
+    "lang": "pt",
+    "title": "Tricotando Nossa Internet",
+    "description": "<p><cite>Tricotando Nossa Internet</cite> é uma <strong>jornada interativa</strong> pela história da Internet e uma <strong>revisão coletiva</strong> do seu futuro.</p><p>A atividade consiste em uma <strong>oficina</strong> presencial, que oferece exemplos tangíveis e simples de como a Internet funciona, questionando simultaneamente a própria essência das principais redes sociais da atualidade. Seu principal objetivo é expor os limites críticos do <strong>capitalismo de vigilância</strong>, da <strong>centralização</strong> e seu <strong>impacto ambiental</strong>.</p><p>Após reconhecer os desafios que o domínio digital enfrenta atualmente, os participantes são incentivados a reinterpretar as redes sociais a partir da <strong>descentralização</strong>, vislumbrando <strong>futuros digitais</strong> mais humanos, coletivos e participativos.</p>",
+    "description_short": "<cite>Tricotando Nossa Internet</cite> é uma oficina presencial, uma jornada interativa pela história da internet e uma reflexão coletiva sobre seu futuro. Ela oferece exemplos tangíveis e simples de como a internet funciona, ao mesmo tempo que <strong>questiona</strong> a própria essência das principais redes sociais da atualidade.",
+    "tagline": "Uma <strong>oficina</strong> <strong>presencial</strong> e <strong>participativo</strong> sobre a Internet, sua história e seu <strong>futuro</strong>.",
+    "footer": "pt/footer.html",
     "nav": [
         {
-            "name": "",
-            "title": "",
+            "name": "🏠 Início",
+            "title": "Ir para a página inicial",
+            "url": "/pt/"
+        },
+        {
+            "name": "😎 Promo",
+            "title": "Adesivos e pôsteres legais",
             "url": ""
         },
         {
-            "name": "",
-            "title": "",
-            "url": ""
+            "name": "🌟 Me convide",
+            "title": "Informações sobre convidar Tommi para hospedar esta oficina",
+            "url": "/pt/invite/"
         },
         {
             "name": "",
-            "title": "",
-            "url": ""
-        },
-        {
-            "name": "",
-            "title": "",
+            "title": "Um kit para ministrar a oficina você mesmo(a)!",
             "url": ""
         }
     ]

@@ -1,32 +1,33 @@
 {{ description }}
 
-I can host the workshop in Italian, English, and French.
+Eu posso ministrar a oficina em italiano, inglês e francês.
 
-If you want to invite me to host the workshop, do not hesitate to [write me an
-email](mailto:surfing@tommi.space)! Some general guidelines below.
+Se você quiser me convidar para ministrar a oficina, não hesite em [me escrever
+um e-mail](mailto:surfing@tommi.space)! Algumas orientações gerais abaixo.
 
-## 🚅 Travel expenses
+## 🚅 Despesas com viagem
 
-I cannot afford to travel around self-funded. Whenever I am invited, the only
-thing I ask is for my travel expenses to be **fully reimbursed**.
+Não tenho condições de viajar com meus próprios recursos. Sempre que sou
+convidado, a única coisa que peço é o **reembolso integral** das minhas despesas
+de viagem.
 
-I prefer not to travel by airplane.
+Prefiro não viajar de avião.
 
-## 🪙 Retribution
+## 🪙 Retribuição
 
-Even though preparing every activity requires quite some time and a bit of
-expenses, I usually host the worshop **for free**. Still, it would be immensely
-meaningful for me if my work could be valued with some sort of retribution,
-especially if the hosting entity is a for-profit.
+Embora a preparação de cada atividade exija bastante tempo e alguns custos,
+geralmente ofereço a oficina **gratuitamente**. Mesmo assim, seria extremamente
+gratificante para mim se meu trabalho pudesse ser valorizado de alguma forma,
+principalmente se a entidade que o oferece for uma empresa com fins lucrativos.
 
-Details to be discussed via email, and evaluated case-by-case.
+Detalhes a serem discutidos por e-mail e avaliados caso a caso.
 
-## 🧠 Expansions and adaptations
+## 🧠 Expansões e adaptações
 
-The workshop is made to be modular and adaptable to any public and situation.
+A oficina é feita para ser modular e adaptável para qualquer público e situação.
 
-In addition to that, **on commission** I can **expand it** with modules and more
-detailed studies on one or more requested aspects or topics.
+Além disso, **sob encomenda**, posso **expandir** o conteúdo com módulos e
+estudos mais detalhados sobre um ou mais aspectos ou tópicos solicitados.
 
-Furthermore, I can happily make it more nuanced and **adapt** it to a more
-specific and niche sector (e.g. entreprise, education, storytelling…)
+Além disso, posso facilmente torná-lo mais específico e **adaptá-lo** a um setor
+mais específico e de nicho (por exemplo, empresas, educação, storytelling…)

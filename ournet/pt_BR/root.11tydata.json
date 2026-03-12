@@ -14,7 +14,7 @@
         {
             "name": "😎 Promo",
             "title": "Adesivos e pôsteres legais",
-            "url": ""
+            "url": "/pt/promo/"
         },
         {
             "name": "🌟 Me convide",
@@ -22,9 +22,9 @@
             "url": "/pt/invite/"
         },
         {
-            "name": "",
+            "name": "🪡 Weaver kit",
             "title": "Um kit para ministrar a oficina você mesmo(a)!",
-            "url": ""
+            "url": "/pt/knit/"
         }
     ]
 }

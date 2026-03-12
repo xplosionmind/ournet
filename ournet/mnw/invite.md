@@ -1,4 +1,4 @@
-{{ description }}
+{{ တၚ်သောၚ်သၠး }}
 
 I can host the workshop in Italian, English, and French.
 

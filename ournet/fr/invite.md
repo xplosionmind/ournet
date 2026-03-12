@@ -1,24 +1,25 @@
 {{ description }}
 
-Je peux héberger cet atelier en italien, english et français.
+Je peux animer cet atelier en italien, en anglais ou en français.
 
-Si vous voulez m'inviter à l'hébergement de l'atenier, n'hésitez pas à [m'écrire
-un e-mail](mailto:surfing@tommi.space) ! Quelques directives générales sont
-disponibles ci-dessous.
+Si vous souhaitez m'inviter à animer l'atelier, n'hésitez pas à [m'écrire un
+e-mail](mailto:surfing@tommi.space) ! Voici toutefois quelques consignes.
 
-## 🚅 Travel expenses
+## 🚅 Coût du déplacement
 
-I cannot afford to travel around self-funded. Whenever I am invited, the only
-thing I ask is for my travel expenses to be **fully reimbursed**.
+Je ne peux pas me permettre de financer moi-même mes déplacements. Si vous
+m'invitez, la seule chose que je vous demande est de **rembourser
+l'intégralité** de mes frais de déplacement.
 
-I prefer not to travel by airplane.
+Je préfère éviter de voyager en avion.
 
-## 🪙 Retribution
+## 🪙 Rémunération
 
-Even though preparing every activity requires quite some time and a bit of
-expenses, I usually host the worshop **for free**. Still, it would be immensely
-meaningful for me if my work could be valued with some sort of retribution,
-especially if the hosting entity is a for-profit.
+Bien que la préparation de chaque activité nécessite un certain temps et
+quelques dépenses, j'anime généralement l'atelier **gratuitement**. Néanmoins,
+je vous serais infiniment reconnaissant si vous pouviez rémunérer mon travail
+d'une manière ou d'une autre, en particulier si vous m'accueillez à but
+lucratif.
 
 Details to be discussed via email, and evaluated case-by-case.
 

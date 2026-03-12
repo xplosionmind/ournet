@@ -28,8 +28,8 @@ Les détails seront discutés par email et évalués au cas par cas.
 Cet atelier est conçu pour être modulable et adaptable à tous les publics et à
 toutes les situations.
 
-De plus, sur commande, je peux l’étendre avec des modules et des études plus
-détaillées sur un ou plusieurs aspects ou sujets demandés.
+De plus, **sur commande**, je peux **l’étendre** avec des modules et des études
+plus détaillées sur un ou plusieurs aspects ou sujets demandés.
 
-En outre, je peux volontiers le rendre plus nuancé et l’adapter à un secteur
+En outre, je peux volontiers le rendre plus nuancé et **l’adapter** à un secteur
 plus spécifique et de niche (par ex. entreprise, éducation, storytelling…).

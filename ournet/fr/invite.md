@@ -15,10 +15,10 @@ Je préfère éviter de voyager en avion.
 
 ## 🪙 Rémunération
 
-Bien que la préparation de chaque activité nécessite un temps certain et
-quelques dépenses financières, j'anime généralement l'atelier **gratuitement**.
-Néanmoins, je vous serais infiniment reconnaissant si vous pouviez rémunérer mon
-travail d'une manière ou d'une autre, en particulier si vous m'accueillez à but
+Bien que la préparation de chaque activité nécessite un certain temps et
+quelques dépenses, j'anime généralement l'atelier **gratuitement**. Néanmoins,
+je vous serais infiniment reconnaissant si vous pouviez rémunérer mon travail
+d'une manière ou d'une autre, en particulier si l'entité animatrice est à but
 lucratif.
 
 Les détails seront discutés par email et évalués au cas par cas.

@@ -32,4 +32,4 @@ De plus, **sur commande**, je peux **l’étendre** avec des modules et des étu
 plus détaillées sur un ou plusieurs aspects ou sujets demandés.
 
 En outre, je peux volontiers le rendre plus nuancé et **l’adapter** à un secteur
-plus spécifique et de niche (par ex. entreprise, éducation, storytelling…).
+plus spécifique et de niche (par ex. entreprise, éducation, storytelling…)

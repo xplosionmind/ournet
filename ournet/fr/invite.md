@@ -15,10 +15,10 @@ Je préfère éviter de voyager en avion.
 
 ## 🪙 Rémunération
 
-Bien que la préparation de chaque activité nécessite un certain temps et
-quelques dépenses, j'anime généralement l'atelier **gratuitement**. Néanmoins,
-je vous serais infiniment reconnaissant si vous pouviez rémunérer mon travail
-d'une manière ou d'une autre, en particulier si vous m'accueillez à but
+Bien que la préparation de chaque activité nécessite un temps certain et
+quelques dépenses financières, j'anime généralement l'atelier **gratuitement**.
+Néanmoins, je vous serais infiniment reconnaissant si vous pouviez rémunérer mon
+travail d'une manière ou d'une autre, en particulier si vous m'accueillez à but
 lucratif.
 
 Les détails seront discutés par email et évalués au cas par cas.
@@ -28,8 +28,8 @@ Les détails seront discutés par email et évalués au cas par cas.
 Cet atelier est conçu pour être modulable et adaptable à tous les publics et à
 toutes les situations.
 
-De plus, **sur commande**, je peux **l’étendre** avec des modules et des études
-plus détaillées sur un ou plusieurs aspects ou sujets demandés.
+De plus, **sur commande**, je peux **le développer** avec des modules et des
+études plus détaillées sur un ou plusieurs aspects ou sujets demandés.
 
 En outre, je peux volontiers le rendre plus nuancé et **l’adapter** à un secteur
 plus spécifique et de niche (par ex. entreprise, éducation, storytelling…)

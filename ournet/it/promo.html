@@ -1,0 +1,80 @@
+<main class='promo'>
+	<h1>{{ title }}</h1>
+	{{ text }}
+	<div class='wide grid'>
+		{% for thing in promo %}
+			<article id='{{ thing.id }}'>
+				<a
+					{% if thing.file %}
+						href='{{ thing.file }}'
+					{% else %}
+						href='/promo/{{ thing.id }}.svg'
+					{% endif %}
+					target='_blank'>
+					<figure>
+						<img eleventy:ignore
+							{% if thing.thumbnail %}
+								src='{{ thing.thumbnail }}'
+							{% elsif thing.file %}
+								src='{{ thing.file }}'
+							{% else %}
+								src='/promo/{{ thing.id }}.svg'
+							{% endif %}
+							alt='{{ thing.alt }}'>
+					</figure>
+				</a>
+				<dl>
+					<div>
+						<dt>{{ vocabulary.creator }}</dt>
+						<dd>
+							{% for creator in people %}
+								{% assign multiple = false %}
+								{% if creator.name == thing.creator %}
+									{%- if multiple -%}
+										,
+									{%- endif -%}
+									{% assign multiple = true %}
+									<a href='{{ creator.url }}'> {{ creator.name }}</a>
+								{% endif %}
+							{% endfor %}
+						</dd>
+					</div>
+					<div>
+						<dt>{{ vocabulary.kind }}</dt>
+						<dd>{{ thing.kind }}</dd>
+					</div>
+					<div>
+						<dt>{{ vocabulary.sizes }}</dt>
+						<dd>{{ thing.sizes }}</dd>
+					</div>
+					<div>
+						<dt>{{ vocabulary.license }}</dt>
+						<dd>
+							{% if thing.license %}
+								<a href='{{ thing.license.url }}' title='{{ thing.license.license }} license deed'>{{ thing.license.license }}</a>
+							{% else %}
+								<a href='https://creativecommons.org/licenses/by-sa/4.0' title='Creative Commons Attribution-ShareAlike 4.0'>CC-BY-SA 4.0</a>
+							{% endif %}
+						</dd>
+					</div>
+				</dl>
+				<div class='flex' lang='en'>
+					<a class='fuchsia button'
+						{% if thing.source %}
+							href='{{ thing.source }}'
+						{% else %}
+							href='{{ site.source }}/src/branch/main/artwork/{{ thing.id }}.svg'
+						{% endif %}
+					title='View the edit-friendly SVG file, optimized for Inkscape, or the Adobe Illustrator source file' target='_blank'>Editable source</a>
+					<a class='green button'
+						{% if thing.file %}
+							href='{{ thing.file }}'
+						{% else %}
+							href='/promo/{{ thing.id }}.svg'
+						{% endif %}
+						title='View the file, ready to be printed' target='_blank'>Print-ready file</a>
+				</div>
+			</article>
+		{% endfor %}
+	</div>
+</main>

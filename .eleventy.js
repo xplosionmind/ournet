@@ -57,10 +57,10 @@ export default function (eleventyConfig) {
 
 			// Regex to match markdown image syntax: ![alt text](file path)
 			const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
-			const inputDir = 'ournet'; // matches dir.input
+			const inputDir = eleventyConfig.dir?.input;
 
 			const output = content.replace(imageRegex, (match, altText, filePath) => {
-				const isEmbeddableFile = filePath.endsWith('.html') || filePath.endsWith('.md') || filePath.endsWith('.liquid');
+				const isEmbeddableFile = filePath.endsWith('.html') || filePath.endsWith('.md') || filePath.endsWith('.liquid') || filePath.endsWith('.njk') || filePath.endsWith('.vto');
 
 				if (!isEmbeddableFile) {
 					console.log(`[mdembedfile]   Image (keeping): "${filePath}"`);
@@ -94,6 +94,8 @@ export default function (eleventyConfig) {
 				try {
 					let fileContent = readFileSync(fullPath, 'utf8');
 					console.log(`[mdembedfile]   Read ${fileContent.length} bytes`);
+					// Strip front matter (YAML between --- delimiters)
+					fileContent = fileContent.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '');
 
 					// If it's a markdown file, render it
 					if (filePath.endsWith('.md')) {

@@ -22,13 +22,13 @@ As a proudly independent project <cite>Knitting Our Internet</cite> is meant to 
 
 ### 🪢 Host the workshop 💕
 
-The best possible thing you can do is to [invite Tommi](https://ournet.rocks/invite/) to host the workshop, or [to host it yourself](https://ournet.rocks/knit/ 'The Weaver kit')!
+The best possible thing you can do is to [invite Tommi](https://ournet.rocks/invite/) to host the workshop, or [to host it yourself](https://ournet.rocks/weaver-kit/ 'The Weaver kit')!
 
 ### 🪙 Donate
 
 Every detail of <cite>Knitting Our Internet</cite> costed us a lot of work.
 
-At the moment, we have **no funding** whatsoever: all the expenses we face come our of our pockets. Even though we definitely do not do this for profit ([we hate capitalism](/knit/#surveillance-capitalism 'Section on Surveillance capitalism in The Weaver kit')), it would help a lot if you could chip in with **a donation you can afford**.
+At the moment, we have **no funding** whatsoever: all the expenses we face come our of our pockets. Even though we definitely do not do this for profit ([we hate capitalism](/weaver-kit/#surveillance-capitalism 'Section on Surveillance capitalism in The Weaver kit')), it would help a lot if you could chip in with **a donation you can afford**.
 
 Possible ways to do it (sorted by preference):
 

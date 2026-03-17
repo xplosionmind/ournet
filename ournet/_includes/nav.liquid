@@ -13,17 +13,21 @@
 				<a href='{{ alternate.url }}' hreflang='{{ alternate.data.lang }}' title='View this page in {{ alternate.data.lang | upcase }}'>
 					{% case alternate.data.lang %}
 					{% when 'en' %}
-						🇬🇧
+						English
 					{% when 'it' %}
-						🇮🇹
+						Italiano
 					{% when 'fr' %}
-						🇫🇷
+						Français
 					{% when 'de' %}
-						🇩🇪
+						Deutsch
 					{% when 'el' %}
-						🇬🇷
+						Ελληνικά
 					{% when 'tr' %}
-						🇹🇷
+						Türkçe
+					{% when 'mnw' %}
+						Mon
+					{% when 'pt' %}
+						Português
 					{% else %}
 						{{ alternate.data.lang }}
 					{% endcase %}

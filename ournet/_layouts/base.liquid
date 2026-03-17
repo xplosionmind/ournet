@@ -23,7 +23,10 @@
 
 		<div class='footer-container'>
 			<footer>
-				{% render footer, lang: lang, source: site.source, path: page.inputPath, url: page.url, eleventyVersion: eleventy.version %}
+				{% capture page_source %}{{ source }}/src/branch/main{{ path | replace: '\./', '/' | replace: ' ', '%20' }}{% endcapture %}
+				{% assign now_xml = 'now' | date_to_xmlschema %}
+				{% assign now_string = 'now' | date: '%-d %B %Y at %H:%M' %}
+				{% render footer, lang: lang, source: site.source, path: page.inputPath, url: page.url, eleventyVersion: eleventy.version, now_xml: now_xml, now_string: now_string %}
 			</footer>
 		</div>
 

@@ -8,7 +8,7 @@
     "nav": [
         {
             "name": "🏠 Accueil",
-            "title": "Accéder à la page d'accueil",
+            "title": "Accéder à la page d’accueil",
             "url": "/fr/"
         },
         {
@@ -24,7 +24,7 @@
         {
             "name": "🪡 Kit de Tissage",
             "title": "Un kit pour animer l’atelier vous-même !",
-            "url": "/knit/"
+            "url": "/fr/weaver-kit/"
         }
     ]
 }

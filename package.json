@@ -47,8 +47,9 @@
 	"dependencies": {
 		"@11ty/eleventy": "^3.1.5",
 		"@11ty/eleventy-img": "^6.0.4",
+		"@saiballo/eleventy-plugin-validate-html": "^1.0.4",
 		"csv-parse": "^6.2.1",
-		"html-minifier-next": "^5.2.1",
+		"html-minifier-next": "^6.1.2",
 		"js-yaml": "^4.1.1"
 	}
 }

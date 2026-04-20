@@ -6,6 +6,7 @@ import markdownIt from 'npm:markdown-it';
 import miniHtml from 'npm:html-minifier-next';
 import yaml from 'npm:js-yaml';
 import { parse as csvParse } from 'csv-parse/sync';
+import validateHtml from 'npm:@saiballo/eleventy-plugin-validate-html'
 
 const md = markdownIt({
 	html: true,
@@ -48,72 +49,6 @@ export default function (eleventyConfig) {
 		outputDir: './www/img/'
 	});
 
-	// Preprocessors //
-	eleventyConfig.addPreprocessor(
-		'mdembedfile',
-		'md',
-		(data, content) => {
-			console.log(`[mdembedfile] Processing: ${data.page.inputPath}`);
-
-			// Regex to match markdown image syntax: ![alt text](file path)
-			const imageRegex = /!\[([^\]]*)\]\(([^)]+)\)/g;
-			const inputDir = eleventyConfig.dir?.input;
-
-			const output = content.replace(imageRegex, (match, altText, filePath) => {
-				const isEmbeddableFile = filePath.endsWith('.html') || filePath.endsWith('.md') || filePath.endsWith('.liquid') || filePath.endsWith('.njk') || filePath.endsWith('.vto');
-
-				if (!isEmbeddableFile) {
-					console.log(`[mdembedfile]   Image (keeping): "${filePath}"`);
-					return match;
-				}
-
-				console.log(`[mdembedfile]   Embed found: "${filePath}"`);
-
-				// Resolve file path relative to the source file or input directory
-				const sourceDir = path.dirname(data.page.inputPath);
-
-				// Try relative to source file first
-				const relativeToSource = path.resolve(sourceDir, filePath);
-				// Try relative to input directory
-				const relativeToInput = path.resolve(inputDir, filePath);
-
-				let fullPath;
-				if (existsSync(relativeToSource)) {
-					fullPath = relativeToSource;
-					console.log(`[mdembedfile]   Resolved (relative to source): ${fullPath}`);
-				} else if (existsSync(relativeToInput)) {
-					fullPath = relativeToInput;
-					console.log(`[mdembedfile]   Resolved (relative to input dir): ${fullPath}`);
-				} else {
-					console.warn(`[mdembedfile]   File not found: "${filePath}"`);
-					console.warn(`[mdembedfile]     Tried: ${relativeToSource}`);
-					console.warn(`[mdembedfile]     Tried: ${relativeToInput}`);
-					return match;
-				}
-
-				try {
-					let fileContent = readFileSync(fullPath, 'utf8');
-					console.log(`[mdembedfile]   Read ${fileContent.length} bytes`);
-					// Strip front matter (YAML between --- delimiters)
-					fileContent = fileContent.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '');
-
-					// If it's a markdown file, render it
-					if (filePath.endsWith('.md')) {
-						fileContent = md.render(fileContent);
-						console.log(`[mdembedfile]   Rendered markdown to HTML (${fileContent.length} bytes)`);
-					}
-
-					console.log(`[mdembedfile]   Embedded successfully`);
-					return fileContent;
-				} catch (err) {
-					console.error(`[mdembedfile]   Error reading file: ${err.message}`);
-					return match;
-				}
-			});
-			return output;
-		}
-	);
-
 	// Filters //
 	eleventyConfig.addFilter('markdownify', function (content) {
 		return md.renderInline(content);
@@ -126,6 +61,8 @@ export default function (eleventyConfig) {
 
 	// Production-only //
 	if (process.env.ELEVENTY_ENV != 'development') {
+		// HTML validator //
+		eleventyConfig.addPlugin(validateHtml)
 		// Minify output //
 		eleventyConfig.addTransform(miniHtml, async function (content) {
 			if ((this.page.outputPath || '').endsWith('.html')) {

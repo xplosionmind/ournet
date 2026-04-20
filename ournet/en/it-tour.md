@@ -4,7 +4,7 @@ permalink: /it-tour/
 ref: it-tour
 ---
 <div class=flex>
-	<iframe width=600px height=500px frameborder=0 allowfullscreen allow=geolocation src='https://umap.openstreetmap.fr/en/map/la-nostra-rete-tour_1188200?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=null&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=null&captionControl=null' style='border: solid 5px var(--color); max-width: 100%'></iframe>
+	<iframe title='Map of the tour stops' width=600px height=500px allowfullscreen allow=geolocation src='https://umap.openstreetmap.fr/en/map/la-nostra-rete-tour_1188200?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=null&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=none&captionBar=false&captionMenus=true&fullscreenControl=null&captionControl=null' style='border: solid 5px var(--color); max-width: 100%'></iframe>
 </div>
 
 - 14 March: <a href=https://falacosagiusta.org lang=it>Fa’ la cosa giusta</a>, Milan

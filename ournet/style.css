@@ -309,7 +309,7 @@ mark {
 }
 
 blockquote {
-	font-family: 'EB Garamond', serif;
+	font-family: 'Garamond Libre', 'EB Garamond', serif;
 	margin-inline: var(--space-s);
 }
 
@@ -505,6 +505,10 @@ button {
 	overflow-x: scroll;
 	gap: var(--space-s);
 	justify-content: space-around;
+
+	&:has(.future) {
+		justify-content: center;
+	}
 
 	&:first-of-type {
 		margin-bottom: var(--space-s);

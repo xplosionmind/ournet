@@ -1,8 +1,29 @@
+- title: RTT Venticinquennale G8 Genova
+  date: 2026-07-17T19:30:00+02:00
+  url: https://g8genova.it/
+  location: Giardini Luzzati, Genova
+  country: Italy
+
+- title: 'DWeb Camp: Root Systems'
+  date: 2026-07-10T14:00:00+02:00
+  url: https://dwebcamp.org
+  location: Alte Hölle
+  country: Germany
+
 - title: Hyperlink
   date: 2026-06-06T12:00:00+02:00
-  url: https://waag.org/en/event/hyperlink-2026/
+  url: https://conference.publicspaces.net/en/session/knitting-our-internet
   location: Waag, Amsterdam
   country: Netherlands
+  image: /assets/hyperlink-2026.jpg
+
+- title: Sapere, Fare, Diventare
+  date: 2026-05-08T19:00:00+02:00
+  url: https://lascuolaopensource.xyz/it/attivita/xyz-sapere-fare-diventare
+  location: Loro Piceno, Val di Fiastra
+  country: Netherlands
+  image: /assets/ournet-loro-piceno.jpg
+
 - title: I Love Free Software Day 2026
   date: 2026-02-13T18:00:00+01:00
   url: https://radar.squat.net/en/event/rotterdam/snackbar-frieda/2026-02-13/knitting-our-internet-i-love-free-software-day

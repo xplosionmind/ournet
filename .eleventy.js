@@ -4,7 +4,7 @@ import { EleventyRenderPlugin, InputPathToUrlTransformPlugin, IdAttributePlugin 
 import { eleventyImageTransformPlugin } from 'npm:@11ty/eleventy-img';
 import markdownIt from 'npm:markdown-it';
 import miniHtml from 'npm:html-minifier-next';
-import yaml from 'npm:js-yaml';
+import { load as loadYaml } from 'js-yaml';
 import { parse as csvParse } from 'csv-parse/sync';
 import validateHtml from 'npm:@saiballo/eleventy-plugin-validate-html'
 
@@ -24,7 +24,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.setLibrary('md', md);
 
 	// Data files //
-	eleventyConfig.addDataExtension('yaml,yml', contents => yaml.load(contents));
+	eleventyConfig.addDataExtension('yaml,yml', contents => loadYaml(contents));
 	eleventyConfig.addDataExtension('csv', contents => csvParse(contents, {
 		columns: true,
 		skip_empty_lines: true
